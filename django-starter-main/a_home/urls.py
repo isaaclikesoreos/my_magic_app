@@ -1,6 +1,6 @@
 from django.urls import path
-from a_home.views import *
+from . import views
 
 urlpatterns = [
-    path('', home_view, name="home"),  
+    path('', views.home, name='home'),  # Map '/home/' to the home view
 ]

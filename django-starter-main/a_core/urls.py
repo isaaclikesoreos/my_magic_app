@@ -20,9 +20,13 @@ from django.conf.urls.static import static
 from django.conf import settings
 from a_users.views import profile_view
 from a_home.views import *
+from django.http import HttpResponseRedirect
+from a_home import views as home_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home_views.home, name='home'),  # Default to home
+    path('home/', home_views.home, name='home'),
     path('accounts/', include('allauth.urls')),
     path('', include('a_rtchat.urls')),
     path('profile/', include('a_users.urls')),
