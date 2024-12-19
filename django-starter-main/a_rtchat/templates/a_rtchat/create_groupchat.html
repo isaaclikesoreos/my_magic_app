@@ -1,13 +1,11 @@
 {% extends 'layouts/box.html' %}
 
-{% block content %} 
+{% block content %}
+<h1>Create New Group Chat</h1>
 
-<h1>New Group Chat</h1>
-
-<form method="post">
+<form method="POST">
     {% csrf_token %}
-    {{ form }}
-    <button class="mt-2" type="submit">Create Group Chat</button>
+    {{ form.as_p }}
+    <button class="mt-2 px-4 py-2 bg-green-600 text-white rounded" type="submit">Create</button>
 </form>
-
 {% endblock %}

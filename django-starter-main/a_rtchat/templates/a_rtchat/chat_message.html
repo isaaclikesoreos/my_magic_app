@@ -1,50 +1,38 @@
-{% if message.file %}
-<li>
-    <div class="flex justify-start">
-        <div class="flex items-end mr-2">
-            <a href="{% url 'profile' message.author.username %}">
-                <div class="relative">
-                    <div id="user-{{ message.author.id }}"></div>
-                    <img class="w-8 h-8 rounded-full object-cover" src="{{ message.author.profile.avatar }}">
-                </div>
-            </a>
-        </div>
-        <div class="flex items-end">
-            <svg height="13" width="8">
-                <path fill="white" d="M2.8,13L8,13L8,0.2C7.1,5.5,6.5,8.7,1.7,10.4C-1.6,11.5,1,13,2.8,13z"></path>
-            </svg>
-        </div>
-        <div class="bg-white p-4 max-w-[75%] rounded-r-lg rounded-tl-lg">
+{% if message.author == user %}
+<li class="flex justify-end">
+    <div class="bg-green-200 rounded-l-lg rounded-tr-lg p-4 max-w-[75%]">
+        {% if message.file %}
             <img src="{{ message.file.url }}" alt="Uploaded Image" class="w-full rounded-lg">
-        </div>  
+        {% else %}
+            <span>{{ message.body }}</span>
+        {% endif %}
     </div>
-    <div class="text-sm font-light py-1 ml-10">
-        <span class="text-white">{{ message.author.profile.name }}</span> 
-        <span class="text-gray-400">@{{ message.author.username }}</span>
+    <div class="text-sm font-light py-1 text-right">
+        <span class="text-gray-400">@You</span>
     </div>
 </li>
 {% else %}
-<li>
-    <div class="flex justify-start">
-        <div class="flex items-end mr-2">
-            <a href="{% url 'profile' message.author.username %}">
-                <div class="relative">
-                    <div id="user-{{ message.author.id }}"></div>
-                    <img class="w-8 h-8 rounded-full object-cover" src="{{ message.author.profile.avatar }}">
+<li class="flex justify-start">
+    <div class="flex items-end mr-2">
+        <a href="{% url 'profile' message.author.username %}">
+            <div class="relative">
+                <div
+                    id="user-{{ message.author.id }}"
+                    class="{% if message.author in chat_group.users_online.all %}green-dot{% else %}gray-dot{% endif %} border-2 border-gray-800 absolute -bottom-1 -right-1">
                 </div>
-            </a>
-        </div>
-        <div class="flex items-end">
-            <svg height="13" width="8">
-                <path fill="white" d="M2.8,13L8,13L8,0.2C7.1,5.5,6.5,8.7,1.7,10.4C-1.6,11.5,1,13,2.8,13z"></path>
-            </svg>
-        </div>
-        <div class="bg-white p-4 max-w-[75%] rounded-r-lg rounded-tl-lg">
+                <img class="w-8 h-8 rounded-full object-cover" src="{{ message.author.profile.avatar }}">
+            </div>
+        </a>
+    </div>
+    <div class="bg-white p-4 max-w-[75%] rounded-r-lg rounded-tl-lg">
+        {% if message.file %}
+            <img src="{{ message.file.url }}" alt="Uploaded Image" class="w-full rounded-lg">
+        {% else %}
             <span>{{ message.body }}</span>
-        </div>  
+        {% endif %}
     </div>
     <div class="text-sm font-light py-1 ml-10">
-        <span class="text-white">{{ message.author.profile.name }}</span> 
+        <span class="text-white">{{ message.author.profile.name }}</span>
         <span class="text-gray-400">@{{ message.author.username }}</span>
     </div>
 </li>

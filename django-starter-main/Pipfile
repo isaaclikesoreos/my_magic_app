@@ -11,6 +11,8 @@ django-htmx = "*"
 django-cleanup = "*"
 shortuuid = "*"
 mysqlclient = "*"
+channels = "*"
+daphne = "*"
 
 [dev-packages]
 
