@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'a_home',
     'a_users',
     'a_rtchat',
+    'a_drafting',
 ]
 
 SITE_ID = 1
