@@ -1,8 +1,18 @@
 # Isaac's Magic Site
 
-Last updated by Griffin Clark on Dec 23 2024
+README last updated by Griffin Clark on Dec 23 2024
 
 ## Setup
+
+### Using Docker
+
+Note that we're using one Dockerfile for both the Django server and Mysql database because it's simpler initially. This will probably be split up in future versions.
+
+0. Ensure that you have Docker Desktop installed and running
+1. Build the container with `docker build -t isaac-magic-app .`
+2. Run the container with `docker run --env-file .env -p 8000:8000 isaac-magic-app`
+
+### Manual
 
 1. Make sure you have Python 3.13 and mysql installed on your computer
    1. If you set up on a Mac and installed mysql with brew, you can use `brew services start mysql` to ensure that the database is started.
