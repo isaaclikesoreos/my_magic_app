@@ -1,109 +1,88 @@
-from channels.generic.websocket import AsyncWebsocketConsumer
+from channels.generic.websocket import WebsocketConsumer
+from asgiref.sync import async_to_sync
+from django.shortcuts import get_object_or_404
 import json
+from .models import Draft, DraftPlayer, DraftPack
 import logging
-import asyncio
 
 logger = logging.getLogger(__name__)
-
-# Global dictionary to track players in each draft room
-draft_rooms = {}
-
-
-class DraftConsumer(AsyncWebsocketConsumer):
-    async def connect(self):
-        self.draft_id = self.scope["url_route"]["kwargs"]["draft_id"]  # Retrieve draft_id from the URL
+class DraftConsumer(WebsocketConsumer):
+    def connect(self):
+        self.draft_id = self.scope["url_route"]["kwargs"]["draft_id"]
         self.draft_group_name = f"draft_{self.draft_id}"
-        self.user = self.scope["user"]  # Ensure user authentication is configured
+        self.user = self.scope["user"]
 
-        logger.info(f"WebSocket connection attempt for draft {self.draft_id}")
-
-        # Initialize the draft room in the global dictionary if not already present
-        if self.draft_id not in draft_rooms:
-            draft_rooms[self.draft_id] = []
-
-        # Check if the user is already in the room
-        if any(player["id"] == self.user.id for player in draft_rooms[self.draft_id]):
-            logger.warning(f"User {self.user.username} is already in draft {self.draft_id}.")
-            await self.close()  # Close connection for duplicate
+        if not self.user.is_authenticated:
+            self.close()
             return
 
-        # Add the user to the draft's player list
-        draft_rooms[self.draft_id].append({
-            "id": self.user.id,
-            "username": self.user.username,
-        })
+        draft = get_object_or_404(Draft, id=self.draft_id)
+        DraftPlayer.objects.get_or_create(draft=draft, user=self.user)
 
-        # Join the draft group
-        await self.channel_layer.group_add(
-            self.draft_group_name,
-            self.channel_name
+        async_to_sync(self.channel_layer.group_add)(
+            self.draft_group_name, self.channel_name
         )
 
-        await self.accept()
-        logger.info(f"WebSocket connection established for draft {self.draft_id}")
+        self.accept()
+        self.send_player_update()
 
-        # Notify the group about the new participant
-        await self.channel_layer.group_send(
+    def disconnect(self, close_code):
+        async_to_sync(self.channel_layer.group_discard)(
+            self.draft_group_name, self.channel_name
+        )
+
+        draft = get_object_or_404(Draft, id=self.draft_id)
+        DraftPlayer.objects.filter(draft=draft, user=self.user).delete()
+
+        self.send_player_update()
+
+    def send_player_update(self):
+        draft = get_object_or_404(Draft, id=self.draft_id)
+        players = draft.players.values("user__username")
+        player_data = [{"username": player["user__username"]} for player in players]
+
+        async_to_sync(self.channel_layer.group_send)(
             self.draft_group_name,
             {
-                "type": "draft.update",
-                "event": "join",
-                "user": {
-                    "id": self.user.id,
-                    "username": self.user.username,
-                },
-                "players": draft_rooms[self.draft_id],
-                "message": f"{self.user.username} has joined the draft."
+                "type": "player.update",
+                "players": player_data,
             }
         )
 
-        self.ping_task = asyncio.create_task(self.ping_loop())
+    def player_update(self, event):
+        self.send(text_data=json.dumps(event))
 
-    async def disconnect(self, close_code):
-        # Remove the user from the draft's player list
-        if self.draft_id in draft_rooms:
-            draft_rooms[self.draft_id] = [
-                player for player in draft_rooms[self.draft_id]
-                if player["id"] != self.user.id
-            ]
 
-            # Clean up empty drafts
-            if not draft_rooms[self.draft_id]:
-                del draft_rooms[self.draft_id]
+    def start_draft(self, event):
+        logger.info(f"Handling 'start_draft' for user: {self.user.username}")
 
-        # Notify the group about the disconnection
-        await self.channel_layer.group_send(
-            self.draft_group_name,
-            {
-                "type": "draft.update",
-                "event": "leave",
-                "user": {
-                    "id": self.user.id,
-                    "username": self.user.username,
-                },
-                "players": draft_rooms.get(self.draft_id, []),
-                "message": f"{self.user.username} has left the draft."
-            }
-        )
+        draft_id = event.get("draft_id")
+        if not draft_id:
+            logger.error("Draft ID is missing in the WebSocket event.")
+            self.send(text_data=json.dumps({"error": "Draft ID is missing."}))
+            return
 
-        # Leave the draft group
-        await self.channel_layer.group_discard(
-            self.draft_group_name,
-            self.channel_name
-        )
+        draft = get_object_or_404(Draft, id=draft_id)
+        logger.info(f"Draft found for WebSocket event: {draft}")
 
-        if hasattr(self, 'ping_task'):
-            self.ping_task.cancel()
+        # Get the packs for the player
+        packs = DraftPack.objects.filter(draft=draft, player=self.user, is_draft_complete=False)
+        if not packs.exists():
+            logger.warning(f"No packs found for user: {self.user.username}")
+            self.send(text_data=json.dumps({"error": "No draft packs available for you."}))
+            return
 
-    # Ping loop for keeping the connection alive
-    async def ping_loop(self):
-        try:
-            while True:
-                await self.send(text_data=json.dumps({"type": "ping"}))
-                await asyncio.sleep(30)  # Ping every 30 seconds
-        except asyncio.CancelledError:
-            pass  # Task was cancelled on disconnect
+        pack = packs.first()
+        cards = pack.cards.all()
+        logger.info(f"Sending pack to user {self.user.username}: {[card.name for card in cards]}")
 
-    # Broadcast draft updates to the group
-    async def draft_update(self, event):
-        await self.send(text_data=json.dumps(event))
+        card_data = [
+            {"name": card.name, "image_url": card.images.filter(is_primary=True).first().image_url or ""}
+            for card in cards
+        ]
+
+        self.send(text_data=json.dumps({
+            "type": "draft.pack",
+            "cards": card_data,
+        }))
+        logger.info(f"WebSocket message sent to user {self.user.username} with pack details.")

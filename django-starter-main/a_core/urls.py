@@ -31,6 +31,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('a_rtchat.urls')),
     path('profile/', include('a_users.urls')),
+    path('drafting/', include('a_drafting.urls')), 
     path('@<username>/', ProfileView.as_view(), name="profile"),
 ]
 

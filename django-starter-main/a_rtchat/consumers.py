@@ -90,6 +90,7 @@ class OnlineStatusConsumer(WebsocketConsumer):
     def connect(self):
         self.user = self.scope['user']
         self.group_name = 'online-status'
+        print(f"Connecting to group: {self.group_name}")
         self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
         
         if self.user not in self.group.users_online.all():

@@ -1,28 +1,29 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import (
-    CustomUserViewSet,
-    CubeViewSet,
     CardViewSet,
     DraftViewSet,
     DeckListViewSet,
-    CurrentUserView,
     CubeUploadView,
-    UpdateCardDatabaseView
+    UpdateCardDatabaseView,
+    DraftRoomView
+
+    
 )
+from a_drafting.views import PopularCubesView
 
 router = DefaultRouter()
-router.register(r'users', CustomUserViewSet)
-router.register(r'cubes-list', CubeViewSet)
 router.register(r'cards-list', CardViewSet)
-router.register(r'drafts', DraftViewSet)
 router.register(r'decklist', DeckListViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('cubes/upload/', CubeUploadView.as_view(), name='cube-upload'),
-    path('current-user/', CurrentUserView.as_view(), name='current-user'),
-    path('cards/update/', UpdateCardDatabaseView.as_view(), name='update-card-database'),
-    # Explicitly add the create_lobby endpoint
-    path('drafts/create-lobby/', DraftViewSet.as_view({'post': 'create_lobby'}), name='create-lobby'),
+    path("upload-cube/", CubeUploadView.as_view(), name="cube-upload"),
+    path('update-card-database/', UpdateCardDatabaseView.as_view(), name='update-card-database'),
+    path('popular-cubes/', PopularCubesView.as_view(), name='popular_cubes'),
+    path('drafts/create-lobby/', DraftViewSet.as_view({'post': 'create_lobby'}), name='drafts-create-lobby'),
+    path('drafting/<int:draft_id>/', DraftRoomView.as_view(), name='draft-lobby'),
+    path('drafts/<int:pk>/start-draft/', DraftViewSet.as_view({'post': 'start_draft'}), name='start-draft'),
+
+
 ]

@@ -33,6 +33,8 @@ CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
+    'rest_framework_simplejwt',
     'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -169,3 +171,41 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'isaac.d.mclaurin@gmail.com'
 EMAIL_HOST_PASSWORD = 'pigd btmj oyul jcyp'
 DEFAULT_FROM_EMAIL = 'Magic app <isaac.d.mclaurin@gmail.com>'
+
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'debug.log',  # Save logs in the project directory
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        '': {  # Root logger for all modules
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    },
+}

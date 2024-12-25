@@ -1,0 +1,68 @@
+<div id="cube-upload-section" class="mt-5">
+    <h3>Upload Your Cube</h3>
+    <form id="cube-upload-form">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="name" class="form-label">Cube Name</label>
+            <input type="text" name="name" id="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="power_level" class="form-label">Power Level</label>
+            <select name="power_level" id="power_level" class="form-select">
+                <option value="vintage">Vintage</option>
+                <option value="legacy">Legacy</option>
+                <option value="modern">Modern</option>
+                <option value="pioneer">Pioneer</option>
+                <option value="pauper">Pauper</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="tags" class="form-label">Tags</label>
+            <input type="text" name="tags" id="tags" class="form-control" placeholder="e.g., aggro, combo">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea name="description" id="description" class="form-control" rows="4"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="card_list" class="form-label">Card List</label>
+            <textarea name="card_list" id="card_list" class="form-control" rows="10" required></textarea>
+            <div class="form-text">Each line should be formatted as "1 Card Name".</div>
+        </div>
+        <button type="submit" class="btn btn-success">Upload Cube</button>
+    </form>
+    <div id="cube-upload-feedback" class="mt-3"></div>
+</div>
+
+<script>
+    document.getElementById("cube-upload-form").addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        const feedback = document.getElementById("cube-upload-feedback");
+        feedback.innerText = "Uploading...";
+
+        try {
+            const response = await fetch("{% url 'cube-upload' %}", {
+                method: "POST",
+                headers: {
+                    "X-CSRFToken": "{{ csrf_token }}",
+                },
+                body: formData,
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                feedback.innerHTML = `<div class="alert alert-success">Cube uploaded successfully! Cube ID: ${data.id}</div>`;
+                form.reset();
+            } else {
+                feedback.innerHTML = `<div class="alert alert-danger">${data.error || "Upload failed!"}</div>`;
+            }
+        } catch (error) {
+            feedback.innerHTML = `<div class="alert alert-danger">Network error while uploading the cube.</div>`;
+        }
+    });
+</script>

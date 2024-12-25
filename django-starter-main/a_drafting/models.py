@@ -38,6 +38,7 @@ class Draft(models.Model):
     pack_count = models.IntegerField(default=3)
     cards_per_pack = models.IntegerField(default=15)
     player_count = models.IntegerField()
+    max_players = models.IntegerField(default=8)  # Add this field
     active = models.BooleanField(default=True)
 
     def __str__(self):
@@ -58,7 +59,11 @@ class CubeCard(models.Model):
 class DraftPlayer(models.Model):
     draft = models.ForeignKey(Draft, on_delete=models.CASCADE, related_name='players')
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='drafts_participated')
-    role = models.CharField(max_length=50, null=True, blank=True)
+    role = models.CharField(
+        max_length=50,
+        choices=[("creator", "Creator"), ("player", "Player")],
+        default="player"  # Add a default value for new entries
+    )
 
     class Meta:
         unique_together = ('draft', 'user')
@@ -95,3 +100,13 @@ class CubeImage(models.Model):
 
     def __str__(self):
         return f"Image for Cube: {self.cube.name} ({'Primary' if self.is_primary else 'Secondary'})"
+
+
+class DraftPack(models.Model):
+    draft = models.ForeignKey(Draft, on_delete=models.CASCADE, related_name="packs")
+    player = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True, related_name="draft_packs")
+    cards = models.ManyToManyField(Card, related_name="packs")
+    is_draft_complete = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"Pack for Draft {self.draft.id} - Player: {self.player.username if self.player else 'None'}"

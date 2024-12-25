@@ -165,3 +165,4 @@ class ChatFileUploadView(LoginRequiredMixin, View):
             return JsonResponse({"message": "File uploaded successfully"}, status=200)
 
         return JsonResponse({"error": "Invalid request"}, status=400)
+

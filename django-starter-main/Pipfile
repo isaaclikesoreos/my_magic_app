@@ -13,6 +13,9 @@ shortuuid = "*"
 mysqlclient = "*"
 channels = "*"
 daphne = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+requests = "*"
 
 [dev-packages]
 

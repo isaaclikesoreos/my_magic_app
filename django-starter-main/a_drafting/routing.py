@@ -1,10 +1,10 @@
 from channels.routing import ProtocolTypeRouter, URLRouter
 from channels.auth import AuthMiddlewareStack
-from django.urls import re_path
+from django.urls import path
 from .consumers import DraftConsumer
 
 websocket_urlpatterns = [
-    re_path(r'ws/drafts/(?P<draft_id>\d+)/$', DraftConsumer.as_asgi()),
+    path("ws/drafts/<int:draft_id>/", DraftConsumer.as_asgi()),  # Match the frontend URL
 ]
 
 application = ProtocolTypeRouter({
