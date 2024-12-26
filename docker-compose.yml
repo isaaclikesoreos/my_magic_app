@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./django-starter-main  # Path to the directory containing your Dockerfile
+      dockerfile: Dockerfile          # Use your existing Dockerfile
+    container_name: isaac-magic-app   # Name for the container
+    environment:
+      - DJANGO_SETTINGS_MODULE=a_core.settings
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8000:8000"                   # Map Django's port to host
+      - "3306:3306"                   # Expose MariaDB port if needed
+    volumes:
+      - ./django-starter-main:/app    # Mount the app directory for local development
+

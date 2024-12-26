@@ -1329,3 +1329,2925 @@ INFO 2024-12-25 08:53:46,319 runserver WebSocket CONNECT /ws/online-status/ [127
 INFO 2024-12-25 08:53:46,319 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:53087]
 DEBUG 2024-12-25 08:53:46,320 ws_protocol WebSocket ['127.0.0.1', 53087] accepted by application
 DEBUG 2024-12-25 08:53:46,358 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 53087]
+DEBUG 2024-12-26 00:01:56,952 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:01:57,361 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:01:57,658 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:01:58,169 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:01:58,328 selector_events Using selector: EpollSelector
+INFO 2024-12-26 00:01:58,376 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 00:01:58,376 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 00:01:58,451 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-26 00:01:58,451 server Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2024-12-26 00:01:58,451 server Listening on TCP address 0.0.0.0:8000
+DEBUG 2024-12-26 00:02:21,937 http_protocol HTTP b'GET' request for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,952 http_protocol HTTP 302 response started for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,953 http_protocol HTTP close for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,953 http_protocol HTTP response complete for ['172.18.0.1', 62352]
+INFO 2024-12-26 00:02:21,953 runserver HTTP GET / 302 [0.02, 172.18.0.1:62352]
+INFO 2024-12-26 00:02:21,953 runserver HTTP GET / 302 [0.02, 172.18.0.1:62352]
+DEBUG 2024-12-26 00:02:21,961 http_protocol HTTP b'GET' request for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,974 http_protocol HTTP 200 response started for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,974 http_protocol HTTP close for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,974 http_protocol HTTP response complete for ['172.18.0.1', 62352]
+INFO 2024-12-26 00:02:21,975 runserver HTTP GET /accounts/login/?next=/ 200 [0.01, 172.18.0.1:62352]
+INFO 2024-12-26 00:02:21,975 runserver HTTP GET /accounts/login/?next=/ 200 [0.01, 172.18.0.1:62352]
+DEBUG 2024-12-26 00:02:21,992 http_protocol HTTP b'GET' request for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,993 http_protocol HTTP b'GET' request for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:21,995 http_protocol HTTP 304 response started for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:21,996 http_protocol HTTP close for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:21,996 http_protocol HTTP response complete for ['172.18.0.1', 62358]
+INFO 2024-12-26 00:02:21,996 runserver HTTP GET /static/images/logo.svg 304 [0.00, 172.18.0.1:62358]
+INFO 2024-12-26 00:02:21,996 runserver HTTP GET /static/images/logo.svg 304 [0.00, 172.18.0.1:62358]
+DEBUG 2024-12-26 00:02:21,997 http_protocol HTTP 200 response started for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,997 http_protocol HTTP response chunk for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,997 http_protocol HTTP close for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:21,997 http_protocol HTTP response complete for ['172.18.0.1', 62352]
+INFO 2024-12-26 00:02:21,997 runserver HTTP GET /static/django-htmx.js 200 [0.01, 172.18.0.1:62352]
+INFO 2024-12-26 00:02:21,997 runserver HTTP GET /static/django-htmx.js 200 [0.01, 172.18.0.1:62352]
+DEBUG 2024-12-26 00:02:35,686 http_protocol HTTP b'POST' request for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:35,957 http_protocol HTTP 200 response started for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:35,957 http_protocol HTTP close for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:35,957 http_protocol HTTP response complete for ['172.18.0.1', 62358]
+INFO 2024-12-26 00:02:35,957 runserver HTTP POST /accounts/login/ 200 [0.27, 172.18.0.1:62358]
+INFO 2024-12-26 00:02:35,957 runserver HTTP POST /accounts/login/ 200 [0.27, 172.18.0.1:62358]
+DEBUG 2024-12-26 00:02:40,660 http_protocol HTTP b'GET' request for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:40,681 http_protocol HTTP 200 response started for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:40,681 http_protocol HTTP close for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:40,682 http_protocol HTTP response complete for ['172.18.0.1', 62358]
+INFO 2024-12-26 00:02:40,682 runserver HTTP GET /accounts/signup/?next=/profile/onboarding/ 200 [0.02, 172.18.0.1:62358]
+INFO 2024-12-26 00:02:40,682 runserver HTTP GET /accounts/signup/?next=/profile/onboarding/ 200 [0.02, 172.18.0.1:62358]
+DEBUG 2024-12-26 00:02:53,739 http_protocol HTTP b'POST' request for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:55,540 http_protocol HTTP 302 response started for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:55,540 http_protocol HTTP close for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:55,541 http_protocol HTTP response complete for ['172.18.0.1', 62352]
+INFO 2024-12-26 00:02:55,541 runserver HTTP POST /accounts/signup/ 302 [1.80, 172.18.0.1:62352]
+INFO 2024-12-26 00:02:55,541 runserver HTTP POST /accounts/signup/ 302 [1.80, 172.18.0.1:62352]
+DEBUG 2024-12-26 00:02:55,551 http_protocol HTTP b'GET' request for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:55,559 http_protocol HTTP 200 response started for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:55,559 http_protocol HTTP close for ['172.18.0.1', 62358]
+DEBUG 2024-12-26 00:02:55,559 http_protocol HTTP response complete for ['172.18.0.1', 62358]
+INFO 2024-12-26 00:02:55,560 runserver HTTP GET /profile/onboarding/ 200 [0.01, 172.18.0.1:62358]
+INFO 2024-12-26 00:02:55,560 runserver HTTP GET /profile/onboarding/ 200 [0.01, 172.18.0.1:62358]
+DEBUG 2024-12-26 00:02:55,569 http_protocol HTTP b'GET' request for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:55,570 http_protocol HTTP 304 response started for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:55,570 http_protocol HTTP close for ['172.18.0.1', 62352]
+DEBUG 2024-12-26 00:02:55,571 http_protocol HTTP response complete for ['172.18.0.1', 62352]
+INFO 2024-12-26 00:02:55,571 runserver HTTP GET /static/images/avatar.svg 304 [0.00, 172.18.0.1:62352]
+INFO 2024-12-26 00:02:55,571 runserver HTTP GET /static/images/avatar.svg 304 [0.00, 172.18.0.1:62352]
+INFO 2024-12-26 00:02:55,625 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:61664]
+INFO 2024-12-26 00:02:55,625 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:61664]
+DEBUG 2024-12-26 00:02:55,626 http_protocol Upgraded connection ['172.18.0.1', 61664] to WebSocket
+ERROR 2024-12-26 00:02:55,650 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:02:55,655 ws_protocol WebSocket closed for ['172.18.0.1', 61664]
+INFO 2024-12-26 00:02:55,655 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:61664]
+INFO 2024-12-26 00:02:55,655 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:61664]
+INFO 2024-12-26 00:02:56,373 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:61674]
+INFO 2024-12-26 00:02:56,373 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:61674]
+DEBUG 2024-12-26 00:02:56,374 http_protocol Upgraded connection ['172.18.0.1', 61674] to WebSocket
+ERROR 2024-12-26 00:02:56,657 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:02:56,664 ws_protocol WebSocket closed for ['172.18.0.1', 61674]
+INFO 2024-12-26 00:02:56,664 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:61674]
+INFO 2024-12-26 00:02:56,664 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:61674]
+INFO 2024-12-26 00:02:57,912 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:61686]
+INFO 2024-12-26 00:02:57,912 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:61686]
+DEBUG 2024-12-26 00:02:57,913 http_protocol Upgraded connection ['172.18.0.1', 61686] to WebSocket
+ERROR 2024-12-26 00:02:58,672 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:02:58,680 ws_protocol WebSocket closed for ['172.18.0.1', 61686]
+INFO 2024-12-26 00:02:58,680 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:61686]
+INFO 2024-12-26 00:02:58,680 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:61686]
+INFO 2024-12-26 00:03:02,710 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59762]
+INFO 2024-12-26 00:03:02,710 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59762]
+DEBUG 2024-12-26 00:03:02,711 http_protocol Upgraded connection ['172.18.0.1', 59762] to WebSocket
+ERROR 2024-12-26 00:03:03,702 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:03:03,715 ws_protocol WebSocket closed for ['172.18.0.1', 59762]
+INFO 2024-12-26 00:03:03,715 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59762]
+INFO 2024-12-26 00:03:03,715 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59762]
+INFO 2024-12-26 00:03:11,434 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59772]
+INFO 2024-12-26 00:03:11,434 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59772]
+DEBUG 2024-12-26 00:03:11,436 http_protocol Upgraded connection ['172.18.0.1', 59772] to WebSocket
+ERROR 2024-12-26 00:03:11,753 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:03:11,758 ws_protocol WebSocket closed for ['172.18.0.1', 59772]
+INFO 2024-12-26 00:03:11,759 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59772]
+INFO 2024-12-26 00:03:11,759 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59772]
+INFO 2024-12-26 00:03:26,248 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59240]
+INFO 2024-12-26 00:03:26,248 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59240]
+DEBUG 2024-12-26 00:03:26,249 http_protocol Upgraded connection ['172.18.0.1', 59240] to WebSocket
+ERROR 2024-12-26 00:03:26,833 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:03:26,844 ws_protocol WebSocket closed for ['172.18.0.1', 59240]
+INFO 2024-12-26 00:03:26,845 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59240]
+INFO 2024-12-26 00:03:26,845 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59240]
+INFO 2024-12-26 00:03:43,282 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:60328]
+INFO 2024-12-26 00:03:43,282 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:60328]
+DEBUG 2024-12-26 00:03:43,283 http_protocol Upgraded connection ['172.18.0.1', 60328] to WebSocket
+ERROR 2024-12-26 00:03:43,933 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:03:43,941 ws_protocol WebSocket closed for ['172.18.0.1', 60328]
+INFO 2024-12-26 00:03:43,942 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:60328]
+INFO 2024-12-26 00:03:43,942 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:60328]
+DEBUG 2024-12-26 00:04:20,617 http_protocol HTTP b'POST' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:20,629 http_protocol HTTP 200 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:20,629 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:20,629 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:20,630 runserver HTTP POST /profile/onboarding/ 200 [0.01, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:20,630 runserver HTTP POST /profile/onboarding/ 200 [0.01, 172.18.0.1:62214]
+DEBUG 2024-12-26 00:04:20,635 http_protocol HTTP b'GET' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:20,637 http_protocol HTTP 304 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:20,637 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:20,637 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:20,637 runserver HTTP GET /static/django-htmx.js 304 [0.00, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:20,637 runserver HTTP GET /static/django-htmx.js 304 [0.00, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:20,694 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62222]
+INFO 2024-12-26 00:04:20,694 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62222]
+DEBUG 2024-12-26 00:04:20,694 http_protocol Upgraded connection ['172.18.0.1', 62222] to WebSocket
+ERROR 2024-12-26 00:04:21,120 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:21,127 ws_protocol WebSocket closed for ['172.18.0.1', 62222]
+INFO 2024-12-26 00:04:21,128 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62222]
+INFO 2024-12-26 00:04:21,128 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62222]
+INFO 2024-12-26 00:04:21,469 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62224]
+INFO 2024-12-26 00:04:21,469 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62224]
+DEBUG 2024-12-26 00:04:21,472 http_protocol Upgraded connection ['172.18.0.1', 62224] to WebSocket
+ERROR 2024-12-26 00:04:22,128 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:22,135 ws_protocol WebSocket closed for ['172.18.0.1', 62224]
+INFO 2024-12-26 00:04:22,135 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62224]
+INFO 2024-12-26 00:04:22,135 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62224]
+INFO 2024-12-26 00:04:23,480 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55156]
+INFO 2024-12-26 00:04:23,480 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55156]
+DEBUG 2024-12-26 00:04:23,481 http_protocol Upgraded connection ['172.18.0.1', 55156] to WebSocket
+ERROR 2024-12-26 00:04:24,140 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:24,145 ws_protocol WebSocket closed for ['172.18.0.1', 55156]
+INFO 2024-12-26 00:04:24,145 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55156]
+INFO 2024-12-26 00:04:24,145 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55156]
+INFO 2024-12-26 00:04:24,519 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55168]
+INFO 2024-12-26 00:04:24,519 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55168]
+DEBUG 2024-12-26 00:04:24,520 http_protocol Upgraded connection ['172.18.0.1', 55168] to WebSocket
+ERROR 2024-12-26 00:04:25,147 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:25,153 ws_protocol WebSocket closed for ['172.18.0.1', 55168]
+INFO 2024-12-26 00:04:25,154 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55168]
+INFO 2024-12-26 00:04:25,154 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55168]
+INFO 2024-12-26 00:04:31,227 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55178]
+INFO 2024-12-26 00:04:31,227 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55178]
+DEBUG 2024-12-26 00:04:31,228 http_protocol Upgraded connection ['172.18.0.1', 55178] to WebSocket
+ERROR 2024-12-26 00:04:32,184 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:32,189 ws_protocol WebSocket closed for ['172.18.0.1', 55178]
+INFO 2024-12-26 00:04:32,194 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55178]
+INFO 2024-12-26 00:04:32,194 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55178]
+DEBUG 2024-12-26 00:04:32,510 http_protocol HTTP b'POST' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:32,523 Image Importing BlpImagePlugin
+DEBUG 2024-12-26 00:04:32,524 Image Importing BmpImagePlugin
+DEBUG 2024-12-26 00:04:32,524 Image Importing BufrStubImagePlugin
+DEBUG 2024-12-26 00:04:32,524 Image Importing CurImagePlugin
+DEBUG 2024-12-26 00:04:32,524 Image Importing DcxImagePlugin
+DEBUG 2024-12-26 00:04:32,525 Image Importing DdsImagePlugin
+DEBUG 2024-12-26 00:04:32,526 Image Importing EpsImagePlugin
+DEBUG 2024-12-26 00:04:32,527 Image Importing FitsImagePlugin
+DEBUG 2024-12-26 00:04:32,527 Image Importing FliImagePlugin
+DEBUG 2024-12-26 00:04:32,527 Image Importing FpxImagePlugin
+DEBUG 2024-12-26 00:04:32,527 Image Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG 2024-12-26 00:04:32,527 Image Importing FtexImagePlugin
+DEBUG 2024-12-26 00:04:32,528 Image Importing GbrImagePlugin
+DEBUG 2024-12-26 00:04:32,528 Image Importing GifImagePlugin
+DEBUG 2024-12-26 00:04:32,528 Image Importing GribStubImagePlugin
+DEBUG 2024-12-26 00:04:32,528 Image Importing Hdf5StubImagePlugin
+DEBUG 2024-12-26 00:04:32,528 Image Importing IcnsImagePlugin
+DEBUG 2024-12-26 00:04:32,529 Image Importing IcoImagePlugin
+DEBUG 2024-12-26 00:04:32,530 Image Importing ImImagePlugin
+DEBUG 2024-12-26 00:04:32,530 Image Importing ImtImagePlugin
+DEBUG 2024-12-26 00:04:32,531 Image Importing IptcImagePlugin
+DEBUG 2024-12-26 00:04:32,531 Image Importing JpegImagePlugin
+DEBUG 2024-12-26 00:04:32,531 Image Importing Jpeg2KImagePlugin
+DEBUG 2024-12-26 00:04:32,531 Image Importing McIdasImagePlugin
+DEBUG 2024-12-26 00:04:32,531 Image Importing MicImagePlugin
+DEBUG 2024-12-26 00:04:32,532 Image Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG 2024-12-26 00:04:32,532 Image Importing MpegImagePlugin
+DEBUG 2024-12-26 00:04:32,532 Image Importing MpoImagePlugin
+DEBUG 2024-12-26 00:04:32,535 Image Importing MspImagePlugin
+DEBUG 2024-12-26 00:04:32,535 Image Importing PalmImagePlugin
+DEBUG 2024-12-26 00:04:32,536 Image Importing PcdImagePlugin
+DEBUG 2024-12-26 00:04:32,536 Image Importing PcxImagePlugin
+DEBUG 2024-12-26 00:04:32,536 Image Importing PdfImagePlugin
+DEBUG 2024-12-26 00:04:32,538 Image Importing PixarImagePlugin
+DEBUG 2024-12-26 00:04:32,539 Image Importing PngImagePlugin
+DEBUG 2024-12-26 00:04:32,539 Image Importing PpmImagePlugin
+DEBUG 2024-12-26 00:04:32,539 Image Importing PsdImagePlugin
+DEBUG 2024-12-26 00:04:32,539 Image Importing QoiImagePlugin
+DEBUG 2024-12-26 00:04:32,539 Image Importing SgiImagePlugin
+DEBUG 2024-12-26 00:04:32,540 Image Importing SpiderImagePlugin
+DEBUG 2024-12-26 00:04:32,540 Image Importing SunImagePlugin
+DEBUG 2024-12-26 00:04:32,540 Image Importing TgaImagePlugin
+DEBUG 2024-12-26 00:04:32,540 Image Importing TiffImagePlugin
+DEBUG 2024-12-26 00:04:32,540 Image Importing WebPImagePlugin
+DEBUG 2024-12-26 00:04:32,543 Image Importing WmfImagePlugin
+DEBUG 2024-12-26 00:04:32,544 Image Importing XbmImagePlugin
+DEBUG 2024-12-26 00:04:32,544 Image Importing XpmImagePlugin
+DEBUG 2024-12-26 00:04:32,544 Image Importing XVThumbImagePlugin
+DEBUG 2024-12-26 00:04:32,546 http_protocol HTTP 200 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:32,546 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:32,546 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:32,546 runserver HTTP POST /profile/onboarding/ 200 [0.04, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:32,546 runserver HTTP POST /profile/onboarding/ 200 [0.04, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:32,619 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58224]
+INFO 2024-12-26 00:04:32,619 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58224]
+DEBUG 2024-12-26 00:04:32,620 http_protocol Upgraded connection ['172.18.0.1', 58224] to WebSocket
+ERROR 2024-12-26 00:04:33,195 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:33,199 ws_protocol WebSocket closed for ['172.18.0.1', 58224]
+INFO 2024-12-26 00:04:33,199 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58224]
+INFO 2024-12-26 00:04:33,199 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58224]
+INFO 2024-12-26 00:04:33,490 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58240]
+INFO 2024-12-26 00:04:33,490 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58240]
+DEBUG 2024-12-26 00:04:33,491 http_protocol Upgraded connection ['172.18.0.1', 58240] to WebSocket
+ERROR 2024-12-26 00:04:34,206 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:34,216 ws_protocol WebSocket closed for ['172.18.0.1', 58240]
+INFO 2024-12-26 00:04:34,217 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58240]
+INFO 2024-12-26 00:04:34,217 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58240]
+INFO 2024-12-26 00:04:35,375 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58250]
+INFO 2024-12-26 00:04:35,375 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58250]
+DEBUG 2024-12-26 00:04:35,375 http_protocol Upgraded connection ['172.18.0.1', 58250] to WebSocket
+ERROR 2024-12-26 00:04:36,229 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:36,232 ws_protocol WebSocket closed for ['172.18.0.1', 58250]
+INFO 2024-12-26 00:04:36,233 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58250]
+INFO 2024-12-26 00:04:36,233 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58250]
+INFO 2024-12-26 00:04:38,831 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58262]
+INFO 2024-12-26 00:04:38,831 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58262]
+DEBUG 2024-12-26 00:04:38,832 http_protocol Upgraded connection ['172.18.0.1', 58262] to WebSocket
+ERROR 2024-12-26 00:04:39,240 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:39,247 ws_protocol WebSocket closed for ['172.18.0.1', 58262]
+INFO 2024-12-26 00:04:39,248 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58262]
+INFO 2024-12-26 00:04:39,248 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58262]
+DEBUG 2024-12-26 00:04:40,715 http_protocol HTTP b'POST' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,721 TiffImagePlugin tag: Software (305) - type: string (2) Tag Location: 22 - Data Location: 38 - value: b'Google\x00'
+DEBUG 2024-12-26 00:04:40,721 TiffImagePlugin tag: ExifIFD (34665) - type: long (4) - value: b'.\x00\x00\x00'
+DEBUG 2024-12-26 00:04:40,721 TiffImagePlugin tag: MPFVersion (45056) - type: undefined (7) - value: b'0100'
+DEBUG 2024-12-26 00:04:40,721 TiffImagePlugin tag: NumberOfImages (45057) - type: long (4) - value: b'\x00\x00\x00\x02'
+DEBUG 2024-12-26 00:04:40,721 TiffImagePlugin tag: MPEntry (45058) - type: undefined (7) Tag Location: 46 - Data Location: 50 - value: b"\x00\x03\x00\x00\x00\x11\x94'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01$\xcd\x00\x11\x94y\x00\x00\x00\x00"
+DEBUG 2024-12-26 00:04:40,725 http_protocol HTTP 302 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,725 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,726 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:40,726 runserver HTTP POST /profile/onboarding/ 302 [0.01, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:40,726 runserver HTTP POST /profile/onboarding/ 302 [0.01, 172.18.0.1:62214]
+DEBUG 2024-12-26 00:04:40,732 http_protocol HTTP b'GET' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,738 http_protocol HTTP 200 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,738 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,738 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:40,738 runserver HTTP GET /profile/ 200 [0.01, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:40,738 runserver HTTP GET /profile/ 200 [0.01, 172.18.0.1:62214]
+DEBUG 2024-12-26 00:04:40,746 http_protocol HTTP b'GET' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,749 http_protocol HTTP 200 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,750 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,751 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,751 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,751 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,751 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,751 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,751 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,752 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP response chunk for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:40,753 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:40,754 runserver HTTP GET /media/avatars/profile-2.jpg 200 [0.01, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:40,754 runserver HTTP GET /media/avatars/profile-2.jpg 200 [0.01, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:40,801 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58268]
+INFO 2024-12-26 00:04:40,801 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58268]
+DEBUG 2024-12-26 00:04:40,801 http_protocol Upgraded connection ['172.18.0.1', 58268] to WebSocket
+ERROR 2024-12-26 00:04:41,257 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:41,266 ws_protocol WebSocket closed for ['172.18.0.1', 58268]
+INFO 2024-12-26 00:04:41,267 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58268]
+INFO 2024-12-26 00:04:41,267 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58268]
+INFO 2024-12-26 00:04:41,474 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58274]
+INFO 2024-12-26 00:04:41,474 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58274]
+DEBUG 2024-12-26 00:04:41,475 http_protocol Upgraded connection ['172.18.0.1', 58274] to WebSocket
+ERROR 2024-12-26 00:04:42,267 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:42,272 ws_protocol WebSocket closed for ['172.18.0.1', 58274]
+INFO 2024-12-26 00:04:42,273 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58274]
+INFO 2024-12-26 00:04:42,273 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58274]
+INFO 2024-12-26 00:04:42,405 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62462]
+INFO 2024-12-26 00:04:42,405 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62462]
+DEBUG 2024-12-26 00:04:42,406 http_protocol Upgraded connection ['172.18.0.1', 62462] to WebSocket
+ERROR 2024-12-26 00:04:43,277 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:43,285 ws_protocol WebSocket closed for ['172.18.0.1', 62462]
+INFO 2024-12-26 00:04:43,286 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62462]
+INFO 2024-12-26 00:04:43,286 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62462]
+INFO 2024-12-26 00:04:43,550 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62470]
+INFO 2024-12-26 00:04:43,550 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62470]
+DEBUG 2024-12-26 00:04:43,551 http_protocol Upgraded connection ['172.18.0.1', 62470] to WebSocket
+ERROR 2024-12-26 00:04:44,289 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:44,297 ws_protocol WebSocket closed for ['172.18.0.1', 62470]
+INFO 2024-12-26 00:04:44,298 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62470]
+INFO 2024-12-26 00:04:44,298 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62470]
+DEBUG 2024-12-26 00:04:45,820 http_protocol HTTP b'GET' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:45,829 http_protocol HTTP 200 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:45,829 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:45,830 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:45,830 runserver HTTP GET / 200 [0.01, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:45,830 runserver HTTP GET / 200 [0.01, 172.18.0.1:62214]
+DEBUG 2024-12-26 00:04:45,842 http_protocol HTTP b'GET' request for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:45,845 http_protocol HTTP 304 response started for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:45,845 http_protocol HTTP close for ['172.18.0.1', 62214]
+DEBUG 2024-12-26 00:04:45,846 http_protocol HTTP response complete for ['172.18.0.1', 62214]
+INFO 2024-12-26 00:04:45,846 runserver HTTP GET /media/avatars/profile-2.jpg 304 [0.00, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:45,846 runserver HTTP GET /media/avatars/profile-2.jpg 304 [0.00, 172.18.0.1:62214]
+INFO 2024-12-26 00:04:45,897 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62472]
+INFO 2024-12-26 00:04:45,897 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62472]
+DEBUG 2024-12-26 00:04:45,898 http_protocol Upgraded connection ['172.18.0.1', 62472] to WebSocket
+ERROR 2024-12-26 00:04:46,306 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:46,323 ws_protocol WebSocket closed for ['172.18.0.1', 62472]
+INFO 2024-12-26 00:04:46,323 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62472]
+INFO 2024-12-26 00:04:46,323 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62472]
+INFO 2024-12-26 00:04:47,330 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62476]
+INFO 2024-12-26 00:04:47,330 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62476]
+DEBUG 2024-12-26 00:04:47,330 http_protocol Upgraded connection ['172.18.0.1', 62476] to WebSocket
+ERROR 2024-12-26 00:04:48,334 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:48,341 ws_protocol WebSocket closed for ['172.18.0.1', 62476]
+INFO 2024-12-26 00:04:48,341 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62476]
+INFO 2024-12-26 00:04:48,341 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62476]
+INFO 2024-12-26 00:04:50,074 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62488]
+INFO 2024-12-26 00:04:50,074 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:62488]
+DEBUG 2024-12-26 00:04:50,076 http_protocol Upgraded connection ['172.18.0.1', 62488] to WebSocket
+ERROR 2024-12-26 00:04:50,352 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:50,360 ws_protocol WebSocket closed for ['172.18.0.1', 62488]
+INFO 2024-12-26 00:04:50,363 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62488]
+INFO 2024-12-26 00:04:50,363 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:62488]
+INFO 2024-12-26 00:04:54,034 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59596]
+INFO 2024-12-26 00:04:54,034 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59596]
+DEBUG 2024-12-26 00:04:54,035 http_protocol Upgraded connection ['172.18.0.1', 59596] to WebSocket
+ERROR 2024-12-26 00:04:54,376 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:04:54,383 ws_protocol WebSocket closed for ['172.18.0.1', 59596]
+INFO 2024-12-26 00:04:54,384 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59596]
+INFO 2024-12-26 00:04:54,384 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59596]
+INFO 2024-12-26 00:05:00,814 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59608]
+INFO 2024-12-26 00:05:00,814 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:59608]
+DEBUG 2024-12-26 00:05:00,815 http_protocol Upgraded connection ['172.18.0.1', 59608] to WebSocket
+ERROR 2024-12-26 00:05:01,424 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:05:01,432 ws_protocol WebSocket closed for ['172.18.0.1', 59608]
+INFO 2024-12-26 00:05:01,432 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59608]
+INFO 2024-12-26 00:05:01,432 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:59608]
+INFO 2024-12-26 00:05:17,427 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58676]
+INFO 2024-12-26 00:05:17,427 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58676]
+DEBUG 2024-12-26 00:05:17,428 http_protocol Upgraded connection ['172.18.0.1', 58676] to WebSocket
+ERROR 2024-12-26 00:05:17,502 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:05:17,507 ws_protocol WebSocket closed for ['172.18.0.1', 58676]
+INFO 2024-12-26 00:05:17,508 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58676]
+INFO 2024-12-26 00:05:17,508 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58676]
+INFO 2024-12-26 00:05:22,238 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58314]
+INFO 2024-12-26 00:05:22,238 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:58314]
+DEBUG 2024-12-26 00:05:22,239 http_protocol Upgraded connection ['172.18.0.1', 58314] to WebSocket
+ERROR 2024-12-26 00:05:22,534 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:05:22,540 ws_protocol WebSocket closed for ['172.18.0.1', 58314]
+INFO 2024-12-26 00:05:22,541 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58314]
+INFO 2024-12-26 00:05:22,541 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:58314]
+DEBUG 2024-12-26 00:06:39,359 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:06:39,621 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:06:39,906 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:06:40,194 selector_events Using selector: EpollSelector
+DEBUG 2024-12-26 00:06:40,343 selector_events Using selector: EpollSelector
+INFO 2024-12-26 00:06:40,387 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 00:06:40,387 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 00:06:40,458 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-26 00:06:40,458 server Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2024-12-26 00:06:40,458 server Listening on TCP address 0.0.0.0:8000
+DEBUG 2024-12-26 00:06:40,979 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:40,998 http_protocol HTTP 301 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:40,999 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:40,999 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:40,999 runserver HTTP GET /home 301 [0.02, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:40,999 runserver HTTP GET /home 301 [0.02, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:41,005 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:41,016 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:41,016 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:41,016 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:41,016 runserver HTTP GET /home/ 200 [0.01, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:41,016 runserver HTTP GET /home/ 200 [0.01, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:41,037 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:41,038 http_protocol HTTP b'GET' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:41,039 http_protocol HTTP 304 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:41,039 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:41,039 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:41,039 runserver HTTP GET /static/django-htmx.js 304 [0.00, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:41,039 runserver HTTP GET /static/django-htmx.js 304 [0.00, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:41,041 http_protocol HTTP 304 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:41,041 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:41,041 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:06:41,041 runserver HTTP GET /media/avatars/profile-2.jpg 304 [0.00, 172.18.0.1:55644]
+INFO 2024-12-26 00:06:41,041 runserver HTTP GET /media/avatars/profile-2.jpg 304 [0.00, 172.18.0.1:55644]
+INFO 2024-12-26 00:06:41,118 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55646]
+INFO 2024-12-26 00:06:41,118 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:55646]
+DEBUG 2024-12-26 00:06:41,118 http_protocol Upgraded connection ['172.18.0.1', 55646] to WebSocket
+ERROR 2024-12-26 00:06:41,465 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:06:41,481 ws_protocol WebSocket closed for ['172.18.0.1', 55646]
+INFO 2024-12-26 00:06:41,482 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55646]
+INFO 2024-12-26 00:06:41,482 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:55646]
+INFO 2024-12-26 00:06:42,146 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:63342]
+INFO 2024-12-26 00:06:42,146 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:63342]
+DEBUG 2024-12-26 00:06:42,147 http_protocol Upgraded connection ['172.18.0.1', 63342] to WebSocket
+ERROR 2024-12-26 00:06:42,484 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:06:42,493 ws_protocol WebSocket closed for ['172.18.0.1', 63342]
+INFO 2024-12-26 00:06:42,494 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:63342]
+INFO 2024-12-26 00:06:42,494 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:63342]
+INFO 2024-12-26 00:06:43,623 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:63348]
+INFO 2024-12-26 00:06:43,623 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:63348]
+DEBUG 2024-12-26 00:06:43,624 http_protocol Upgraded connection ['172.18.0.1', 63348] to WebSocket
+ERROR 2024-12-26 00:06:44,502 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:06:44,510 ws_protocol WebSocket closed for ['172.18.0.1', 63348]
+INFO 2024-12-26 00:06:44,510 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:63348]
+INFO 2024-12-26 00:06:44,510 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:63348]
+INFO 2024-12-26 00:06:45,586 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:63354]
+INFO 2024-12-26 00:06:45,586 runserver WebSocket HANDSHAKING /ws/online-status/ [172.18.0.1:63354]
+DEBUG 2024-12-26 00:06:45,587 http_protocol Upgraded connection ['172.18.0.1', 63354] to WebSocket
+DEBUG 2024-12-26 00:06:45,858 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,872 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,872 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,873 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:45,873 runserver HTTP GET /drafting/ 200 [0.02, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:45,873 runserver HTTP GET /drafting/ 200 [0.02, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:45,879 http_protocol HTTP b'GET' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,880 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,882 http_protocol HTTP b'GET' request for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,883 http_protocol HTTP b'GET' request for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,883 http_protocol HTTP b'GET' request for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,883 http_protocol HTTP b'GET' request for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,883 http_protocol HTTP 200 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,884 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,884 http_protocol HTTP response chunk for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,885 http_protocol HTTP response chunk for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,885 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,885 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:06:45,885 runserver HTTP GET /static/rest_framework/css/bootstrap.min.css 200 [0.01, 172.18.0.1:55644]
+INFO 2024-12-26 00:06:45,885 runserver HTTP GET /static/rest_framework/css/bootstrap.min.css 200 [0.01, 172.18.0.1:55644]
+DEBUG 2024-12-26 00:06:45,885 http_protocol HTTP response chunk for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,885 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,885 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:45,885 runserver HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 200 [0.01, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:45,885 runserver HTTP GET /static/rest_framework/css/bootstrap-tweaks.css 200 [0.01, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:45,888 http_protocol HTTP b'GET' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,889 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,889 http_protocol HTTP 200 response started for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,890 http_protocol HTTP 200 response started for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,890 http_protocol HTTP 200 response started for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,890 http_protocol HTTP 200 response started for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,891 http_protocol HTTP response chunk for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,891 http_protocol HTTP close for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,891 http_protocol HTTP response complete for ['172.18.0.1', 63370]
+INFO 2024-12-26 00:06:45,891 runserver HTTP GET /static/rest_framework/css/default.css 200 [0.01, 172.18.0.1:63370]
+INFO 2024-12-26 00:06:45,891 runserver HTTP GET /static/rest_framework/css/default.css 200 [0.01, 172.18.0.1:63370]
+DEBUG 2024-12-26 00:06:45,891 http_protocol HTTP response chunk for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,892 http_protocol HTTP response chunk for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,892 http_protocol HTTP close for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,892 http_protocol HTTP response complete for ['172.18.0.1', 63362]
+INFO 2024-12-26 00:06:45,892 runserver HTTP GET /static/rest_framework/js/jquery-3.7.1.min.js 200 [0.01, 172.18.0.1:63362]
+INFO 2024-12-26 00:06:45,892 runserver HTTP GET /static/rest_framework/js/jquery-3.7.1.min.js 200 [0.01, 172.18.0.1:63362]
+DEBUG 2024-12-26 00:06:45,892 http_protocol HTTP response chunk for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,892 http_protocol HTTP close for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,892 http_protocol HTTP response complete for ['172.18.0.1', 63356]
+INFO 2024-12-26 00:06:45,892 runserver HTTP GET /static/rest_framework/css/prettify.css 200 [0.01, 172.18.0.1:63356]
+INFO 2024-12-26 00:06:45,892 runserver HTTP GET /static/rest_framework/css/prettify.css 200 [0.01, 172.18.0.1:63356]
+DEBUG 2024-12-26 00:06:45,893 http_protocol HTTP response chunk for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,893 http_protocol HTTP close for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,893 http_protocol HTTP response complete for ['172.18.0.1', 63384]
+INFO 2024-12-26 00:06:45,893 runserver HTTP GET /static/rest_framework/js/ajax-form.js 200 [0.01, 172.18.0.1:63384]
+INFO 2024-12-26 00:06:45,893 runserver HTTP GET /static/rest_framework/js/ajax-form.js 200 [0.01, 172.18.0.1:63384]
+DEBUG 2024-12-26 00:06:45,893 http_protocol HTTP 200 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,893 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,894 http_protocol HTTP b'GET' request for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP b'GET' request for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP response chunk for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:06:45,895 runserver HTTP GET /static/rest_framework/js/csrf.js 200 [0.01, 172.18.0.1:55644]
+INFO 2024-12-26 00:06:45,895 runserver HTTP GET /static/rest_framework/js/csrf.js 200 [0.01, 172.18.0.1:55644]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP response chunk for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:45,895 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:45,896 runserver HTTP GET /static/rest_framework/js/bootstrap.min.js 200 [0.01, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:45,896 runserver HTTP GET /static/rest_framework/js/bootstrap.min.js 200 [0.01, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:45,896 http_protocol HTTP b'GET' request for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,897 http_protocol HTTP 200 response started for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,898 http_protocol HTTP 200 response started for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,898 http_protocol HTTP 200 response started for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,898 http_protocol HTTP response chunk for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,898 http_protocol HTTP close for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:45,899 http_protocol HTTP response complete for ['172.18.0.1', 63370]
+INFO 2024-12-26 00:06:45,899 runserver HTTP GET /static/rest_framework/js/prettify-min.js 200 [0.01, 172.18.0.1:63370]
+INFO 2024-12-26 00:06:45,899 runserver HTTP GET /static/rest_framework/js/prettify-min.js 200 [0.01, 172.18.0.1:63370]
+DEBUG 2024-12-26 00:06:45,899 http_protocol HTTP response chunk for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,899 http_protocol HTTP close for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:45,899 http_protocol HTTP response complete for ['172.18.0.1', 63362]
+INFO 2024-12-26 00:06:45,899 runserver HTTP GET /static/rest_framework/js/default.js 200 [0.00, 172.18.0.1:63362]
+INFO 2024-12-26 00:06:45,899 runserver HTTP GET /static/rest_framework/js/default.js 200 [0.00, 172.18.0.1:63362]
+DEBUG 2024-12-26 00:06:45,899 http_protocol HTTP response chunk for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,899 http_protocol HTTP close for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:45,900 http_protocol HTTP response complete for ['172.18.0.1', 63356]
+INFO 2024-12-26 00:06:45,900 runserver HTTP GET /static/rest_framework/js/load-ajax-form.js 200 [0.00, 172.18.0.1:63356]
+INFO 2024-12-26 00:06:45,900 runserver HTTP GET /static/rest_framework/js/load-ajax-form.js 200 [0.00, 172.18.0.1:63356]
+DEBUG 2024-12-26 00:06:45,908 http_protocol HTTP b'GET' request for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,909 http_protocol HTTP 200 response started for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,910 http_protocol HTTP response chunk for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,910 http_protocol HTTP close for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:45,910 http_protocol HTTP response complete for ['172.18.0.1', 63384]
+INFO 2024-12-26 00:06:45,910 runserver HTTP GET /static/rest_framework/img/grid.png 200 [0.00, 172.18.0.1:63384]
+INFO 2024-12-26 00:06:45,910 runserver HTTP GET /static/rest_framework/img/grid.png 200 [0.00, 172.18.0.1:63384]
+DEBUG 2024-12-26 00:06:45,918 http_protocol HTTP b'GET' request for ['172.18.0.1', 55644]
+WARNING 2024-12-26 00:06:45,921 log Not Found: /favicon.ico
+WARNING 2024-12-26 00:06:45,921 log Not Found: /favicon.ico
+DEBUG 2024-12-26 00:06:45,921 http_protocol HTTP 404 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,921 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:45,921 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+WARNING 2024-12-26 00:06:45,922 runserver HTTP GET /favicon.ico 404 [0.00, 172.18.0.1:55644]
+WARNING 2024-12-26 00:06:45,922 runserver HTTP GET /favicon.ico 404 [0.00, 172.18.0.1:55644]
+ERROR 2024-12-26 00:06:46,524 server Exception inside application: No ChatGroup matches the given query.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/db/models/query.py", line 649, in get
+    raise self.model.DoesNotExist(
+        "%s matching query does not exist." % self.model._meta.object_name
+    )
+a_rtchat.models.ChatGroup.DoesNotExist: ChatGroup matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+        [receive, self.channel_receive], self.dispatch
+    )
+  File "/usr/local/lib/python3.13/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/channels/consumer.py", line 126, in dispatch
+    handler(message)
+    ~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/channels/generic/websocket.py", line 39, in websocket_connect
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "/app/a_rtchat/consumers.py", line 94, in connect
+    self.group = get_object_or_404(ChatGroup, group_name=self.group_name)
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/django/shortcuts.py", line 88, in get_object_or_404
+    raise Http404(
+        "No %s matches the given query." % queryset.model._meta.object_name
+    )
+django.http.response.Http404: No ChatGroup matches the given query.
+DEBUG 2024-12-26 00:06:46,531 ws_protocol WebSocket closed for ['172.18.0.1', 63354]
+INFO 2024-12-26 00:06:46,532 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:63354]
+INFO 2024-12-26 00:06:46,532 runserver WebSocket DISCONNECT /ws/online-status/ [172.18.0.1:63354]
+DEBUG 2024-12-26 00:06:54,072 http_protocol HTTP b'GET' request for ['172.18.0.1', 63362]
+WARNING 2024-12-26 00:06:54,077 log Not Found: /draftingd/
+WARNING 2024-12-26 00:06:54,077 log Not Found: /draftingd/
+DEBUG 2024-12-26 00:06:54,077 http_protocol HTTP 404 response started for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:54,078 http_protocol HTTP close for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:54,078 http_protocol HTTP response complete for ['172.18.0.1', 63362]
+WARNING 2024-12-26 00:06:54,078 runserver HTTP GET /draftingd/ 404 [0.01, 172.18.0.1:63362]
+WARNING 2024-12-26 00:06:54,078 runserver HTTP GET /draftingd/ 404 [0.01, 172.18.0.1:63362]
+DEBUG 2024-12-26 00:06:56,563 http_protocol HTTP b'GET' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,581 http_protocol HTTP 302 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,581 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,581 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:06:56,582 runserver HTTP GET /admin/ 302 [0.02, 172.18.0.1:55644]
+INFO 2024-12-26 00:06:56,582 runserver HTTP GET /admin/ 302 [0.02, 172.18.0.1:55644]
+DEBUG 2024-12-26 00:06:56,587 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,602 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,603 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,603 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:56,603 runserver HTTP GET /admin/login/?next=/admin/ 200 [0.02, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:56,603 runserver HTTP GET /admin/login/?next=/admin/ 200 [0.02, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:56,612 http_protocol HTTP b'GET' request for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,612 http_protocol HTTP b'GET' request for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:56,613 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,613 http_protocol HTTP b'GET' request for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:56,613 http_protocol HTTP b'GET' request for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:56,614 http_protocol HTTP b'GET' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,618 http_protocol HTTP 200 response started for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,618 http_protocol HTTP 200 response started for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:56,619 http_protocol HTTP 200 response started for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:56,619 http_protocol HTTP 200 response started for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:56,619 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,620 http_protocol HTTP response chunk for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,620 http_protocol HTTP close for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,620 http_protocol HTTP response complete for ['172.18.0.1', 63370]
+INFO 2024-12-26 00:06:56,620 runserver HTTP GET /static/admin/css/base.css 200 [0.01, 172.18.0.1:63370]
+INFO 2024-12-26 00:06:56,620 runserver HTTP GET /static/admin/css/base.css 200 [0.01, 172.18.0.1:63370]
+DEBUG 2024-12-26 00:06:56,621 http_protocol HTTP 200 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,621 http_protocol HTTP response chunk for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:56,621 http_protocol HTTP close for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:06:56,621 http_protocol HTTP response complete for ['172.18.0.1', 63362]
+INFO 2024-12-26 00:06:56,621 runserver HTTP GET /static/admin/css/dark_mode.css 200 [0.01, 172.18.0.1:63362]
+INFO 2024-12-26 00:06:56,621 runserver HTTP GET /static/admin/css/dark_mode.css 200 [0.01, 172.18.0.1:63362]
+DEBUG 2024-12-26 00:06:56,622 http_protocol HTTP response chunk for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:56,622 http_protocol HTTP close for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:06:56,622 http_protocol HTTP response complete for ['172.18.0.1', 63384]
+INFO 2024-12-26 00:06:56,622 runserver HTTP GET /static/admin/css/nav_sidebar.css 200 [0.01, 172.18.0.1:63384]
+INFO 2024-12-26 00:06:56,622 runserver HTTP GET /static/admin/css/nav_sidebar.css 200 [0.01, 172.18.0.1:63384]
+DEBUG 2024-12-26 00:06:56,622 http_protocol HTTP response chunk for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:56,622 http_protocol HTTP close for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:06:56,622 http_protocol HTTP response complete for ['172.18.0.1', 63356]
+INFO 2024-12-26 00:06:56,623 runserver HTTP GET /static/admin/js/theme.js 200 [0.01, 172.18.0.1:63356]
+INFO 2024-12-26 00:06:56,623 runserver HTTP GET /static/admin/js/theme.js 200 [0.01, 172.18.0.1:63356]
+DEBUG 2024-12-26 00:06:56,623 http_protocol HTTP response chunk for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,623 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:06:56,623 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:06:56,623 runserver HTTP GET /static/admin/css/login.css 200 [0.01, 172.18.0.1:55636]
+INFO 2024-12-26 00:06:56,623 runserver HTTP GET /static/admin/css/login.css 200 [0.01, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:06:56,623 http_protocol HTTP b'GET' request for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,624 http_protocol HTTP response chunk for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,624 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:06:56,624 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:06:56,624 runserver HTTP GET /static/admin/js/nav_sidebar.js 200 [0.01, 172.18.0.1:55644]
+INFO 2024-12-26 00:06:56,624 runserver HTTP GET /static/admin/js/nav_sidebar.js 200 [0.01, 172.18.0.1:55644]
+DEBUG 2024-12-26 00:06:56,626 http_protocol HTTP 200 response started for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,626 http_protocol HTTP response chunk for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,627 http_protocol HTTP close for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:06:56,627 http_protocol HTTP response complete for ['172.18.0.1', 63370]
+INFO 2024-12-26 00:06:56,628 runserver HTTP GET /static/admin/css/responsive.css 200 [0.00, 172.18.0.1:63370]
+INFO 2024-12-26 00:06:56,628 runserver HTTP GET /static/admin/css/responsive.css 200 [0.00, 172.18.0.1:63370]
+DEBUG 2024-12-26 00:07:02,642 http_protocol HTTP b'GET' request for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:07:02,657 http_protocol HTTP 200 response started for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:07:02,658 http_protocol HTTP close for ['172.18.0.1', 63356]
+DEBUG 2024-12-26 00:07:02,658 http_protocol HTTP response complete for ['172.18.0.1', 63356]
+INFO 2024-12-26 00:07:02,658 runserver HTTP GET /admin/login/?next=/drafting/ 200 [0.02, 172.18.0.1:63356]
+INFO 2024-12-26 00:07:02,658 runserver HTTP GET /admin/login/?next=/drafting/ 200 [0.02, 172.18.0.1:63356]
+DEBUG 2024-12-26 00:07:09,031 http_protocol HTTP b'GET' request for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:07:09,042 http_protocol HTTP 200 response started for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:07:09,042 http_protocol HTTP close for ['172.18.0.1', 63370]
+DEBUG 2024-12-26 00:07:09,043 http_protocol HTTP response complete for ['172.18.0.1', 63370]
+INFO 2024-12-26 00:07:09,043 runserver HTTP GET /drafting/ 200 [0.01, 172.18.0.1:63370]
+INFO 2024-12-26 00:07:09,043 runserver HTTP GET /drafting/ 200 [0.01, 172.18.0.1:63370]
+DEBUG 2024-12-26 00:07:10,975 http_protocol HTTP b'GET' request for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:07:10,986 http_protocol HTTP 200 response started for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:07:10,987 http_protocol HTTP close for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:07:10,987 http_protocol HTTP response complete for ['172.18.0.1', 63384]
+INFO 2024-12-26 00:07:10,987 runserver HTTP GET /drafting/ 200 [0.01, 172.18.0.1:63384]
+INFO 2024-12-26 00:07:10,987 runserver HTTP GET /drafting/ 200 [0.01, 172.18.0.1:63384]
+DEBUG 2024-12-26 00:07:12,918 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:07:12,930 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:07:12,930 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:07:12,930 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:07:12,931 runserver HTTP GET /drafting/?format=api 200 [0.01, 172.18.0.1:55636]
+INFO 2024-12-26 00:07:12,931 runserver HTTP GET /drafting/?format=api 200 [0.01, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:07:26,490 http_protocol HTTP b'OPTIONS' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:07:26,499 http_protocol HTTP 200 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:07:26,499 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:07:26,500 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:07:26,500 runserver HTTP OPTIONS /drafting/?format=api 200 [0.01, 172.18.0.1:55644]
+INFO 2024-12-26 00:07:26,500 runserver HTTP OPTIONS /drafting/?format=api 200 [0.01, 172.18.0.1:55644]
+DEBUG 2024-12-26 00:07:32,772 http_protocol HTTP b'GET' request for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:07:32,786 http_protocol HTTP 200 response started for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:07:32,787 http_protocol HTTP close for ['172.18.0.1', 63362]
+DEBUG 2024-12-26 00:07:32,787 http_protocol HTTP response complete for ['172.18.0.1', 63362]
+INFO 2024-12-26 00:07:32,787 runserver HTTP GET /drafting/?format=api 200 [0.02, 172.18.0.1:63362]
+INFO 2024-12-26 00:07:32,787 runserver HTTP GET /drafting/?format=api 200 [0.02, 172.18.0.1:63362]
+DEBUG 2024-12-26 00:07:33,654 http_protocol HTTP b'OPTIONS' request for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:07:33,667 http_protocol HTTP 200 response started for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:07:33,667 http_protocol HTTP close for ['172.18.0.1', 63384]
+DEBUG 2024-12-26 00:07:33,668 http_protocol HTTP response complete for ['172.18.0.1', 63384]
+INFO 2024-12-26 00:07:33,668 runserver HTTP OPTIONS /drafting/?format=api 200 [0.01, 172.18.0.1:63384]
+INFO 2024-12-26 00:07:33,668 runserver HTTP OPTIONS /drafting/?format=api 200 [0.01, 172.18.0.1:63384]
+DEBUG 2024-12-26 00:07:34,227 http_protocol HTTP b'GET' request for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:07:34,238 http_protocol HTTP 200 response started for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:07:34,238 http_protocol HTTP close for ['172.18.0.1', 55636]
+DEBUG 2024-12-26 00:07:34,238 http_protocol HTTP response complete for ['172.18.0.1', 55636]
+INFO 2024-12-26 00:07:34,239 runserver HTTP GET /drafting/?format=api 200 [0.01, 172.18.0.1:55636]
+INFO 2024-12-26 00:07:34,239 runserver HTTP GET /drafting/?format=api 200 [0.01, 172.18.0.1:55636]
+DEBUG 2024-12-26 00:07:34,586 http_protocol HTTP b'OPTIONS' request for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:07:34,601 http_protocol HTTP 200 response started for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:07:34,601 http_protocol HTTP close for ['172.18.0.1', 55644]
+DEBUG 2024-12-26 00:07:34,601 http_protocol HTTP response complete for ['172.18.0.1', 55644]
+INFO 2024-12-26 00:07:34,602 runserver HTTP OPTIONS /drafting/?format=api 200 [0.02, 172.18.0.1:55644]
+INFO 2024-12-26 00:07:34,602 runserver HTTP OPTIONS /drafting/?format=api 200 [0.02, 172.18.0.1:55644]

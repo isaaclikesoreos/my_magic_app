@@ -12,6 +12,9 @@ daphne = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 requests = "*"
+shortuuid = "*"
+pillow = "*"
+django_cleanup = "*"
 
 [dev-packages]
 
