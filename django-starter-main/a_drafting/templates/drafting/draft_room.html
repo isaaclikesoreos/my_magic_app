@@ -1,0 +1,30 @@
+{% extends "layouts/blank.html" %}
+{% load static %}
+{% block content %}
+<body>
+    <div id="draft-room" data-draft-id="{{ draft.id }}">
+        {% csrf_token %}
+        <div id="player-list-section">
+            <h1>Draft Room: {{ draft.cube.name }}</h1>
+            <h3>Players in the Room:</h3>
+            <ul id="player-list">
+                {% for player in players %}
+                    <li>{{ player.user.username }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div id="start-draft-section">
+            <button id="start-draft-btn" class="btn btn-primary">Start Draft</button>
+        </div>
+
+        <div id="pack-display-section" style="display: none;">
+            <h3>Your Pack:</h3>
+            <div id="pack-display"></div>
+        </div>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="{% static 'a_drafting/js/draft_room.js' %}"></script>
+</body>
+{% endblock %}

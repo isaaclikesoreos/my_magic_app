@@ -1,0 +1,28 @@
+<div id="update-database-section">
+    <h3>Update Card Database</h3>
+    <button id="update-database-btn">Update Database</button>
+    <p id="update-database-status"></p>
+</div>
+
+<script>
+    document.getElementById("update-database-btn").addEventListener("click", async () => {
+        const statusElem = document.getElementById("update-database-status");
+        statusElem.innerText = "Updating...";
+        try {
+            const response = await fetch("{% url 'update-card-database' %}", {
+                method: "POST",
+                headers: {
+                    "X-CSRFToken": "{{ csrf_token }}",
+                },
+            });
+            const data = await response.json();
+            if (response.ok) {
+                statusElem.innerText = data.message;
+            } else {
+                statusElem.innerText = data.error || "Update failed!";
+            }
+        } catch (error) {
+            statusElem.innerText = "Network error!";
+        }
+    });
+</script>

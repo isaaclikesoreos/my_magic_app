@@ -1,0 +1,1331 @@
+Watching for file changes with StatReloader
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60790]
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60788]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60790]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60788]
+[mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:60815][0m
+WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60790]
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60821]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60821]
+[mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:60815][0m
+[mHTTP GET /drafting/drafting/35/ 200 [0.02, 127.0.0.1:60815][0m
+WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60821]
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60836]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60836]
+WebSocket HANDSHAKING /ws/drafts/35/ [127.0.0.1:60840]
+WebSocket CONNECT /ws/drafts/35/ [127.0.0.1:60840]
+[mHTTP GET /drafting/drafting/35/ 200 [0.01, 127.0.0.1:60850][0m
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60855]
+WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60788]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60855]
+WebSocket HANDSHAKING /ws/drafts/35/ [127.0.0.1:60860]
+WebSocket CONNECT /ws/drafts/35/ [127.0.0.1:60860]
+[mHTTP GET /drafting/drafting/35/ 200 [0.01, 127.0.0.1:60850][0m
+WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60855]
+WebSocket DISCONNECT /ws/drafts/35/ [127.0.0.1:60860]
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60870]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60870]
+WebSocket HANDSHAKING /ws/drafts/35/ [127.0.0.1:60874]
+WebSocket CONNECT /ws/drafts/35/ [127.0.0.1:60874]
+[mHTTP GET /drafting/drafting/35/ 200 [0.01, 127.0.0.1:60815][0m
+WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60836]
+WebSocket DISCONNECT /ws/drafts/35/ [127.0.0.1:60840]
+WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60882]
+WebSocket CONNECT /ws/online-status/ [127.0.0.1:60882]
+WebSocket HANDSHAKING /ws/drafts/35/ [127.0.0.1:60886]
+WebSocket CONNECT /ws/drafts/35/ [127.0.0.1:60886]
+[mHTTP POST /drafting/drafts/35/start-draft/ 200 [0.20, 127.0.0.1:60815][0m
+C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_core\settings.py changed, reloading.
+DEBUG 2024-12-21 22:35:12,727 selector_events Using selector: SelectSelector
+INFO 2024-12-21 22:35:13,060 autoreload Watching for file changes with StatReloader
+INFO 2024-12-21 22:35:13,060 autoreload Watching for file changes with StatReloader
+INFO 2024-12-21 22:35:13,791 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-21 22:35:13,791 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-21 22:35:13,792 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-21 22:35:13,920 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61054]
+INFO 2024-12-21 22:35:13,920 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61054]
+DEBUG 2024-12-21 22:35:13,921 http_protocol Upgraded connection ['127.0.0.1', 61054] to WebSocket
+DEBUG 2024-12-21 22:35:13,933 ws_protocol WebSocket ['127.0.0.1', 61054] open and established
+INFO 2024-12-21 22:35:13,933 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61054]
+INFO 2024-12-21 22:35:13,933 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61054]
+DEBUG 2024-12-21 22:35:13,934 ws_protocol WebSocket ['127.0.0.1', 61054] accepted by application
+DEBUG 2024-12-21 22:35:13,973 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+INFO 2024-12-21 22:35:14,032 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61055]
+INFO 2024-12-21 22:35:14,032 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61055]
+DEBUG 2024-12-21 22:35:14,033 http_protocol Upgraded connection ['127.0.0.1', 61055] to WebSocket
+DEBUG 2024-12-21 22:35:14,041 ws_protocol WebSocket ['127.0.0.1', 61055] open and established
+INFO 2024-12-21 22:35:14,041 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61055]
+INFO 2024-12-21 22:35:14,041 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61055]
+DEBUG 2024-12-21 22:35:14,042 ws_protocol WebSocket ['127.0.0.1', 61055] accepted by application
+DEBUG 2024-12-21 22:35:14,058 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+DEBUG 2024-12-21 22:35:14,075 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61055]
+DEBUG 2024-12-21 22:35:15,547 http_protocol HTTP b'GET' request for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:15,568 http_protocol HTTP 200 response started for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:15,569 http_protocol HTTP close for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:15,569 http_protocol HTTP response complete for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:15,570 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:15,570 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:15,801 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61069]
+INFO 2024-12-21 22:35:15,801 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61069]
+DEBUG 2024-12-21 22:35:15,802 http_protocol Upgraded connection ['127.0.0.1', 61069] to WebSocket
+DEBUG 2024-12-21 22:35:15,805 ws_protocol WebSocket closed for ['127.0.0.1', 61055]
+INFO 2024-12-21 22:35:15,805 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61055]
+INFO 2024-12-21 22:35:15,805 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61055]
+DEBUG 2024-12-21 22:35:15,823 ws_protocol WebSocket ['127.0.0.1', 61069] open and established
+INFO 2024-12-21 22:35:15,824 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61069]
+INFO 2024-12-21 22:35:15,824 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61069]
+DEBUG 2024-12-21 22:35:15,825 ws_protocol WebSocket ['127.0.0.1', 61069] accepted by application
+DEBUG 2024-12-21 22:35:15,842 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+DEBUG 2024-12-21 22:35:15,858 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61069]
+DEBUG 2024-12-21 22:35:15,877 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+DEBUG 2024-12-21 22:35:27,148 http_protocol HTTP b'GET' request for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:27,159 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test3>, <Cube: test4>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2024-12-21 22:35:27,175 http_protocol HTTP 200 response started for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:27,176 http_protocol HTTP close for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:27,176 http_protocol HTTP response complete for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:27,176 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:27,176 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:61066][0m
+DEBUG 2024-12-21 22:35:27,385 ws_protocol WebSocket closed for ['127.0.0.1', 61069]
+INFO 2024-12-21 22:35:27,385 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61069]
+INFO 2024-12-21 22:35:27,385 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61069]
+DEBUG 2024-12-21 22:35:27,415 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+INFO 2024-12-21 22:35:27,464 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61087]
+INFO 2024-12-21 22:35:27,464 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61087]
+DEBUG 2024-12-21 22:35:27,465 http_protocol Upgraded connection ['127.0.0.1', 61087] to WebSocket
+DEBUG 2024-12-21 22:35:27,478 ws_protocol WebSocket ['127.0.0.1', 61087] open and established
+INFO 2024-12-21 22:35:27,478 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61087]
+INFO 2024-12-21 22:35:27,478 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61087]
+DEBUG 2024-12-21 22:35:27,479 ws_protocol WebSocket ['127.0.0.1', 61087] accepted by application
+DEBUG 2024-12-21 22:35:27,497 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+DEBUG 2024-12-21 22:35:27,514 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61087]
+DEBUG 2024-12-21 22:35:32,579 http_protocol HTTP b'POST' request for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:32,593 http_protocol HTTP 201 response started for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:32,594 http_protocol HTTP close for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:32,594 http_protocol HTTP response complete for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:32,594 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:32,594 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:61066][0m
+DEBUG 2024-12-21 22:35:32,603 http_protocol HTTP b'GET' request for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:32,618 http_protocol HTTP 200 response started for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:32,618 http_protocol HTTP close for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:32,619 http_protocol HTTP response complete for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:32,619 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.02, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:32,619 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.02, 127.0.0.1:61066][0m
+DEBUG 2024-12-21 22:35:32,772 ws_protocol WebSocket closed for ['127.0.0.1', 61087]
+INFO 2024-12-21 22:35:32,773 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61087]
+INFO 2024-12-21 22:35:32,773 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61087]
+INFO 2024-12-21 22:35:32,784 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61099]
+INFO 2024-12-21 22:35:32,784 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61099]
+DEBUG 2024-12-21 22:35:32,785 http_protocol Upgraded connection ['127.0.0.1', 61099] to WebSocket
+DEBUG 2024-12-21 22:35:32,805 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+DEBUG 2024-12-21 22:35:32,813 ws_protocol WebSocket ['127.0.0.1', 61099] open and established
+INFO 2024-12-21 22:35:32,813 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61099]
+INFO 2024-12-21 22:35:32,813 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61099]
+DEBUG 2024-12-21 22:35:32,814 ws_protocol WebSocket ['127.0.0.1', 61099] accepted by application
+DEBUG 2024-12-21 22:35:32,830 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61054]
+INFO 2024-12-21 22:35:32,833 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61104]
+INFO 2024-12-21 22:35:32,833 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61104]
+DEBUG 2024-12-21 22:35:32,833 http_protocol Upgraded connection ['127.0.0.1', 61104] to WebSocket
+DEBUG 2024-12-21 22:35:32,845 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61099]
+DEBUG 2024-12-21 22:35:32,855 ws_protocol WebSocket ['127.0.0.1', 61104] open and established
+INFO 2024-12-21 22:35:32,856 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61104]
+INFO 2024-12-21 22:35:32,856 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61104]
+DEBUG 2024-12-21 22:35:32,856 ws_protocol WebSocket ['127.0.0.1', 61104] accepted by application
+DEBUG 2024-12-21 22:35:32,859 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61104]
+DEBUG 2024-12-21 22:35:39,730 http_protocol HTTP b'GET' request for ['127.0.0.1', 61110]
+DEBUG 2024-12-21 22:35:39,742 http_protocol HTTP 200 response started for ['127.0.0.1', 61110]
+DEBUG 2024-12-21 22:35:39,743 http_protocol HTTP close for ['127.0.0.1', 61110]
+DEBUG 2024-12-21 22:35:39,743 http_protocol HTTP response complete for ['127.0.0.1', 61110]
+INFO 2024-12-21 22:35:39,743 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.01, 127.0.0.1:61110][0m
+INFO 2024-12-21 22:35:39,743 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.01, 127.0.0.1:61110][0m
+INFO 2024-12-21 22:35:39,870 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61115]
+INFO 2024-12-21 22:35:39,870 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61115]
+DEBUG 2024-12-21 22:35:39,871 http_protocol Upgraded connection ['127.0.0.1', 61115] to WebSocket
+DEBUG 2024-12-21 22:35:39,873 ws_protocol WebSocket closed for ['127.0.0.1', 61054]
+INFO 2024-12-21 22:35:39,873 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61054]
+INFO 2024-12-21 22:35:39,873 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61054]
+DEBUG 2024-12-21 22:35:39,893 ws_protocol WebSocket ['127.0.0.1', 61115] open and established
+INFO 2024-12-21 22:35:39,893 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61115]
+INFO 2024-12-21 22:35:39,893 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61115]
+DEBUG 2024-12-21 22:35:39,894 ws_protocol WebSocket ['127.0.0.1', 61115] accepted by application
+DEBUG 2024-12-21 22:35:39,909 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61099]
+INFO 2024-12-21 22:35:39,912 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61121]
+INFO 2024-12-21 22:35:39,912 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61121]
+DEBUG 2024-12-21 22:35:39,913 http_protocol Upgraded connection ['127.0.0.1', 61121] to WebSocket
+DEBUG 2024-12-21 22:35:39,927 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61115]
+DEBUG 2024-12-21 22:35:39,948 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61099]
+DEBUG 2024-12-21 22:35:39,956 ws_protocol WebSocket ['127.0.0.1', 61121] open and established
+INFO 2024-12-21 22:35:39,956 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61121]
+INFO 2024-12-21 22:35:39,956 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61121]
+DEBUG 2024-12-21 22:35:39,957 ws_protocol WebSocket ['127.0.0.1', 61121] accepted by application
+DEBUG 2024-12-21 22:35:39,960 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61104]
+DEBUG 2024-12-21 22:35:39,961 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61121]
+DEBUG 2024-12-21 22:35:41,363 http_protocol HTTP b'GET' request for ['127.0.0.1', 61110]
+DEBUG 2024-12-21 22:35:41,375 http_protocol HTTP 200 response started for ['127.0.0.1', 61110]
+DEBUG 2024-12-21 22:35:41,376 http_protocol HTTP close for ['127.0.0.1', 61110]
+DEBUG 2024-12-21 22:35:41,376 http_protocol HTTP response complete for ['127.0.0.1', 61110]
+INFO 2024-12-21 22:35:41,376 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.01, 127.0.0.1:61110][0m
+INFO 2024-12-21 22:35:41,376 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.01, 127.0.0.1:61110][0m
+DEBUG 2024-12-21 22:35:41,381 ws_protocol WebSocket closed for ['127.0.0.1', 61115]
+INFO 2024-12-21 22:35:41,382 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61115]
+INFO 2024-12-21 22:35:41,382 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61115]
+DEBUG 2024-12-21 22:35:41,383 ws_protocol WebSocket closed for ['127.0.0.1', 61121]
+INFO 2024-12-21 22:35:41,383 runserver WebSocket DISCONNECT /ws/drafts/36/ [127.0.0.1:61121]
+INFO 2024-12-21 22:35:41,383 runserver WebSocket DISCONNECT /ws/drafts/36/ [127.0.0.1:61121]
+DEBUG 2024-12-21 22:35:41,419 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61099]
+DEBUG 2024-12-21 22:35:41,420 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61104]
+INFO 2024-12-21 22:35:41,477 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61130]
+INFO 2024-12-21 22:35:41,477 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61130]
+DEBUG 2024-12-21 22:35:41,478 http_protocol Upgraded connection ['127.0.0.1', 61130] to WebSocket
+DEBUG 2024-12-21 22:35:41,490 ws_protocol WebSocket ['127.0.0.1', 61130] open and established
+INFO 2024-12-21 22:35:41,490 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61130]
+INFO 2024-12-21 22:35:41,490 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61130]
+DEBUG 2024-12-21 22:35:41,491 ws_protocol WebSocket ['127.0.0.1', 61130] accepted by application
+INFO 2024-12-21 22:35:41,508 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61134]
+INFO 2024-12-21 22:35:41,508 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61134]
+DEBUG 2024-12-21 22:35:41,510 http_protocol Upgraded connection ['127.0.0.1', 61134] to WebSocket
+DEBUG 2024-12-21 22:35:41,510 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61099]
+DEBUG 2024-12-21 22:35:41,527 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61130]
+DEBUG 2024-12-21 22:35:41,539 ws_protocol WebSocket ['127.0.0.1', 61134] open and established
+INFO 2024-12-21 22:35:41,540 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61134]
+INFO 2024-12-21 22:35:41,540 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61134]
+DEBUG 2024-12-21 22:35:41,540 ws_protocol WebSocket ['127.0.0.1', 61134] accepted by application
+DEBUG 2024-12-21 22:35:41,543 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61104]
+DEBUG 2024-12-21 22:35:41,545 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61134]
+DEBUG 2024-12-21 22:35:42,511 http_protocol HTTP b'GET' request for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:42,525 http_protocol HTTP 200 response started for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:42,526 http_protocol HTTP close for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:42,526 http_protocol HTTP response complete for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:42,527 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.02, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:42,527 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.02, 127.0.0.1:61066][0m
+DEBUG 2024-12-21 22:35:42,532 ws_protocol WebSocket closed for ['127.0.0.1', 61099]
+INFO 2024-12-21 22:35:42,532 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61099]
+INFO 2024-12-21 22:35:42,532 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61099]
+DEBUG 2024-12-21 22:35:42,533 ws_protocol WebSocket closed for ['127.0.0.1', 61104]
+INFO 2024-12-21 22:35:42,534 runserver WebSocket DISCONNECT /ws/drafts/36/ [127.0.0.1:61104]
+INFO 2024-12-21 22:35:42,534 runserver WebSocket DISCONNECT /ws/drafts/36/ [127.0.0.1:61104]
+DEBUG 2024-12-21 22:35:42,582 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61130]
+DEBUG 2024-12-21 22:35:42,584 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61134]
+INFO 2024-12-21 22:35:42,717 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61143]
+INFO 2024-12-21 22:35:42,717 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61143]
+DEBUG 2024-12-21 22:35:42,717 http_protocol Upgraded connection ['127.0.0.1', 61143] to WebSocket
+DEBUG 2024-12-21 22:35:42,730 ws_protocol WebSocket ['127.0.0.1', 61143] open and established
+INFO 2024-12-21 22:35:42,731 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61143]
+INFO 2024-12-21 22:35:42,731 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61143]
+DEBUG 2024-12-21 22:35:42,732 ws_protocol WebSocket ['127.0.0.1', 61143] accepted by application
+DEBUG 2024-12-21 22:35:42,749 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61130]
+INFO 2024-12-21 22:35:42,752 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61147]
+INFO 2024-12-21 22:35:42,752 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61147]
+DEBUG 2024-12-21 22:35:42,754 http_protocol Upgraded connection ['127.0.0.1', 61147] to WebSocket
+DEBUG 2024-12-21 22:35:42,766 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61143]
+DEBUG 2024-12-21 22:35:42,778 ws_protocol WebSocket ['127.0.0.1', 61147] open and established
+INFO 2024-12-21 22:35:42,778 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61147]
+INFO 2024-12-21 22:35:42,778 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61147]
+DEBUG 2024-12-21 22:35:42,778 ws_protocol WebSocket ['127.0.0.1', 61147] accepted by application
+DEBUG 2024-12-21 22:35:42,782 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61134]
+DEBUG 2024-12-21 22:35:42,783 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61147]
+DEBUG 2024-12-21 22:35:45,321 http_protocol HTTP b'POST' request for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:45,328 views Starting draft for Cube ID: 3
+INFO 2024-12-21 22:35:45,476 views Cards eligible for the draft: Woodfall Primus, Birds of Paradise, Wall of Omens, Wasteland, Searing Blaze, Parallax Wave, Narset, Parter of Veils, Manamorphose, Territorial Kavu, Tundra, Mox Jet, Flash, Bitter Triumph, Elesh Norn, Grand Cenobite, Remand, Ignoble Hierarch, Sphinx of the Steel Wind, Dark Confidant, Sylvan Library, Time Spiral, Myr Battlesphere, Pyroclasm, Mana Vault, Smokestack, Hogaak, Arisen Necropolis, Survival of the Fittest, Brain Freeze, Clifftop Retreat, Hexdrinker, Boseiju, Who Endures, Mishra's Workshop, Phelia, Exuberant Shepherd, Skullclamp, Ledger Shredder, Wrath of God, Duress, Strip Mine, Damn, Jetmir's Garden, Laelia, the Blade Reforged, Goldspan Dragon, Maze of Ith, Commercial District, Treasure Cruise, Talisman of Progress, Malevolent Rumble, Satyr Wayfinder, Raucous Theater, Phlage, Titan of Fire's Fury, Unearth, Ulamog, the Infinite Gyre, Mana Crypt, Mawloc, Mind Twist, Dryad Militant, Wheel of Fortune, Teferi, Time Raveler, Ox of Agonas, Blightsteel Colossus, Gaea's Cradle, Exploration, Farmer Cotton, Hinterland Harbor, Kozilek, Butcher of Truth, Lórien Revealed, Recurring Nightmare, Underground Sea, Dark Ritual, Galvanic Blast, Knight of Autumn, Tangle Wire, Waterlogged Grove, Teferi, Hero of Dominaria, Taiga, Displacer Kitten, Winter Orb, Daretti, Ingenious Iconoclast, Inkwell Leviathan, Upheaval, Porcelain Legionnaire, Ziatora's Proving Ground, Indatha Triome, Bloodtithe Harvester, Sol Ring, Forth Eorlingas!, Entomb, Dragon's Rage Channeler, Windfall, Pest Infestation, Talisman of Creativity, Kytheon, Hero of Akros, Ajani, Nacatl Pariah, Tamiyo, Inquisitive Student, Baleful Strix, Jace, Vryn's Prodigy, Brazen Borrower, Fable of the Mirror-Breaker, Fiery Confluence, Chain Lightning, Urza's Saga, Stomping Ground, Tarmogoyf, Tropical Island, Scrubland, Fireblast, Psychic Frog, Overlord of the Balemurk, Fatal Push, Badlands, Horizon Canopy, Blood Crypt, Thoughtseize, Etched Champion, Minsc & Boo, Timeless Heroes, Monastery Swiftspear, Necromancy, Force of Negation, Leovold, Emissary of Trest, Monastery Mentor, Underground Mortuary, Voice of Resurgence, Oko, Thief of Crowns, Lotus Cobra, Bone Shards, Figure of Destiny, Sensei's Divining Top, Xander's Lounge, Atraxa, Grand Unifier, Worldspine Wurm, Walking Ballista, Cryptbreaker, Echo of Eons, Lotus Petal, Smuggler's Copter, Emrakul, the Promised End, Loran of the Third Path, Crucible of Worlds, Troll of Khazad-dûm, Sneak Attack, Time Walk, Elvish Mystic, Spara's Headquarters, Silent Clearing, Torsten, Founder of Benalia, Emry, Lurker of the Loch, Ponder, Currency Converter, Ratchet Bomb, Soul of Windgrace, Fyndhorn Elves, Flooded Strand, Blade Splicer, Timetwister, Arena of Glory, No More Lies, Channel, Magda, Brazen Outlaw, Emrakul, the Aeons Torn, Goblin Engineer, Llanowar Elves, Tinker, Alpha Deathclaw, Dig Through Time, Sunbaked Canyon, Uro, Titan of Nature's Wrath, Relic of Sauron, Vaultborn Tyrant, Zagoth Triome, Timeless Witness, Bloodbraid Challenger, Oni-Cult Anvil, Umezawa's Jitte, Jace, the Mind Sculptor, Miscalculation, Kolaghan's Command, Verdant Catacombs, Shadowy Backstreet, Bitterblossom, Karakas, Mox Diamond, Raugrin Triome, Mana Drain, Tribal Flames, Mox Sapphire, Malcolm, Alluring Scoundrel, Deep Forest Hermit, The Meathook Massacre, Chrome Mox, Triplicate Titan, Savannah, Bazaar of Baghdad, Thran Dynamo, Fabled Passage, Plateau, Kitsa, Otterball Elite, Frantic Search, Fountainport, Vindicate, Prismatic Ending, Liliana of the Veil, Leyline Binding, Thalia, Guardian of Thraben, Sundering Titan, Searing Spear, Force of Will, Woodland Cemetery, Misty Rainforest, Dauntless Bodyguard, Lightning Bolt, Esper Sentinel, Demonic Tutor, Reclamation Sage, Temple Garden, Price of Progress, Mana Confluence, Wrenn and Six, Tireless Tracker, Courser of Kruphix, Endurance, Hallowed Fountain, Godless Shrine, Show and Tell, Mystic Confluence, Fanatic of Rhonas, Wildfire, Brainstorm, Through the Breach, Fastbond, Ramunap Excavator, Arid Mesa, Noble Hierarch, Urza's Bauble, Lush Portico, Life from the Loam, Serra Paragon, Pernicious Deed, Burst Lightning, Boros Charm, Burning of Xinye, Armageddon, Creeping Tar Pit, Knight of the Ebon Legion, Windswept Heath, Dauthi Voidwalker, Esika's Chariot, Meticulous Archive, Polluted Delta, Mox Pearl, Oath of Druids, Sevinne's Reclamation, Smash to Smithereens, Skyclave Apparition, Thundering Falls, Usher of the Fallen, Planar Genesis, Dack Fayden, Nature's Claim, Ancestral Recall, Hullbreacher, Animate Dead, Volcanic Island, Pentad Prism, Third Path Iconoclast, Deathrite Shaman, Ketria Triome, Tolarian Academy, Kappa Cannoneer, Spirit of the Labyrinth, Overgrown Tomb, Batterskull, Savai Triome, Staff of the Storyteller, Goblin Welder, Supreme Verdict, Black Lotus, Scalding Tarn, Phyrexian Metamorph, Murktide Regent, Tidehollow Sculler, Patchwork Automaton, Bayou, Warden of the Inner Sky, Tasigur, the Golden Fang, Inquisition of Kozilek, Retrofitter Foundry, Adeline, Resplendent Cathar, Generous Plunderer, Titania, Protector of Argoth, Mox Emerald, Ancient Tomb, Broadside Bombardiers, Seething Song, Lurrus of the Dream-Den, Luminarch Aspirant, Toxic Deluge, Ghostfire Slice, Collective Brutality, Ethersworn Canonist, Wooded Foothills, Persist, Marsh Flats, Cut Down, Balance, Portable Hole, Spell Pierce, Lingering Souls, Talisman of Indulgence, Young Pyromancer, Dismember, Avenger of Zendikar, Solitude, Undercity Sewers, Faithless Looting, The One Ring, Urza, Lord High Artificer, Wurmcoil Engine, Dragonskull Summit, Baleful Mastery, Unholy Heat, Archon of Cruelty, Talisman of Dominance, Mishra's Bauble, Vampiric Tutor, Ragavan, Nimble Pilferer, Dryad of the Ilysian Grove, Night's Whisper, Palace Jailer, Orcish Bowmasters, Barrowgoyf, Gitaxian Probe, Expressive Iteration, Grist, the Hunger Tide, Valgavoth, Terror Eater, Fire Covenant, Archon of Emeria, Lion's Eye Diamond, Raffine's Tower, Joraga Treespeaker, Path to Exile, Breeding Pool, Platinum Emperion, Bloodstained Mire, Nettlecyst, Daze, Library of Alexandria, Rootbound Crag, Jacked Rabbit, Mox Opal, Scavenging Ooze, Reckoner Bankbuster, Lightning Greaves, Seasoned Pyromancer, Fiery Islet, Marionette Apprentice, Eureka, Syr Ginger, the Meal Ender, Murderous Cut, Sheoldred, the Apocalypse, Notion Thief, Restoration Angel, Unexpectedly Absent, Arcane Denial, Memory Jar, Ravages of War, Swords to Plowshares, Ocelot Pride, Portal to Phyrexia, Basalt Monolith, Hangarback Walker, Reanimate, Elvish Reclaimer, Goryo's Vengeance, Dance of the Dead, Kinnan, Bonder Prodigy, Fury, Hermit Druid, Mother of Runes, Magmatic Sinkhole, Celestial Colonnade, Questing Beast, Scrapwork Mutt, Thief of Sanity, Palantír of Orthanc, Yawgmoth's Will, Spellskite, Mana Leak, Saheeli, Sublime Artificer, Inti, Seneschal of the Sun, Goblin Guide, Steam Vents, Carnage Interpreter, Field of the Dead, Tendrils of Agony, Mox Ruby, Prismatic Vista, Fear of Missing Out, Cabal Ritual, Sacred Foundry, Mind's Desire, Snapcaster Mage, Underworld Breach, Chandra, Torch of Defiance, Six, Watery Grave, Grim Monolith, Veteran Survivor, Shallow Grave
+INFO 2024-12-21 22:35:45,491 views Pack 1 created for isaac with 15 cards.
+INFO 2024-12-21 22:35:45,499 views Pack 2 created for isaac2 with 15 cards.
+INFO 2024-12-21 22:35:45,506 views Pack 3 created for isaac with 15 cards.
+INFO 2024-12-21 22:35:45,511 views Pack 4 created for isaac2 with 15 cards.
+INFO 2024-12-21 22:35:45,517 views Pack 5 created for isaac with 15 cards.
+INFO 2024-12-21 22:35:45,523 views Pack 6 created for isaac2 with 15 cards.
+DEBUG 2024-12-21 22:35:45,526 http_protocol HTTP 200 response started for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:45,527 http_protocol HTTP close for ['127.0.0.1', 61066]
+DEBUG 2024-12-21 22:35:45,527 http_protocol HTTP response complete for ['127.0.0.1', 61066]
+INFO 2024-12-21 22:35:45,527 runserver [mHTTP POST /drafting/drafts/36/start-draft/ 200 [0.21, 127.0.0.1:61066][0m
+INFO 2024-12-21 22:35:45,527 runserver [mHTTP POST /drafting/drafts/36/start-draft/ 200 [0.21, 127.0.0.1:61066][0m
+DEBUG 2024-12-21 22:37:09,093 ws_protocol WebSocket incoming frame on ['127.0.0.1', 61147]
+DEBUG 2024-12-21 22:37:11,426 http_protocol HTTP b'GET' request for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:11,439 http_protocol HTTP 200 response started for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:11,440 http_protocol HTTP close for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:11,440 http_protocol HTTP response complete for ['127.0.0.1', 61198]
+INFO 2024-12-21 22:37:11,441 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.02, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:37:11,441 runserver [mHTTP GET /drafting/drafting/36/ 200 [0.02, 127.0.0.1:61198][0m
+DEBUG 2024-12-21 22:37:11,448 ws_protocol WebSocket closed for ['127.0.0.1', 61143]
+INFO 2024-12-21 22:37:11,448 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61143]
+INFO 2024-12-21 22:37:11,448 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:61143]
+DEBUG 2024-12-21 22:37:11,449 ws_protocol WebSocket closed for ['127.0.0.1', 61147]
+INFO 2024-12-21 22:37:11,450 runserver WebSocket DISCONNECT /ws/drafts/36/ [127.0.0.1:61147]
+INFO 2024-12-21 22:37:11,450 runserver WebSocket DISCONNECT /ws/drafts/36/ [127.0.0.1:61147]
+DEBUG 2024-12-21 22:37:11,489 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61130]
+DEBUG 2024-12-21 22:37:11,490 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61134]
+INFO 2024-12-21 22:37:11,622 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61207]
+INFO 2024-12-21 22:37:11,622 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:61207]
+DEBUG 2024-12-21 22:37:11,623 http_protocol Upgraded connection ['127.0.0.1', 61207] to WebSocket
+DEBUG 2024-12-21 22:37:11,635 ws_protocol WebSocket ['127.0.0.1', 61207] open and established
+INFO 2024-12-21 22:37:11,635 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61207]
+INFO 2024-12-21 22:37:11,635 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:61207]
+DEBUG 2024-12-21 22:37:11,636 ws_protocol WebSocket ['127.0.0.1', 61207] accepted by application
+INFO 2024-12-21 22:37:11,653 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61211]
+INFO 2024-12-21 22:37:11,653 runserver WebSocket HANDSHAKING /ws/drafts/36/ [127.0.0.1:61211]
+DEBUG 2024-12-21 22:37:11,654 http_protocol Upgraded connection ['127.0.0.1', 61211] to WebSocket
+DEBUG 2024-12-21 22:37:11,654 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61130]
+DEBUG 2024-12-21 22:37:11,669 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61207]
+DEBUG 2024-12-21 22:37:11,681 ws_protocol WebSocket ['127.0.0.1', 61211] open and established
+INFO 2024-12-21 22:37:11,681 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61211]
+INFO 2024-12-21 22:37:11,681 runserver WebSocket CONNECT /ws/drafts/36/ [127.0.0.1:61211]
+DEBUG 2024-12-21 22:37:11,682 ws_protocol WebSocket ['127.0.0.1', 61211] accepted by application
+DEBUG 2024-12-21 22:37:11,685 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61134]
+DEBUG 2024-12-21 22:37:11,686 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 61211]
+DEBUG 2024-12-21 22:37:16,495 http_protocol HTTP b'GET' request for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:16,533 http_protocol HTTP 200 response started for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:16,533 http_protocol HTTP close for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:16,534 http_protocol HTTP response complete for ['127.0.0.1', 61198]
+INFO 2024-12-21 22:37:16,534 runserver [mHTTP GET /admin/a_drafting/ 200 [0.04, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:37:16,534 runserver [mHTTP GET /admin/a_drafting/ 200 [0.04, 127.0.0.1:61198][0m
+DEBUG 2024-12-21 22:37:21,708 http_protocol HTTP b'GET' request for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:21,838 http_protocol HTTP 200 response started for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:21,838 http_protocol HTTP close for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:21,839 http_protocol HTTP response complete for ['127.0.0.1', 61198]
+INFO 2024-12-21 22:37:21,839 runserver [mHTTP GET /admin/a_drafting/draftpack/ 200 [0.13, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:37:21,839 runserver [mHTTP GET /admin/a_drafting/draftpack/ 200 [0.13, 127.0.0.1:61198][0m
+DEBUG 2024-12-21 22:37:21,857 http_protocol HTTP b'GET' request for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:21,867 http_protocol HTTP 200 response started for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:21,867 http_protocol HTTP close for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:21,867 http_protocol HTTP response complete for ['127.0.0.1', 61198]
+INFO 2024-12-21 22:37:21,868 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:37:21,868 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:61198][0m
+DEBUG 2024-12-21 22:37:23,381 http_protocol HTTP b'GET' request for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,972 http_protocol HTTP 200 response started for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,973 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,974 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,974 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,974 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,974 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,975 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,975 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,975 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,976 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,976 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,976 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,977 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,977 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,977 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,978 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,978 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,978 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,979 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,979 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,980 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,980 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,980 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,980 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,981 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,981 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,981 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,982 http_protocol HTTP response chunk for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,982 http_protocol HTTP close for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:25,982 http_protocol HTTP response complete for ['127.0.0.1', 61198]
+INFO 2024-12-21 22:37:25,983 runserver [mHTTP GET /admin/a_drafting/draftpack/78/change/ 200 [2.60, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:37:25,983 runserver [mHTTP GET /admin/a_drafting/draftpack/78/change/ 200 [2.60, 127.0.0.1:61198][0m
+DEBUG 2024-12-21 22:37:26,001 http_protocol HTTP b'GET' request for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:26,011 http_protocol HTTP 200 response started for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:26,012 http_protocol HTTP close for ['127.0.0.1', 61198]
+DEBUG 2024-12-21 22:37:26,012 http_protocol HTTP response complete for ['127.0.0.1', 61198]
+INFO 2024-12-21 22:37:26,013 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:37:26,013 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:61198][0m
+INFO 2024-12-21 22:41:19,231 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_core\settings.py changed, reloading.
+INFO 2024-12-21 22:41:19,231 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_core\settings.py changed, reloading.
+DEBUG 2024-12-22 14:13:38,615 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:13:38,971 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:13:38,971 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:13:39,716 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-22 14:13:39,716 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-22 14:13:39,717 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-22 14:13:39,935 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55479]
+INFO 2024-12-22 14:13:39,935 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55479]
+DEBUG 2024-12-22 14:13:39,937 http_protocol Upgraded connection ['127.0.0.1', 55479] to WebSocket
+DEBUG 2024-12-22 14:13:39,952 ws_protocol WebSocket ['127.0.0.1', 55479] open and established
+INFO 2024-12-22 14:13:39,953 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55479]
+INFO 2024-12-22 14:13:39,953 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55479]
+DEBUG 2024-12-22 14:13:39,954 ws_protocol WebSocket ['127.0.0.1', 55479] accepted by application
+DEBUG 2024-12-22 14:13:40,000 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55479]
+INFO 2024-12-22 14:13:40,040 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55486]
+INFO 2024-12-22 14:13:40,040 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55486]
+DEBUG 2024-12-22 14:13:40,040 http_protocol Upgraded connection ['127.0.0.1', 55486] to WebSocket
+DEBUG 2024-12-22 14:13:40,050 ws_protocol WebSocket ['127.0.0.1', 55486] open and established
+INFO 2024-12-22 14:13:40,051 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55486]
+INFO 2024-12-22 14:13:40,051 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55486]
+DEBUG 2024-12-22 14:13:40,051 ws_protocol WebSocket ['127.0.0.1', 55486] accepted by application
+DEBUG 2024-12-22 14:13:40,068 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55479]
+DEBUG 2024-12-22 14:13:40,084 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55486]
+DEBUG 2024-12-22 14:13:49,910 http_protocol HTTP b'GET' request for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:13:49,967 http_protocol HTTP 200 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:13:49,967 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:13:49,968 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:13:49,968 runserver [mHTTP GET / 200 [0.06, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:13:49,968 runserver [mHTTP GET / 200 [0.06, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:13:50,198 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55506]
+INFO 2024-12-22 14:13:50,198 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55506]
+DEBUG 2024-12-22 14:13:50,199 http_protocol Upgraded connection ['127.0.0.1', 55506] to WebSocket
+DEBUG 2024-12-22 14:13:50,202 ws_protocol WebSocket closed for ['127.0.0.1', 55486]
+INFO 2024-12-22 14:13:50,202 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55486]
+INFO 2024-12-22 14:13:50,202 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55486]
+DEBUG 2024-12-22 14:13:50,240 ws_protocol WebSocket ['127.0.0.1', 55506] open and established
+INFO 2024-12-22 14:13:50,241 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55506]
+INFO 2024-12-22 14:13:50,241 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55506]
+DEBUG 2024-12-22 14:13:50,241 ws_protocol WebSocket ['127.0.0.1', 55506] accepted by application
+DEBUG 2024-12-22 14:13:50,260 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55479]
+DEBUG 2024-12-22 14:13:50,277 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55506]
+DEBUG 2024-12-22 14:13:50,297 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55479]
+DEBUG 2024-12-22 14:13:55,333 http_protocol HTTP b'GET' request for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:13:55,343 http_protocol HTTP 200 response started for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:13:55,343 http_protocol HTTP close for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:13:55,343 http_protocol HTTP response complete for ['127.0.0.1', 55515]
+INFO 2024-12-22 14:13:55,344 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:55515][0m
+INFO 2024-12-22 14:13:55,344 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:55515][0m
+INFO 2024-12-22 14:13:55,481 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55520]
+INFO 2024-12-22 14:13:55,481 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55520]
+DEBUG 2024-12-22 14:13:55,482 http_protocol Upgraded connection ['127.0.0.1', 55520] to WebSocket
+DEBUG 2024-12-22 14:13:55,483 ws_protocol WebSocket closed for ['127.0.0.1', 55479]
+INFO 2024-12-22 14:13:55,484 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55479]
+INFO 2024-12-22 14:13:55,484 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55479]
+DEBUG 2024-12-22 14:13:55,516 ws_protocol WebSocket ['127.0.0.1', 55520] open and established
+INFO 2024-12-22 14:13:55,517 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55520]
+INFO 2024-12-22 14:13:55,517 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55520]
+DEBUG 2024-12-22 14:13:55,517 ws_protocol WebSocket ['127.0.0.1', 55520] accepted by application
+DEBUG 2024-12-22 14:13:55,533 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55506]
+DEBUG 2024-12-22 14:13:55,549 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55520]
+DEBUG 2024-12-22 14:13:55,564 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55506]
+DEBUG 2024-12-22 14:14:04,138 http_protocol HTTP b'GET' request for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:04,147 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test3>, <Cube: test4>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2024-12-22 14:14:04,163 http_protocol HTTP 200 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:04,164 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:04,164 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:14:04,165 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:14:04,165 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:55500][0m
+DEBUG 2024-12-22 14:14:04,362 ws_protocol WebSocket closed for ['127.0.0.1', 55506]
+INFO 2024-12-22 14:14:04,363 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55506]
+INFO 2024-12-22 14:14:04,363 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55506]
+DEBUG 2024-12-22 14:14:04,393 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55520]
+INFO 2024-12-22 14:14:04,432 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55535]
+INFO 2024-12-22 14:14:04,432 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55535]
+DEBUG 2024-12-22 14:14:04,433 http_protocol Upgraded connection ['127.0.0.1', 55535] to WebSocket
+DEBUG 2024-12-22 14:14:04,446 ws_protocol WebSocket ['127.0.0.1', 55535] open and established
+INFO 2024-12-22 14:14:04,447 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55535]
+INFO 2024-12-22 14:14:04,447 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55535]
+DEBUG 2024-12-22 14:14:04,447 ws_protocol WebSocket ['127.0.0.1', 55535] accepted by application
+DEBUG 2024-12-22 14:14:04,462 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55520]
+DEBUG 2024-12-22 14:14:04,476 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55535]
+DEBUG 2024-12-22 14:14:11,609 http_protocol HTTP b'POST' request for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,622 http_protocol HTTP 201 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,623 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,623 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:14:11,623 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:14:11,623 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:55500][0m
+DEBUG 2024-12-22 14:14:11,632 http_protocol HTTP b'GET' request for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,647 http_protocol HTTP 200 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,648 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,648 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:14:11,648 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.02, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:14:11,648 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.02, 127.0.0.1:55500][0m
+DEBUG 2024-12-22 14:14:11,665 http_protocol HTTP b'GET' request for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,669 http_protocol HTTP 304 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,670 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:11,670 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:14:11,670 runserver [36mHTTP GET /static/a_drafting/js/draft_room.js 304 [0.01, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:14:11,670 runserver [36mHTTP GET /static/a_drafting/js/draft_room.js 304 [0.01, 127.0.0.1:55500][0m
+DEBUG 2024-12-22 14:14:11,798 ws_protocol WebSocket closed for ['127.0.0.1', 55535]
+INFO 2024-12-22 14:14:11,799 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55535]
+INFO 2024-12-22 14:14:11,799 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55535]
+INFO 2024-12-22 14:14:11,810 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55546]
+INFO 2024-12-22 14:14:11,810 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55546]
+DEBUG 2024-12-22 14:14:11,811 http_protocol Upgraded connection ['127.0.0.1', 55546] to WebSocket
+DEBUG 2024-12-22 14:14:11,827 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55520]
+DEBUG 2024-12-22 14:14:11,838 ws_protocol WebSocket ['127.0.0.1', 55546] open and established
+INFO 2024-12-22 14:14:11,839 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55546]
+INFO 2024-12-22 14:14:11,839 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55546]
+DEBUG 2024-12-22 14:14:11,839 ws_protocol WebSocket ['127.0.0.1', 55546] accepted by application
+INFO 2024-12-22 14:14:11,854 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55551]
+INFO 2024-12-22 14:14:11,854 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55551]
+DEBUG 2024-12-22 14:14:11,856 http_protocol Upgraded connection ['127.0.0.1', 55551] to WebSocket
+DEBUG 2024-12-22 14:14:11,856 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55520]
+DEBUG 2024-12-22 14:14:11,872 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55546]
+DEBUG 2024-12-22 14:14:11,880 ws_protocol WebSocket ['127.0.0.1', 55551] open and established
+INFO 2024-12-22 14:14:11,881 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55551]
+INFO 2024-12-22 14:14:11,881 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55551]
+DEBUG 2024-12-22 14:14:11,881 ws_protocol WebSocket ['127.0.0.1', 55551] accepted by application
+DEBUG 2024-12-22 14:14:11,884 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55551]
+DEBUG 2024-12-22 14:14:17,980 http_protocol HTTP b'GET' request for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:17,992 http_protocol HTTP 200 response started for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:17,993 http_protocol HTTP close for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:17,993 http_protocol HTTP response complete for ['127.0.0.1', 55515]
+INFO 2024-12-22 14:14:17,993 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.01, 127.0.0.1:55515][0m
+INFO 2024-12-22 14:14:17,993 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.01, 127.0.0.1:55515][0m
+DEBUG 2024-12-22 14:14:18,011 http_protocol HTTP b'GET' request for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:18,015 http_protocol HTTP 304 response started for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:18,015 http_protocol HTTP close for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:18,016 http_protocol HTTP response complete for ['127.0.0.1', 55515]
+INFO 2024-12-22 14:14:18,016 runserver [36mHTTP GET /static/a_drafting/js/draft_room.js 304 [0.00, 127.0.0.1:55515][0m
+INFO 2024-12-22 14:14:18,016 runserver [36mHTTP GET /static/a_drafting/js/draft_room.js 304 [0.00, 127.0.0.1:55515][0m
+DEBUG 2024-12-22 14:14:18,176 ws_protocol WebSocket closed for ['127.0.0.1', 55520]
+INFO 2024-12-22 14:14:18,176 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55520]
+INFO 2024-12-22 14:14:18,176 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55520]
+INFO 2024-12-22 14:14:18,190 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55561]
+INFO 2024-12-22 14:14:18,190 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55561]
+DEBUG 2024-12-22 14:14:18,191 http_protocol Upgraded connection ['127.0.0.1', 55561] to WebSocket
+DEBUG 2024-12-22 14:14:18,201 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55546]
+DEBUG 2024-12-22 14:14:18,212 ws_protocol WebSocket ['127.0.0.1', 55561] open and established
+INFO 2024-12-22 14:14:18,213 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55561]
+INFO 2024-12-22 14:14:18,213 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55561]
+DEBUG 2024-12-22 14:14:18,213 ws_protocol WebSocket ['127.0.0.1', 55561] accepted by application
+DEBUG 2024-12-22 14:14:18,228 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55546]
+INFO 2024-12-22 14:14:18,231 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55565]
+INFO 2024-12-22 14:14:18,231 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55565]
+DEBUG 2024-12-22 14:14:18,231 http_protocol Upgraded connection ['127.0.0.1', 55565] to WebSocket
+DEBUG 2024-12-22 14:14:18,245 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55561]
+DEBUG 2024-12-22 14:14:18,257 ws_protocol WebSocket ['127.0.0.1', 55565] open and established
+INFO 2024-12-22 14:14:18,257 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55565]
+INFO 2024-12-22 14:14:18,257 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55565]
+DEBUG 2024-12-22 14:14:18,258 ws_protocol WebSocket ['127.0.0.1', 55565] accepted by application
+DEBUG 2024-12-22 14:14:18,260 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55551]
+DEBUG 2024-12-22 14:14:18,261 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55565]
+DEBUG 2024-12-22 14:14:20,760 http_protocol HTTP b'GET' request for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:20,771 http_protocol HTTP 200 response started for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:20,772 http_protocol HTTP close for ['127.0.0.1', 55515]
+DEBUG 2024-12-22 14:14:20,772 http_protocol HTTP response complete for ['127.0.0.1', 55515]
+INFO 2024-12-22 14:14:20,772 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.01, 127.0.0.1:55515][0m
+INFO 2024-12-22 14:14:20,772 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.01, 127.0.0.1:55515][0m
+DEBUG 2024-12-22 14:14:20,776 ws_protocol WebSocket closed for ['127.0.0.1', 55561]
+INFO 2024-12-22 14:14:20,777 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55561]
+INFO 2024-12-22 14:14:20,777 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55561]
+DEBUG 2024-12-22 14:14:20,778 ws_protocol WebSocket closed for ['127.0.0.1', 55565]
+INFO 2024-12-22 14:14:20,779 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55565]
+INFO 2024-12-22 14:14:20,779 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55565]
+DEBUG 2024-12-22 14:14:20,812 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55546]
+DEBUG 2024-12-22 14:14:20,813 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55551]
+INFO 2024-12-22 14:14:20,875 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55574]
+INFO 2024-12-22 14:14:20,875 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55574]
+DEBUG 2024-12-22 14:14:20,876 http_protocol Upgraded connection ['127.0.0.1', 55574] to WebSocket
+DEBUG 2024-12-22 14:14:20,887 ws_protocol WebSocket ['127.0.0.1', 55574] open and established
+INFO 2024-12-22 14:14:20,887 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55574]
+INFO 2024-12-22 14:14:20,887 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55574]
+DEBUG 2024-12-22 14:14:20,888 ws_protocol WebSocket ['127.0.0.1', 55574] accepted by application
+INFO 2024-12-22 14:14:20,902 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55578]
+INFO 2024-12-22 14:14:20,902 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55578]
+DEBUG 2024-12-22 14:14:20,904 http_protocol Upgraded connection ['127.0.0.1', 55578] to WebSocket
+DEBUG 2024-12-22 14:14:20,904 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55546]
+DEBUG 2024-12-22 14:14:20,921 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+DEBUG 2024-12-22 14:14:20,931 ws_protocol WebSocket ['127.0.0.1', 55578] open and established
+INFO 2024-12-22 14:14:20,931 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55578]
+INFO 2024-12-22 14:14:20,931 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55578]
+DEBUG 2024-12-22 14:14:20,932 ws_protocol WebSocket ['127.0.0.1', 55578] accepted by application
+DEBUG 2024-12-22 14:14:20,935 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55551]
+DEBUG 2024-12-22 14:14:20,937 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55578]
+DEBUG 2024-12-22 14:14:22,269 http_protocol HTTP b'GET' request for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:22,283 http_protocol HTTP 200 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:22,283 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:14:22,284 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:14:22,284 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.02, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:14:22,284 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.02, 127.0.0.1:55500][0m
+DEBUG 2024-12-22 14:14:22,289 ws_protocol WebSocket closed for ['127.0.0.1', 55546]
+INFO 2024-12-22 14:14:22,289 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55546]
+INFO 2024-12-22 14:14:22,289 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55546]
+DEBUG 2024-12-22 14:14:22,290 ws_protocol WebSocket closed for ['127.0.0.1', 55551]
+INFO 2024-12-22 14:14:22,290 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55551]
+INFO 2024-12-22 14:14:22,290 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55551]
+DEBUG 2024-12-22 14:14:22,329 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+DEBUG 2024-12-22 14:14:22,331 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55578]
+INFO 2024-12-22 14:14:22,449 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55587]
+INFO 2024-12-22 14:14:22,449 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55587]
+DEBUG 2024-12-22 14:14:22,450 http_protocol Upgraded connection ['127.0.0.1', 55587] to WebSocket
+DEBUG 2024-12-22 14:14:22,462 ws_protocol WebSocket ['127.0.0.1', 55587] open and established
+INFO 2024-12-22 14:14:22,462 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55587]
+INFO 2024-12-22 14:14:22,462 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55587]
+DEBUG 2024-12-22 14:14:22,463 ws_protocol WebSocket ['127.0.0.1', 55587] accepted by application
+INFO 2024-12-22 14:14:22,478 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55591]
+INFO 2024-12-22 14:14:22,478 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55591]
+DEBUG 2024-12-22 14:14:22,479 http_protocol Upgraded connection ['127.0.0.1', 55591] to WebSocket
+DEBUG 2024-12-22 14:14:22,479 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+DEBUG 2024-12-22 14:14:22,494 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55587]
+DEBUG 2024-12-22 14:14:22,504 ws_protocol WebSocket ['127.0.0.1', 55591] open and established
+INFO 2024-12-22 14:14:22,505 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55591]
+INFO 2024-12-22 14:14:22,505 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55591]
+DEBUG 2024-12-22 14:14:22,505 ws_protocol WebSocket ['127.0.0.1', 55591] accepted by application
+DEBUG 2024-12-22 14:14:22,508 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55578]
+DEBUG 2024-12-22 14:14:22,509 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55591]
+DEBUG 2024-12-22 14:15:04,035 http_protocol HTTP b'POST' request for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:15:04,042 views Starting draft for Cube ID: 3
+INFO 2024-12-22 14:15:04,188 views Cards eligible for the draft: Woodfall Primus, Birds of Paradise, Wall of Omens, Wasteland, Searing Blaze, Parallax Wave, Narset, Parter of Veils, Manamorphose, Territorial Kavu, Tundra, Mox Jet, Flash, Bitter Triumph, Elesh Norn, Grand Cenobite, Remand, Ignoble Hierarch, Sphinx of the Steel Wind, Dark Confidant, Sylvan Library, Time Spiral, Myr Battlesphere, Pyroclasm, Mana Vault, Smokestack, Hogaak, Arisen Necropolis, Survival of the Fittest, Brain Freeze, Clifftop Retreat, Hexdrinker, Boseiju, Who Endures, Mishra's Workshop, Phelia, Exuberant Shepherd, Skullclamp, Ledger Shredder, Wrath of God, Duress, Strip Mine, Damn, Jetmir's Garden, Laelia, the Blade Reforged, Goldspan Dragon, Maze of Ith, Commercial District, Treasure Cruise, Talisman of Progress, Malevolent Rumble, Satyr Wayfinder, Raucous Theater, Phlage, Titan of Fire's Fury, Unearth, Ulamog, the Infinite Gyre, Mana Crypt, Mawloc, Mind Twist, Dryad Militant, Wheel of Fortune, Teferi, Time Raveler, Ox of Agonas, Blightsteel Colossus, Gaea's Cradle, Exploration, Farmer Cotton, Hinterland Harbor, Kozilek, Butcher of Truth, Lórien Revealed, Recurring Nightmare, Underground Sea, Dark Ritual, Galvanic Blast, Knight of Autumn, Tangle Wire, Waterlogged Grove, Teferi, Hero of Dominaria, Taiga, Displacer Kitten, Winter Orb, Daretti, Ingenious Iconoclast, Inkwell Leviathan, Upheaval, Porcelain Legionnaire, Ziatora's Proving Ground, Indatha Triome, Bloodtithe Harvester, Sol Ring, Forth Eorlingas!, Entomb, Dragon's Rage Channeler, Windfall, Pest Infestation, Talisman of Creativity, Kytheon, Hero of Akros, Ajani, Nacatl Pariah, Tamiyo, Inquisitive Student, Baleful Strix, Jace, Vryn's Prodigy, Brazen Borrower, Fable of the Mirror-Breaker, Fiery Confluence, Chain Lightning, Urza's Saga, Stomping Ground, Tarmogoyf, Tropical Island, Scrubland, Fireblast, Psychic Frog, Overlord of the Balemurk, Fatal Push, Badlands, Horizon Canopy, Blood Crypt, Thoughtseize, Etched Champion, Minsc & Boo, Timeless Heroes, Monastery Swiftspear, Necromancy, Force of Negation, Leovold, Emissary of Trest, Monastery Mentor, Underground Mortuary, Voice of Resurgence, Oko, Thief of Crowns, Lotus Cobra, Bone Shards, Figure of Destiny, Sensei's Divining Top, Xander's Lounge, Atraxa, Grand Unifier, Worldspine Wurm, Walking Ballista, Cryptbreaker, Echo of Eons, Lotus Petal, Smuggler's Copter, Emrakul, the Promised End, Loran of the Third Path, Crucible of Worlds, Troll of Khazad-dûm, Sneak Attack, Time Walk, Elvish Mystic, Spara's Headquarters, Silent Clearing, Torsten, Founder of Benalia, Emry, Lurker of the Loch, Ponder, Currency Converter, Ratchet Bomb, Soul of Windgrace, Fyndhorn Elves, Flooded Strand, Blade Splicer, Timetwister, Arena of Glory, No More Lies, Channel, Magda, Brazen Outlaw, Emrakul, the Aeons Torn, Goblin Engineer, Llanowar Elves, Tinker, Alpha Deathclaw, Dig Through Time, Sunbaked Canyon, Uro, Titan of Nature's Wrath, Relic of Sauron, Vaultborn Tyrant, Zagoth Triome, Timeless Witness, Bloodbraid Challenger, Oni-Cult Anvil, Umezawa's Jitte, Jace, the Mind Sculptor, Miscalculation, Kolaghan's Command, Verdant Catacombs, Shadowy Backstreet, Bitterblossom, Karakas, Mox Diamond, Raugrin Triome, Mana Drain, Tribal Flames, Mox Sapphire, Malcolm, Alluring Scoundrel, Deep Forest Hermit, The Meathook Massacre, Chrome Mox, Triplicate Titan, Savannah, Bazaar of Baghdad, Thran Dynamo, Fabled Passage, Plateau, Kitsa, Otterball Elite, Frantic Search, Fountainport, Vindicate, Prismatic Ending, Liliana of the Veil, Leyline Binding, Thalia, Guardian of Thraben, Sundering Titan, Searing Spear, Force of Will, Woodland Cemetery, Misty Rainforest, Dauntless Bodyguard, Lightning Bolt, Esper Sentinel, Demonic Tutor, Reclamation Sage, Temple Garden, Price of Progress, Mana Confluence, Wrenn and Six, Tireless Tracker, Courser of Kruphix, Endurance, Hallowed Fountain, Godless Shrine, Show and Tell, Mystic Confluence, Fanatic of Rhonas, Wildfire, Brainstorm, Through the Breach, Fastbond, Ramunap Excavator, Arid Mesa, Noble Hierarch, Urza's Bauble, Lush Portico, Life from the Loam, Serra Paragon, Pernicious Deed, Burst Lightning, Boros Charm, Burning of Xinye, Armageddon, Creeping Tar Pit, Knight of the Ebon Legion, Windswept Heath, Dauthi Voidwalker, Esika's Chariot, Meticulous Archive, Polluted Delta, Mox Pearl, Oath of Druids, Sevinne's Reclamation, Smash to Smithereens, Skyclave Apparition, Thundering Falls, Usher of the Fallen, Planar Genesis, Dack Fayden, Nature's Claim, Ancestral Recall, Hullbreacher, Animate Dead, Volcanic Island, Pentad Prism, Third Path Iconoclast, Deathrite Shaman, Ketria Triome, Tolarian Academy, Kappa Cannoneer, Spirit of the Labyrinth, Overgrown Tomb, Batterskull, Savai Triome, Staff of the Storyteller, Goblin Welder, Supreme Verdict, Black Lotus, Scalding Tarn, Phyrexian Metamorph, Murktide Regent, Tidehollow Sculler, Patchwork Automaton, Bayou, Warden of the Inner Sky, Tasigur, the Golden Fang, Inquisition of Kozilek, Retrofitter Foundry, Adeline, Resplendent Cathar, Generous Plunderer, Titania, Protector of Argoth, Mox Emerald, Ancient Tomb, Broadside Bombardiers, Seething Song, Lurrus of the Dream-Den, Luminarch Aspirant, Toxic Deluge, Ghostfire Slice, Collective Brutality, Ethersworn Canonist, Wooded Foothills, Persist, Marsh Flats, Cut Down, Balance, Portable Hole, Spell Pierce, Lingering Souls, Talisman of Indulgence, Young Pyromancer, Dismember, Avenger of Zendikar, Solitude, Undercity Sewers, Faithless Looting, The One Ring, Urza, Lord High Artificer, Wurmcoil Engine, Dragonskull Summit, Baleful Mastery, Unholy Heat, Archon of Cruelty, Talisman of Dominance, Mishra's Bauble, Vampiric Tutor, Ragavan, Nimble Pilferer, Dryad of the Ilysian Grove, Night's Whisper, Palace Jailer, Orcish Bowmasters, Barrowgoyf, Gitaxian Probe, Expressive Iteration, Grist, the Hunger Tide, Valgavoth, Terror Eater, Fire Covenant, Archon of Emeria, Lion's Eye Diamond, Raffine's Tower, Joraga Treespeaker, Path to Exile, Breeding Pool, Platinum Emperion, Bloodstained Mire, Nettlecyst, Daze, Library of Alexandria, Rootbound Crag, Jacked Rabbit, Mox Opal, Scavenging Ooze, Reckoner Bankbuster, Lightning Greaves, Seasoned Pyromancer, Fiery Islet, Marionette Apprentice, Eureka, Syr Ginger, the Meal Ender, Murderous Cut, Sheoldred, the Apocalypse, Notion Thief, Restoration Angel, Unexpectedly Absent, Arcane Denial, Memory Jar, Ravages of War, Swords to Plowshares, Ocelot Pride, Portal to Phyrexia, Basalt Monolith, Hangarback Walker, Reanimate, Elvish Reclaimer, Goryo's Vengeance, Dance of the Dead, Kinnan, Bonder Prodigy, Fury, Hermit Druid, Mother of Runes, Magmatic Sinkhole, Celestial Colonnade, Questing Beast, Scrapwork Mutt, Thief of Sanity, Palantír of Orthanc, Yawgmoth's Will, Spellskite, Mana Leak, Saheeli, Sublime Artificer, Inti, Seneschal of the Sun, Goblin Guide, Steam Vents, Carnage Interpreter, Field of the Dead, Tendrils of Agony, Mox Ruby, Prismatic Vista, Fear of Missing Out, Cabal Ritual, Sacred Foundry, Mind's Desire, Snapcaster Mage, Underworld Breach, Chandra, Torch of Defiance, Six, Watery Grave, Grim Monolith, Veteran Survivor, Shallow Grave
+INFO 2024-12-22 14:15:04,201 views Pack 1 created for isaac with 15 cards.
+INFO 2024-12-22 14:15:04,208 views Pack 2 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:15:04,214 views Pack 3 created for isaac with 15 cards.
+INFO 2024-12-22 14:15:04,219 views Pack 4 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:15:04,226 views Pack 5 created for isaac with 15 cards.
+INFO 2024-12-22 14:15:04,231 views Pack 6 created for isaac2 with 15 cards.
+DEBUG 2024-12-22 14:15:04,236 http_protocol HTTP 200 response started for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:15:04,236 http_protocol HTTP close for ['127.0.0.1', 55500]
+DEBUG 2024-12-22 14:15:04,237 http_protocol HTTP response complete for ['127.0.0.1', 55500]
+INFO 2024-12-22 14:15:04,237 runserver [mHTTP POST /drafting/drafts/38/start-draft/ 200 [0.20, 127.0.0.1:55500][0m
+INFO 2024-12-22 14:15:04,237 runserver [mHTTP POST /drafting/drafts/38/start-draft/ 200 [0.20, 127.0.0.1:55500][0m
+DEBUG 2024-12-22 14:15:08,862 ws_protocol WebSocket incoming frame on ['127.0.0.1', 55591]
+DEBUG 2024-12-22 14:18:57,933 http_protocol HTTP b'GET' request for ['127.0.0.1', 55730]
+DEBUG 2024-12-22 14:18:57,945 http_protocol HTTP 200 response started for ['127.0.0.1', 55730]
+DEBUG 2024-12-22 14:18:57,946 http_protocol HTTP close for ['127.0.0.1', 55730]
+DEBUG 2024-12-22 14:18:57,946 http_protocol HTTP response complete for ['127.0.0.1', 55730]
+INFO 2024-12-22 14:18:57,947 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.01, 127.0.0.1:55730][0m
+INFO 2024-12-22 14:18:57,947 runserver [mHTTP GET /drafting/drafting/38/ 200 [0.01, 127.0.0.1:55730][0m
+DEBUG 2024-12-22 14:18:57,951 ws_protocol WebSocket closed for ['127.0.0.1', 55587]
+INFO 2024-12-22 14:18:57,952 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55587]
+INFO 2024-12-22 14:18:57,952 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55587]
+DEBUG 2024-12-22 14:18:57,953 ws_protocol WebSocket closed for ['127.0.0.1', 55591]
+INFO 2024-12-22 14:18:57,953 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55591]
+INFO 2024-12-22 14:18:57,953 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55591]
+DEBUG 2024-12-22 14:18:57,986 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+DEBUG 2024-12-22 14:18:57,987 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55578]
+INFO 2024-12-22 14:18:58,129 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55736]
+INFO 2024-12-22 14:18:58,129 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55736]
+DEBUG 2024-12-22 14:18:58,130 http_protocol Upgraded connection ['127.0.0.1', 55736] to WebSocket
+DEBUG 2024-12-22 14:18:58,141 ws_protocol WebSocket ['127.0.0.1', 55736] open and established
+INFO 2024-12-22 14:18:58,142 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55736]
+INFO 2024-12-22 14:18:58,142 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55736]
+DEBUG 2024-12-22 14:18:58,142 ws_protocol WebSocket ['127.0.0.1', 55736] accepted by application
+DEBUG 2024-12-22 14:18:58,160 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+INFO 2024-12-22 14:18:58,164 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55740]
+INFO 2024-12-22 14:18:58,164 runserver WebSocket HANDSHAKING /ws/drafts/38/ [127.0.0.1:55740]
+DEBUG 2024-12-22 14:18:58,165 http_protocol Upgraded connection ['127.0.0.1', 55740] to WebSocket
+DEBUG 2024-12-22 14:18:58,178 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55736]
+DEBUG 2024-12-22 14:18:58,192 ws_protocol WebSocket ['127.0.0.1', 55740] open and established
+INFO 2024-12-22 14:18:58,193 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55740]
+INFO 2024-12-22 14:18:58,193 runserver WebSocket CONNECT /ws/drafts/38/ [127.0.0.1:55740]
+DEBUG 2024-12-22 14:18:58,194 ws_protocol WebSocket ['127.0.0.1', 55740] accepted by application
+DEBUG 2024-12-22 14:18:58,199 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55578]
+DEBUG 2024-12-22 14:18:58,200 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55740]
+DEBUG 2024-12-22 14:37:06,295 http_protocol HTTP b'GET' request for ['127.0.0.1', 56277]
+DEBUG 2024-12-22 14:37:06,306 http_protocol HTTP 200 response started for ['127.0.0.1', 56277]
+DEBUG 2024-12-22 14:37:06,307 http_protocol HTTP close for ['127.0.0.1', 56277]
+DEBUG 2024-12-22 14:37:06,307 http_protocol HTTP response complete for ['127.0.0.1', 56277]
+INFO 2024-12-22 14:37:06,308 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56277][0m
+INFO 2024-12-22 14:37:06,308 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56277][0m
+INFO 2024-12-22 14:37:06,528 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56280]
+INFO 2024-12-22 14:37:06,528 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56280]
+DEBUG 2024-12-22 14:37:06,529 http_protocol Upgraded connection ['127.0.0.1', 56280] to WebSocket
+DEBUG 2024-12-22 14:37:06,531 ws_protocol WebSocket closed for ['127.0.0.1', 55736]
+INFO 2024-12-22 14:37:06,531 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55736]
+INFO 2024-12-22 14:37:06,531 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55736]
+DEBUG 2024-12-22 14:37:06,532 ws_protocol WebSocket closed for ['127.0.0.1', 55740]
+INFO 2024-12-22 14:37:06,533 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55740]
+INFO 2024-12-22 14:37:06,533 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55740]
+DEBUG 2024-12-22 14:37:06,566 ws_protocol WebSocket ['127.0.0.1', 56280] open and established
+INFO 2024-12-22 14:37:06,567 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56280]
+INFO 2024-12-22 14:37:06,567 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56280]
+DEBUG 2024-12-22 14:37:06,567 ws_protocol WebSocket ['127.0.0.1', 56280] accepted by application
+DEBUG 2024-12-22 14:37:06,583 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+DEBUG 2024-12-22 14:37:06,585 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55578]
+DEBUG 2024-12-22 14:37:06,602 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56280]
+DEBUG 2024-12-22 14:37:06,621 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55574]
+DEBUG 2024-12-22 14:37:11,832 http_protocol HTTP b'GET' request for ['127.0.0.1', 56291]
+DEBUG 2024-12-22 14:37:11,842 http_protocol HTTP 200 response started for ['127.0.0.1', 56291]
+DEBUG 2024-12-22 14:37:11,842 http_protocol HTTP close for ['127.0.0.1', 56291]
+DEBUG 2024-12-22 14:37:11,842 http_protocol HTTP response complete for ['127.0.0.1', 56291]
+INFO 2024-12-22 14:37:11,843 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56291][0m
+INFO 2024-12-22 14:37:11,843 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56291][0m
+INFO 2024-12-22 14:37:11,949 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56296]
+INFO 2024-12-22 14:37:11,949 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56296]
+DEBUG 2024-12-22 14:37:11,950 http_protocol Upgraded connection ['127.0.0.1', 56296] to WebSocket
+DEBUG 2024-12-22 14:37:11,952 ws_protocol WebSocket closed for ['127.0.0.1', 55574]
+INFO 2024-12-22 14:37:11,953 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55574]
+INFO 2024-12-22 14:37:11,953 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:55574]
+DEBUG 2024-12-22 14:37:11,955 ws_protocol WebSocket closed for ['127.0.0.1', 55578]
+INFO 2024-12-22 14:37:11,955 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55578]
+INFO 2024-12-22 14:37:11,955 runserver WebSocket DISCONNECT /ws/drafts/38/ [127.0.0.1:55578]
+DEBUG 2024-12-22 14:37:11,976 ws_protocol WebSocket ['127.0.0.1', 56296] open and established
+INFO 2024-12-22 14:37:11,976 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56296]
+INFO 2024-12-22 14:37:11,976 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56296]
+DEBUG 2024-12-22 14:37:11,977 ws_protocol WebSocket ['127.0.0.1', 56296] accepted by application
+DEBUG 2024-12-22 14:37:11,992 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56280]
+DEBUG 2024-12-22 14:37:12,007 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56296]
+DEBUG 2024-12-22 14:37:12,023 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56280]
+DEBUG 2024-12-22 14:37:17,482 selector_events Using selector: SelectSelector
+DEBUG 2024-12-22 14:37:18,504 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:37:18,807 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:37:18,807 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:37:19,511 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-22 14:37:19,512 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-22 14:37:19,512 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-22 14:37:19,922 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56319]
+INFO 2024-12-22 14:37:19,922 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56319]
+DEBUG 2024-12-22 14:37:19,923 http_protocol Upgraded connection ['127.0.0.1', 56319] to WebSocket
+DEBUG 2024-12-22 14:37:19,936 ws_protocol WebSocket ['127.0.0.1', 56319] open and established
+INFO 2024-12-22 14:37:19,937 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56319]
+INFO 2024-12-22 14:37:19,937 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56319]
+DEBUG 2024-12-22 14:37:19,938 ws_protocol WebSocket ['127.0.0.1', 56319] accepted by application
+INFO 2024-12-22 14:37:19,971 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56312]
+INFO 2024-12-22 14:37:19,971 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56312]
+DEBUG 2024-12-22 14:37:19,972 http_protocol Upgraded connection ['127.0.0.1', 56312] to WebSocket
+DEBUG 2024-12-22 14:37:19,975 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56319]
+DEBUG 2024-12-22 14:37:19,985 ws_protocol WebSocket ['127.0.0.1', 56312] open and established
+INFO 2024-12-22 14:37:19,986 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56312]
+INFO 2024-12-22 14:37:19,986 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56312]
+DEBUG 2024-12-22 14:37:19,986 ws_protocol WebSocket ['127.0.0.1', 56312] accepted by application
+DEBUG 2024-12-22 14:37:20,002 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56319]
+DEBUG 2024-12-22 14:37:20,018 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56312]
+DEBUG 2024-12-22 14:37:24,699 http_protocol HTTP b'GET' request for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:24,711 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test3>, <Cube: test4>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2024-12-22 14:37:24,733 http_protocol HTTP 200 response started for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:24,733 http_protocol HTTP close for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:24,733 http_protocol HTTP response complete for ['127.0.0.1', 56331]
+INFO 2024-12-22 14:37:24,734 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:56331][0m
+INFO 2024-12-22 14:37:24,734 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:56331][0m
+DEBUG 2024-12-22 14:37:24,937 ws_protocol WebSocket closed for ['127.0.0.1', 56319]
+INFO 2024-12-22 14:37:24,938 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56319]
+INFO 2024-12-22 14:37:24,938 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56319]
+DEBUG 2024-12-22 14:37:24,968 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56312]
+INFO 2024-12-22 14:37:25,013 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56340]
+INFO 2024-12-22 14:37:25,013 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56340]
+DEBUG 2024-12-22 14:37:25,015 http_protocol Upgraded connection ['127.0.0.1', 56340] to WebSocket
+DEBUG 2024-12-22 14:37:25,027 ws_protocol WebSocket ['127.0.0.1', 56340] open and established
+INFO 2024-12-22 14:37:25,027 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56340]
+INFO 2024-12-22 14:37:25,027 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56340]
+DEBUG 2024-12-22 14:37:25,028 ws_protocol WebSocket ['127.0.0.1', 56340] accepted by application
+DEBUG 2024-12-22 14:37:25,055 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56312]
+DEBUG 2024-12-22 14:37:25,078 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56340]
+DEBUG 2024-12-22 14:37:29,340 http_protocol HTTP b'POST' request for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:29,358 http_protocol HTTP 201 response started for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:29,358 http_protocol HTTP close for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:29,359 http_protocol HTTP response complete for ['127.0.0.1', 56331]
+INFO 2024-12-22 14:37:29,359 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:56331][0m
+INFO 2024-12-22 14:37:29,359 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:56331][0m
+DEBUG 2024-12-22 14:37:29,368 http_protocol HTTP b'GET' request for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:29,381 http_protocol HTTP 200 response started for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:29,382 http_protocol HTTP close for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:29,382 http_protocol HTTP response complete for ['127.0.0.1', 56331]
+INFO 2024-12-22 14:37:29,382 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56331][0m
+INFO 2024-12-22 14:37:29,382 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56331][0m
+DEBUG 2024-12-22 14:37:29,539 ws_protocol WebSocket closed for ['127.0.0.1', 56340]
+INFO 2024-12-22 14:37:29,540 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56340]
+INFO 2024-12-22 14:37:29,540 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56340]
+INFO 2024-12-22 14:37:29,551 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56349]
+INFO 2024-12-22 14:37:29,551 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56349]
+DEBUG 2024-12-22 14:37:29,552 http_protocol Upgraded connection ['127.0.0.1', 56349] to WebSocket
+DEBUG 2024-12-22 14:37:29,566 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56312]
+DEBUG 2024-12-22 14:37:29,578 ws_protocol WebSocket ['127.0.0.1', 56349] open and established
+INFO 2024-12-22 14:37:29,579 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56349]
+INFO 2024-12-22 14:37:29,579 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56349]
+DEBUG 2024-12-22 14:37:29,579 ws_protocol WebSocket ['127.0.0.1', 56349] accepted by application
+DEBUG 2024-12-22 14:37:29,594 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56312]
+INFO 2024-12-22 14:37:29,597 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56354]
+INFO 2024-12-22 14:37:29,597 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56354]
+DEBUG 2024-12-22 14:37:29,598 http_protocol Upgraded connection ['127.0.0.1', 56354] to WebSocket
+DEBUG 2024-12-22 14:37:29,610 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56349]
+DEBUG 2024-12-22 14:37:29,618 ws_protocol WebSocket ['127.0.0.1', 56354] open and established
+INFO 2024-12-22 14:37:29,619 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56354]
+INFO 2024-12-22 14:37:29,619 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56354]
+DEBUG 2024-12-22 14:37:29,620 ws_protocol WebSocket ['127.0.0.1', 56354] accepted by application
+DEBUG 2024-12-22 14:37:29,623 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56354]
+DEBUG 2024-12-22 14:37:42,938 http_protocol HTTP b'GET' request for ['127.0.0.1', 56365]
+DEBUG 2024-12-22 14:37:42,949 http_protocol HTTP 200 response started for ['127.0.0.1', 56365]
+DEBUG 2024-12-22 14:37:42,950 http_protocol HTTP close for ['127.0.0.1', 56365]
+DEBUG 2024-12-22 14:37:42,950 http_protocol HTTP response complete for ['127.0.0.1', 56365]
+INFO 2024-12-22 14:37:42,951 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56365][0m
+INFO 2024-12-22 14:37:42,951 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56365][0m
+DEBUG 2024-12-22 14:37:43,110 ws_protocol WebSocket closed for ['127.0.0.1', 56312]
+INFO 2024-12-22 14:37:43,111 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56312]
+INFO 2024-12-22 14:37:43,111 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56312]
+INFO 2024-12-22 14:37:43,121 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56370]
+INFO 2024-12-22 14:37:43,121 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56370]
+DEBUG 2024-12-22 14:37:43,121 http_protocol Upgraded connection ['127.0.0.1', 56370] to WebSocket
+DEBUG 2024-12-22 14:37:43,144 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56349]
+DEBUG 2024-12-22 14:37:43,153 ws_protocol WebSocket ['127.0.0.1', 56370] open and established
+INFO 2024-12-22 14:37:43,153 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56370]
+INFO 2024-12-22 14:37:43,153 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56370]
+DEBUG 2024-12-22 14:37:43,154 ws_protocol WebSocket ['127.0.0.1', 56370] accepted by application
+DEBUG 2024-12-22 14:37:43,170 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56349]
+INFO 2024-12-22 14:37:43,173 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56375]
+INFO 2024-12-22 14:37:43,173 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56375]
+DEBUG 2024-12-22 14:37:43,175 http_protocol Upgraded connection ['127.0.0.1', 56375] to WebSocket
+DEBUG 2024-12-22 14:37:43,189 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56370]
+DEBUG 2024-12-22 14:37:43,199 ws_protocol WebSocket ['127.0.0.1', 56375] open and established
+INFO 2024-12-22 14:37:43,199 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56375]
+INFO 2024-12-22 14:37:43,199 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56375]
+DEBUG 2024-12-22 14:37:43,200 ws_protocol WebSocket ['127.0.0.1', 56375] accepted by application
+DEBUG 2024-12-22 14:37:43,203 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56354]
+DEBUG 2024-12-22 14:37:43,204 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56375]
+DEBUG 2024-12-22 14:37:47,654 http_protocol HTTP b'GET' request for ['127.0.0.1', 56365]
+DEBUG 2024-12-22 14:37:47,665 http_protocol HTTP 200 response started for ['127.0.0.1', 56365]
+DEBUG 2024-12-22 14:37:47,666 http_protocol HTTP close for ['127.0.0.1', 56365]
+DEBUG 2024-12-22 14:37:47,666 http_protocol HTTP response complete for ['127.0.0.1', 56365]
+INFO 2024-12-22 14:37:47,666 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56365][0m
+INFO 2024-12-22 14:37:47,666 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56365][0m
+DEBUG 2024-12-22 14:37:47,671 ws_protocol WebSocket closed for ['127.0.0.1', 56370]
+INFO 2024-12-22 14:37:47,671 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56370]
+INFO 2024-12-22 14:37:47,671 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56370]
+DEBUG 2024-12-22 14:37:47,672 ws_protocol WebSocket closed for ['127.0.0.1', 56375]
+INFO 2024-12-22 14:37:47,672 runserver WebSocket DISCONNECT /ws/drafts/39/ [127.0.0.1:56375]
+INFO 2024-12-22 14:37:47,672 runserver WebSocket DISCONNECT /ws/drafts/39/ [127.0.0.1:56375]
+DEBUG 2024-12-22 14:37:47,703 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56349]
+DEBUG 2024-12-22 14:37:47,704 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56354]
+INFO 2024-12-22 14:37:47,766 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56385]
+INFO 2024-12-22 14:37:47,766 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56385]
+DEBUG 2024-12-22 14:37:47,766 http_protocol Upgraded connection ['127.0.0.1', 56385] to WebSocket
+DEBUG 2024-12-22 14:37:47,777 ws_protocol WebSocket ['127.0.0.1', 56385] open and established
+INFO 2024-12-22 14:37:47,777 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56385]
+INFO 2024-12-22 14:37:47,777 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56385]
+DEBUG 2024-12-22 14:37:47,778 ws_protocol WebSocket ['127.0.0.1', 56385] accepted by application
+INFO 2024-12-22 14:37:47,793 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56389]
+INFO 2024-12-22 14:37:47,793 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56389]
+DEBUG 2024-12-22 14:37:47,794 http_protocol Upgraded connection ['127.0.0.1', 56389] to WebSocket
+DEBUG 2024-12-22 14:37:47,795 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56349]
+DEBUG 2024-12-22 14:37:47,812 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56385]
+DEBUG 2024-12-22 14:37:47,824 ws_protocol WebSocket ['127.0.0.1', 56389] open and established
+INFO 2024-12-22 14:37:47,825 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56389]
+INFO 2024-12-22 14:37:47,825 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56389]
+DEBUG 2024-12-22 14:37:47,825 ws_protocol WebSocket ['127.0.0.1', 56389] accepted by application
+DEBUG 2024-12-22 14:37:47,828 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56354]
+DEBUG 2024-12-22 14:37:47,829 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56389]
+DEBUG 2024-12-22 14:37:48,856 http_protocol HTTP b'GET' request for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:48,868 http_protocol HTTP 200 response started for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:48,868 http_protocol HTTP close for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:48,869 http_protocol HTTP response complete for ['127.0.0.1', 56331]
+INFO 2024-12-22 14:37:48,869 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56331][0m
+INFO 2024-12-22 14:37:48,869 runserver [mHTTP GET /drafting/drafting/39/ 200 [0.01, 127.0.0.1:56331][0m
+DEBUG 2024-12-22 14:37:48,873 ws_protocol WebSocket closed for ['127.0.0.1', 56349]
+INFO 2024-12-22 14:37:48,874 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56349]
+INFO 2024-12-22 14:37:48,874 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56349]
+DEBUG 2024-12-22 14:37:48,875 ws_protocol WebSocket closed for ['127.0.0.1', 56354]
+INFO 2024-12-22 14:37:48,875 runserver WebSocket DISCONNECT /ws/drafts/39/ [127.0.0.1:56354]
+INFO 2024-12-22 14:37:48,875 runserver WebSocket DISCONNECT /ws/drafts/39/ [127.0.0.1:56354]
+DEBUG 2024-12-22 14:37:48,925 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56385]
+DEBUG 2024-12-22 14:37:48,927 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56389]
+INFO 2024-12-22 14:37:49,049 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56398]
+INFO 2024-12-22 14:37:49,049 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56398]
+DEBUG 2024-12-22 14:37:49,050 http_protocol Upgraded connection ['127.0.0.1', 56398] to WebSocket
+DEBUG 2024-12-22 14:37:49,062 ws_protocol WebSocket ['127.0.0.1', 56398] open and established
+INFO 2024-12-22 14:37:49,063 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56398]
+INFO 2024-12-22 14:37:49,063 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56398]
+DEBUG 2024-12-22 14:37:49,064 ws_protocol WebSocket ['127.0.0.1', 56398] accepted by application
+DEBUG 2024-12-22 14:37:49,079 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56385]
+INFO 2024-12-22 14:37:49,083 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56402]
+INFO 2024-12-22 14:37:49,083 runserver WebSocket HANDSHAKING /ws/drafts/39/ [127.0.0.1:56402]
+DEBUG 2024-12-22 14:37:49,084 http_protocol Upgraded connection ['127.0.0.1', 56402] to WebSocket
+DEBUG 2024-12-22 14:37:49,095 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56398]
+DEBUG 2024-12-22 14:37:49,108 ws_protocol WebSocket ['127.0.0.1', 56402] open and established
+INFO 2024-12-22 14:37:49,109 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56402]
+INFO 2024-12-22 14:37:49,109 runserver WebSocket CONNECT /ws/drafts/39/ [127.0.0.1:56402]
+DEBUG 2024-12-22 14:37:49,109 ws_protocol WebSocket ['127.0.0.1', 56402] accepted by application
+DEBUG 2024-12-22 14:37:49,113 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56389]
+DEBUG 2024-12-22 14:37:49,115 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56402]
+DEBUG 2024-12-22 14:37:53,285 http_protocol HTTP b'POST' request for ['127.0.0.1', 56331]
+INFO 2024-12-22 14:37:53,292 views Starting draft for Cube ID: 3
+INFO 2024-12-22 14:37:53,434 views Cards eligible for the draft: Woodfall Primus, Birds of Paradise, Wall of Omens, Wasteland, Searing Blaze, Parallax Wave, Narset, Parter of Veils, Manamorphose, Territorial Kavu, Tundra, Mox Jet, Flash, Bitter Triumph, Elesh Norn, Grand Cenobite, Remand, Ignoble Hierarch, Sphinx of the Steel Wind, Dark Confidant, Sylvan Library, Time Spiral, Myr Battlesphere, Pyroclasm, Mana Vault, Smokestack, Hogaak, Arisen Necropolis, Survival of the Fittest, Brain Freeze, Clifftop Retreat, Hexdrinker, Boseiju, Who Endures, Mishra's Workshop, Phelia, Exuberant Shepherd, Skullclamp, Ledger Shredder, Wrath of God, Duress, Strip Mine, Damn, Jetmir's Garden, Laelia, the Blade Reforged, Goldspan Dragon, Maze of Ith, Commercial District, Treasure Cruise, Talisman of Progress, Malevolent Rumble, Satyr Wayfinder, Raucous Theater, Phlage, Titan of Fire's Fury, Unearth, Ulamog, the Infinite Gyre, Mana Crypt, Mawloc, Mind Twist, Dryad Militant, Wheel of Fortune, Teferi, Time Raveler, Ox of Agonas, Blightsteel Colossus, Gaea's Cradle, Exploration, Farmer Cotton, Hinterland Harbor, Kozilek, Butcher of Truth, Lórien Revealed, Recurring Nightmare, Underground Sea, Dark Ritual, Galvanic Blast, Knight of Autumn, Tangle Wire, Waterlogged Grove, Teferi, Hero of Dominaria, Taiga, Displacer Kitten, Winter Orb, Daretti, Ingenious Iconoclast, Inkwell Leviathan, Upheaval, Porcelain Legionnaire, Ziatora's Proving Ground, Indatha Triome, Bloodtithe Harvester, Sol Ring, Forth Eorlingas!, Entomb, Dragon's Rage Channeler, Windfall, Pest Infestation, Talisman of Creativity, Kytheon, Hero of Akros, Ajani, Nacatl Pariah, Tamiyo, Inquisitive Student, Baleful Strix, Jace, Vryn's Prodigy, Brazen Borrower, Fable of the Mirror-Breaker, Fiery Confluence, Chain Lightning, Urza's Saga, Stomping Ground, Tarmogoyf, Tropical Island, Scrubland, Fireblast, Psychic Frog, Overlord of the Balemurk, Fatal Push, Badlands, Horizon Canopy, Blood Crypt, Thoughtseize, Etched Champion, Minsc & Boo, Timeless Heroes, Monastery Swiftspear, Necromancy, Force of Negation, Leovold, Emissary of Trest, Monastery Mentor, Underground Mortuary, Voice of Resurgence, Oko, Thief of Crowns, Lotus Cobra, Bone Shards, Figure of Destiny, Sensei's Divining Top, Xander's Lounge, Atraxa, Grand Unifier, Worldspine Wurm, Walking Ballista, Cryptbreaker, Echo of Eons, Lotus Petal, Smuggler's Copter, Emrakul, the Promised End, Loran of the Third Path, Crucible of Worlds, Troll of Khazad-dûm, Sneak Attack, Time Walk, Elvish Mystic, Spara's Headquarters, Silent Clearing, Torsten, Founder of Benalia, Emry, Lurker of the Loch, Ponder, Currency Converter, Ratchet Bomb, Soul of Windgrace, Fyndhorn Elves, Flooded Strand, Blade Splicer, Timetwister, Arena of Glory, No More Lies, Channel, Magda, Brazen Outlaw, Emrakul, the Aeons Torn, Goblin Engineer, Llanowar Elves, Tinker, Alpha Deathclaw, Dig Through Time, Sunbaked Canyon, Uro, Titan of Nature's Wrath, Relic of Sauron, Vaultborn Tyrant, Zagoth Triome, Timeless Witness, Bloodbraid Challenger, Oni-Cult Anvil, Umezawa's Jitte, Jace, the Mind Sculptor, Miscalculation, Kolaghan's Command, Verdant Catacombs, Shadowy Backstreet, Bitterblossom, Karakas, Mox Diamond, Raugrin Triome, Mana Drain, Tribal Flames, Mox Sapphire, Malcolm, Alluring Scoundrel, Deep Forest Hermit, The Meathook Massacre, Chrome Mox, Triplicate Titan, Savannah, Bazaar of Baghdad, Thran Dynamo, Fabled Passage, Plateau, Kitsa, Otterball Elite, Frantic Search, Fountainport, Vindicate, Prismatic Ending, Liliana of the Veil, Leyline Binding, Thalia, Guardian of Thraben, Sundering Titan, Searing Spear, Force of Will, Woodland Cemetery, Misty Rainforest, Dauntless Bodyguard, Lightning Bolt, Esper Sentinel, Demonic Tutor, Reclamation Sage, Temple Garden, Price of Progress, Mana Confluence, Wrenn and Six, Tireless Tracker, Courser of Kruphix, Endurance, Hallowed Fountain, Godless Shrine, Show and Tell, Mystic Confluence, Fanatic of Rhonas, Wildfire, Brainstorm, Through the Breach, Fastbond, Ramunap Excavator, Arid Mesa, Noble Hierarch, Urza's Bauble, Lush Portico, Life from the Loam, Serra Paragon, Pernicious Deed, Burst Lightning, Boros Charm, Burning of Xinye, Armageddon, Creeping Tar Pit, Knight of the Ebon Legion, Windswept Heath, Dauthi Voidwalker, Esika's Chariot, Meticulous Archive, Polluted Delta, Mox Pearl, Oath of Druids, Sevinne's Reclamation, Smash to Smithereens, Skyclave Apparition, Thundering Falls, Usher of the Fallen, Planar Genesis, Dack Fayden, Nature's Claim, Ancestral Recall, Hullbreacher, Animate Dead, Volcanic Island, Pentad Prism, Third Path Iconoclast, Deathrite Shaman, Ketria Triome, Tolarian Academy, Kappa Cannoneer, Spirit of the Labyrinth, Overgrown Tomb, Batterskull, Savai Triome, Staff of the Storyteller, Goblin Welder, Supreme Verdict, Black Lotus, Scalding Tarn, Phyrexian Metamorph, Murktide Regent, Tidehollow Sculler, Patchwork Automaton, Bayou, Warden of the Inner Sky, Tasigur, the Golden Fang, Inquisition of Kozilek, Retrofitter Foundry, Adeline, Resplendent Cathar, Generous Plunderer, Titania, Protector of Argoth, Mox Emerald, Ancient Tomb, Broadside Bombardiers, Seething Song, Lurrus of the Dream-Den, Luminarch Aspirant, Toxic Deluge, Ghostfire Slice, Collective Brutality, Ethersworn Canonist, Wooded Foothills, Persist, Marsh Flats, Cut Down, Balance, Portable Hole, Spell Pierce, Lingering Souls, Talisman of Indulgence, Young Pyromancer, Dismember, Avenger of Zendikar, Solitude, Undercity Sewers, Faithless Looting, The One Ring, Urza, Lord High Artificer, Wurmcoil Engine, Dragonskull Summit, Baleful Mastery, Unholy Heat, Archon of Cruelty, Talisman of Dominance, Mishra's Bauble, Vampiric Tutor, Ragavan, Nimble Pilferer, Dryad of the Ilysian Grove, Night's Whisper, Palace Jailer, Orcish Bowmasters, Barrowgoyf, Gitaxian Probe, Expressive Iteration, Grist, the Hunger Tide, Valgavoth, Terror Eater, Fire Covenant, Archon of Emeria, Lion's Eye Diamond, Raffine's Tower, Joraga Treespeaker, Path to Exile, Breeding Pool, Platinum Emperion, Bloodstained Mire, Nettlecyst, Daze, Library of Alexandria, Rootbound Crag, Jacked Rabbit, Mox Opal, Scavenging Ooze, Reckoner Bankbuster, Lightning Greaves, Seasoned Pyromancer, Fiery Islet, Marionette Apprentice, Eureka, Syr Ginger, the Meal Ender, Murderous Cut, Sheoldred, the Apocalypse, Notion Thief, Restoration Angel, Unexpectedly Absent, Arcane Denial, Memory Jar, Ravages of War, Swords to Plowshares, Ocelot Pride, Portal to Phyrexia, Basalt Monolith, Hangarback Walker, Reanimate, Elvish Reclaimer, Goryo's Vengeance, Dance of the Dead, Kinnan, Bonder Prodigy, Fury, Hermit Druid, Mother of Runes, Magmatic Sinkhole, Celestial Colonnade, Questing Beast, Scrapwork Mutt, Thief of Sanity, Palantír of Orthanc, Yawgmoth's Will, Spellskite, Mana Leak, Saheeli, Sublime Artificer, Inti, Seneschal of the Sun, Goblin Guide, Steam Vents, Carnage Interpreter, Field of the Dead, Tendrils of Agony, Mox Ruby, Prismatic Vista, Fear of Missing Out, Cabal Ritual, Sacred Foundry, Mind's Desire, Snapcaster Mage, Underworld Breach, Chandra, Torch of Defiance, Six, Watery Grave, Grim Monolith, Veteran Survivor, Shallow Grave
+INFO 2024-12-22 14:37:53,448 views Pack 1 created for isaac with 15 cards.
+INFO 2024-12-22 14:37:53,455 views Pack 2 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:37:53,461 views Pack 3 created for isaac with 15 cards.
+INFO 2024-12-22 14:37:53,467 views Pack 4 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:37:53,478 views Pack 5 created for isaac with 15 cards.
+INFO 2024-12-22 14:37:53,484 views Pack 6 created for isaac2 with 15 cards.
+DEBUG 2024-12-22 14:37:53,488 http_protocol HTTP 200 response started for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:53,489 http_protocol HTTP close for ['127.0.0.1', 56331]
+DEBUG 2024-12-22 14:37:53,489 http_protocol HTTP response complete for ['127.0.0.1', 56331]
+INFO 2024-12-22 14:37:53,489 runserver [mHTTP POST /drafting/drafts/39/start-draft/ 200 [0.20, 127.0.0.1:56331][0m
+INFO 2024-12-22 14:37:53,489 runserver [mHTTP POST /drafting/drafts/39/start-draft/ 200 [0.20, 127.0.0.1:56331][0m
+DEBUG 2024-12-22 14:37:55,675 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56402]
+INFO 2024-12-22 14:42:38,202 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+INFO 2024-12-22 14:42:38,202 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+DEBUG 2024-12-22 14:42:39,160 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:42:39,516 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:42:39,516 autoreload Watching for file changes with StatReloader
+DEBUG 2024-12-22 14:47:05,875 selector_events Using selector: SelectSelector
+DEBUG 2024-12-22 14:47:06,894 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:47:07,192 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:47:07,192 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:47:07,931 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-22 14:47:07,931 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-22 14:47:07,932 server Listening on TCP address 127.0.0.1:8000
+DEBUG 2024-12-22 14:47:08,667 http_protocol HTTP b'GET' request for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:08,703 http_protocol HTTP 200 response started for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:08,704 http_protocol HTTP close for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:08,704 http_protocol HTTP response complete for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:08,705 runserver [mHTTP GET / 200 [0.04, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:08,705 runserver [mHTTP GET / 200 [0.04, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:08,921 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56747]
+INFO 2024-12-22 14:47:08,921 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56747]
+DEBUG 2024-12-22 14:47:08,922 http_protocol Upgraded connection ['127.0.0.1', 56747] to WebSocket
+DEBUG 2024-12-22 14:47:08,935 ws_protocol WebSocket ['127.0.0.1', 56747] open and established
+INFO 2024-12-22 14:47:08,936 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56747]
+INFO 2024-12-22 14:47:08,936 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56747]
+DEBUG 2024-12-22 14:47:08,936 ws_protocol WebSocket ['127.0.0.1', 56747] accepted by application
+DEBUG 2024-12-22 14:47:08,960 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56747]
+DEBUG 2024-12-22 14:47:11,884 http_protocol HTTP b'GET' request for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:11,893 http_protocol HTTP 200 response started for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:11,894 http_protocol HTTP close for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:11,894 http_protocol HTTP response complete for ['127.0.0.1', 56753]
+INFO 2024-12-22 14:47:11,894 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56753][0m
+INFO 2024-12-22 14:47:11,894 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56753][0m
+INFO 2024-12-22 14:47:12,022 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56758]
+INFO 2024-12-22 14:47:12,022 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56758]
+DEBUG 2024-12-22 14:47:12,023 http_protocol Upgraded connection ['127.0.0.1', 56758] to WebSocket
+DEBUG 2024-12-22 14:47:12,032 ws_protocol WebSocket ['127.0.0.1', 56758] open and established
+INFO 2024-12-22 14:47:12,032 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56758]
+INFO 2024-12-22 14:47:12,032 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56758]
+DEBUG 2024-12-22 14:47:12,033 ws_protocol WebSocket ['127.0.0.1', 56758] accepted by application
+DEBUG 2024-12-22 14:47:12,048 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56747]
+DEBUG 2024-12-22 14:47:12,064 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56758]
+DEBUG 2024-12-22 14:47:17,261 http_protocol HTTP b'GET' request for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:17,269 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test3>, <Cube: test4>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2024-12-22 14:47:17,284 http_protocol HTTP 200 response started for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:17,286 http_protocol HTTP close for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:17,286 http_protocol HTTP response complete for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:17,286 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:17,286 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:56744][0m
+DEBUG 2024-12-22 14:47:17,495 ws_protocol WebSocket closed for ['127.0.0.1', 56747]
+INFO 2024-12-22 14:47:17,495 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56747]
+INFO 2024-12-22 14:47:17,495 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56747]
+DEBUG 2024-12-22 14:47:17,526 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56758]
+INFO 2024-12-22 14:47:17,568 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56772]
+INFO 2024-12-22 14:47:17,568 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56772]
+DEBUG 2024-12-22 14:47:17,569 http_protocol Upgraded connection ['127.0.0.1', 56772] to WebSocket
+DEBUG 2024-12-22 14:47:17,580 ws_protocol WebSocket ['127.0.0.1', 56772] open and established
+INFO 2024-12-22 14:47:17,581 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56772]
+INFO 2024-12-22 14:47:17,581 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56772]
+DEBUG 2024-12-22 14:47:17,583 ws_protocol WebSocket ['127.0.0.1', 56772] accepted by application
+DEBUG 2024-12-22 14:47:17,598 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56758]
+DEBUG 2024-12-22 14:47:17,613 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56772]
+DEBUG 2024-12-22 14:47:23,060 http_protocol HTTP b'POST' request for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:23,077 http_protocol HTTP 201 response started for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:23,077 http_protocol HTTP close for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:23,077 http_protocol HTTP response complete for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:23,078 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:23,078 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:56744][0m
+DEBUG 2024-12-22 14:47:23,087 http_protocol HTTP b'GET' request for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:23,102 http_protocol HTTP 200 response started for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:23,102 http_protocol HTTP close for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:23,103 http_protocol HTTP response complete for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:23,103 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.02, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:23,103 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.02, 127.0.0.1:56744][0m
+DEBUG 2024-12-22 14:47:23,264 ws_protocol WebSocket closed for ['127.0.0.1', 56772]
+INFO 2024-12-22 14:47:23,265 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56772]
+INFO 2024-12-22 14:47:23,265 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56772]
+INFO 2024-12-22 14:47:23,274 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56783]
+INFO 2024-12-22 14:47:23,274 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56783]
+DEBUG 2024-12-22 14:47:23,275 http_protocol Upgraded connection ['127.0.0.1', 56783] to WebSocket
+DEBUG 2024-12-22 14:47:23,296 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56758]
+DEBUG 2024-12-22 14:47:23,304 ws_protocol WebSocket ['127.0.0.1', 56783] open and established
+INFO 2024-12-22 14:47:23,305 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56783]
+INFO 2024-12-22 14:47:23,305 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56783]
+DEBUG 2024-12-22 14:47:23,305 ws_protocol WebSocket ['127.0.0.1', 56783] accepted by application
+INFO 2024-12-22 14:47:23,321 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56788]
+INFO 2024-12-22 14:47:23,321 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56788]
+DEBUG 2024-12-22 14:47:23,322 http_protocol Upgraded connection ['127.0.0.1', 56788] to WebSocket
+DEBUG 2024-12-22 14:47:23,323 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56758]
+DEBUG 2024-12-22 14:47:23,338 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56783]
+DEBUG 2024-12-22 14:47:23,347 ws_protocol WebSocket ['127.0.0.1', 56788] open and established
+INFO 2024-12-22 14:47:23,347 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56788]
+INFO 2024-12-22 14:47:23,347 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56788]
+DEBUG 2024-12-22 14:47:23,348 ws_protocol WebSocket ['127.0.0.1', 56788] accepted by application
+DEBUG 2024-12-22 14:47:23,352 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56788]
+DEBUG 2024-12-22 14:47:27,989 http_protocol HTTP b'GET' request for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:28,001 http_protocol HTTP 200 response started for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:28,002 http_protocol HTTP close for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:28,002 http_protocol HTTP response complete for ['127.0.0.1', 56753]
+INFO 2024-12-22 14:47:28,003 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.01, 127.0.0.1:56753][0m
+INFO 2024-12-22 14:47:28,003 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.01, 127.0.0.1:56753][0m
+INFO 2024-12-22 14:47:28,098 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56795]
+INFO 2024-12-22 14:47:28,098 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56795]
+DEBUG 2024-12-22 14:47:28,099 http_protocol Upgraded connection ['127.0.0.1', 56795] to WebSocket
+DEBUG 2024-12-22 14:47:28,100 ws_protocol WebSocket closed for ['127.0.0.1', 56758]
+INFO 2024-12-22 14:47:28,101 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56758]
+INFO 2024-12-22 14:47:28,101 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56758]
+DEBUG 2024-12-22 14:47:28,120 ws_protocol WebSocket ['127.0.0.1', 56795] open and established
+INFO 2024-12-22 14:47:28,121 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56795]
+INFO 2024-12-22 14:47:28,121 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56795]
+DEBUG 2024-12-22 14:47:28,121 ws_protocol WebSocket ['127.0.0.1', 56795] accepted by application
+DEBUG 2024-12-22 14:47:28,137 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56783]
+INFO 2024-12-22 14:47:28,139 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56800]
+INFO 2024-12-22 14:47:28,139 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56800]
+DEBUG 2024-12-22 14:47:28,141 http_protocol Upgraded connection ['127.0.0.1', 56800] to WebSocket
+DEBUG 2024-12-22 14:47:28,153 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56795]
+DEBUG 2024-12-22 14:47:28,171 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56783]
+DEBUG 2024-12-22 14:47:28,183 ws_protocol WebSocket ['127.0.0.1', 56800] open and established
+INFO 2024-12-22 14:47:28,183 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56800]
+INFO 2024-12-22 14:47:28,183 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56800]
+DEBUG 2024-12-22 14:47:28,184 ws_protocol WebSocket ['127.0.0.1', 56800] accepted by application
+DEBUG 2024-12-22 14:47:28,187 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56788]
+DEBUG 2024-12-22 14:47:28,188 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56800]
+DEBUG 2024-12-22 14:47:30,270 http_protocol HTTP b'GET' request for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:30,281 http_protocol HTTP 200 response started for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:30,282 http_protocol HTTP close for ['127.0.0.1', 56753]
+DEBUG 2024-12-22 14:47:30,282 http_protocol HTTP response complete for ['127.0.0.1', 56753]
+INFO 2024-12-22 14:47:30,283 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.01, 127.0.0.1:56753][0m
+INFO 2024-12-22 14:47:30,283 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.01, 127.0.0.1:56753][0m
+DEBUG 2024-12-22 14:47:30,287 ws_protocol WebSocket closed for ['127.0.0.1', 56795]
+INFO 2024-12-22 14:47:30,287 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56795]
+INFO 2024-12-22 14:47:30,287 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56795]
+DEBUG 2024-12-22 14:47:30,288 ws_protocol WebSocket closed for ['127.0.0.1', 56800]
+INFO 2024-12-22 14:47:30,289 runserver WebSocket DISCONNECT /ws/drafts/40/ [127.0.0.1:56800]
+INFO 2024-12-22 14:47:30,289 runserver WebSocket DISCONNECT /ws/drafts/40/ [127.0.0.1:56800]
+DEBUG 2024-12-22 14:47:30,323 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56783]
+DEBUG 2024-12-22 14:47:30,324 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56788]
+INFO 2024-12-22 14:47:30,381 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56810]
+INFO 2024-12-22 14:47:30,381 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56810]
+DEBUG 2024-12-22 14:47:30,382 http_protocol Upgraded connection ['127.0.0.1', 56810] to WebSocket
+DEBUG 2024-12-22 14:47:30,392 ws_protocol WebSocket ['127.0.0.1', 56810] open and established
+INFO 2024-12-22 14:47:30,392 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56810]
+INFO 2024-12-22 14:47:30,392 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56810]
+DEBUG 2024-12-22 14:47:30,393 ws_protocol WebSocket ['127.0.0.1', 56810] accepted by application
+INFO 2024-12-22 14:47:30,408 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56814]
+INFO 2024-12-22 14:47:30,408 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56814]
+DEBUG 2024-12-22 14:47:30,409 http_protocol Upgraded connection ['127.0.0.1', 56814] to WebSocket
+DEBUG 2024-12-22 14:47:30,411 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56783]
+DEBUG 2024-12-22 14:47:30,428 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56810]
+DEBUG 2024-12-22 14:47:30,443 ws_protocol WebSocket ['127.0.0.1', 56814] open and established
+INFO 2024-12-22 14:47:30,444 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56814]
+INFO 2024-12-22 14:47:30,444 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56814]
+DEBUG 2024-12-22 14:47:30,444 ws_protocol WebSocket ['127.0.0.1', 56814] accepted by application
+DEBUG 2024-12-22 14:47:30,448 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56788]
+DEBUG 2024-12-22 14:47:30,449 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56814]
+DEBUG 2024-12-22 14:47:31,237 http_protocol HTTP b'GET' request for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:31,250 http_protocol HTTP 200 response started for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:31,251 http_protocol HTTP close for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:31,251 http_protocol HTTP response complete for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:31,251 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.01, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:31,251 runserver [mHTTP GET /drafting/drafting/40/ 200 [0.01, 127.0.0.1:56744][0m
+DEBUG 2024-12-22 14:47:31,256 ws_protocol WebSocket closed for ['127.0.0.1', 56783]
+INFO 2024-12-22 14:47:31,257 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56783]
+INFO 2024-12-22 14:47:31,257 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56783]
+DEBUG 2024-12-22 14:47:31,258 ws_protocol WebSocket closed for ['127.0.0.1', 56788]
+INFO 2024-12-22 14:47:31,259 runserver WebSocket DISCONNECT /ws/drafts/40/ [127.0.0.1:56788]
+INFO 2024-12-22 14:47:31,259 runserver WebSocket DISCONNECT /ws/drafts/40/ [127.0.0.1:56788]
+DEBUG 2024-12-22 14:47:31,303 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56810]
+DEBUG 2024-12-22 14:47:31,304 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56814]
+INFO 2024-12-22 14:47:31,421 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56822]
+INFO 2024-12-22 14:47:31,421 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56822]
+DEBUG 2024-12-22 14:47:31,422 http_protocol Upgraded connection ['127.0.0.1', 56822] to WebSocket
+DEBUG 2024-12-22 14:47:31,435 ws_protocol WebSocket ['127.0.0.1', 56822] open and established
+INFO 2024-12-22 14:47:31,435 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56822]
+INFO 2024-12-22 14:47:31,435 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56822]
+DEBUG 2024-12-22 14:47:31,436 ws_protocol WebSocket ['127.0.0.1', 56822] accepted by application
+DEBUG 2024-12-22 14:47:31,452 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56810]
+INFO 2024-12-22 14:47:31,455 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56826]
+INFO 2024-12-22 14:47:31,455 runserver WebSocket HANDSHAKING /ws/drafts/40/ [127.0.0.1:56826]
+DEBUG 2024-12-22 14:47:31,456 http_protocol Upgraded connection ['127.0.0.1', 56826] to WebSocket
+DEBUG 2024-12-22 14:47:31,467 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56822]
+DEBUG 2024-12-22 14:47:31,479 ws_protocol WebSocket ['127.0.0.1', 56826] open and established
+INFO 2024-12-22 14:47:31,479 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56826]
+INFO 2024-12-22 14:47:31,479 runserver WebSocket CONNECT /ws/drafts/40/ [127.0.0.1:56826]
+DEBUG 2024-12-22 14:47:31,480 ws_protocol WebSocket ['127.0.0.1', 56826] accepted by application
+DEBUG 2024-12-22 14:47:31,483 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56814]
+DEBUG 2024-12-22 14:47:31,484 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56826]
+DEBUG 2024-12-22 14:47:40,086 http_protocol HTTP b'POST' request for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:40,092 views Starting draft for Cube ID: 3
+INFO 2024-12-22 14:47:40,231 views Cards eligible for the draft: Woodfall Primus, Birds of Paradise, Wall of Omens, Wasteland, Searing Blaze, Parallax Wave, Narset, Parter of Veils, Manamorphose, Territorial Kavu, Tundra, Mox Jet, Flash, Bitter Triumph, Elesh Norn, Grand Cenobite, Remand, Ignoble Hierarch, Sphinx of the Steel Wind, Dark Confidant, Sylvan Library, Time Spiral, Myr Battlesphere, Pyroclasm, Mana Vault, Smokestack, Hogaak, Arisen Necropolis, Survival of the Fittest, Brain Freeze, Clifftop Retreat, Hexdrinker, Boseiju, Who Endures, Mishra's Workshop, Phelia, Exuberant Shepherd, Skullclamp, Ledger Shredder, Wrath of God, Duress, Strip Mine, Damn, Jetmir's Garden, Laelia, the Blade Reforged, Goldspan Dragon, Maze of Ith, Commercial District, Treasure Cruise, Talisman of Progress, Malevolent Rumble, Satyr Wayfinder, Raucous Theater, Phlage, Titan of Fire's Fury, Unearth, Ulamog, the Infinite Gyre, Mana Crypt, Mawloc, Mind Twist, Dryad Militant, Wheel of Fortune, Teferi, Time Raveler, Ox of Agonas, Blightsteel Colossus, Gaea's Cradle, Exploration, Farmer Cotton, Hinterland Harbor, Kozilek, Butcher of Truth, Lórien Revealed, Recurring Nightmare, Underground Sea, Dark Ritual, Galvanic Blast, Knight of Autumn, Tangle Wire, Waterlogged Grove, Teferi, Hero of Dominaria, Taiga, Displacer Kitten, Winter Orb, Daretti, Ingenious Iconoclast, Inkwell Leviathan, Upheaval, Porcelain Legionnaire, Ziatora's Proving Ground, Indatha Triome, Bloodtithe Harvester, Sol Ring, Forth Eorlingas!, Entomb, Dragon's Rage Channeler, Windfall, Pest Infestation, Talisman of Creativity, Kytheon, Hero of Akros, Ajani, Nacatl Pariah, Tamiyo, Inquisitive Student, Baleful Strix, Jace, Vryn's Prodigy, Brazen Borrower, Fable of the Mirror-Breaker, Fiery Confluence, Chain Lightning, Urza's Saga, Stomping Ground, Tarmogoyf, Tropical Island, Scrubland, Fireblast, Psychic Frog, Overlord of the Balemurk, Fatal Push, Badlands, Horizon Canopy, Blood Crypt, Thoughtseize, Etched Champion, Minsc & Boo, Timeless Heroes, Monastery Swiftspear, Necromancy, Force of Negation, Leovold, Emissary of Trest, Monastery Mentor, Underground Mortuary, Voice of Resurgence, Oko, Thief of Crowns, Lotus Cobra, Bone Shards, Figure of Destiny, Sensei's Divining Top, Xander's Lounge, Atraxa, Grand Unifier, Worldspine Wurm, Walking Ballista, Cryptbreaker, Echo of Eons, Lotus Petal, Smuggler's Copter, Emrakul, the Promised End, Loran of the Third Path, Crucible of Worlds, Troll of Khazad-dûm, Sneak Attack, Time Walk, Elvish Mystic, Spara's Headquarters, Silent Clearing, Torsten, Founder of Benalia, Emry, Lurker of the Loch, Ponder, Currency Converter, Ratchet Bomb, Soul of Windgrace, Fyndhorn Elves, Flooded Strand, Blade Splicer, Timetwister, Arena of Glory, No More Lies, Channel, Magda, Brazen Outlaw, Emrakul, the Aeons Torn, Goblin Engineer, Llanowar Elves, Tinker, Alpha Deathclaw, Dig Through Time, Sunbaked Canyon, Uro, Titan of Nature's Wrath, Relic of Sauron, Vaultborn Tyrant, Zagoth Triome, Timeless Witness, Bloodbraid Challenger, Oni-Cult Anvil, Umezawa's Jitte, Jace, the Mind Sculptor, Miscalculation, Kolaghan's Command, Verdant Catacombs, Shadowy Backstreet, Bitterblossom, Karakas, Mox Diamond, Raugrin Triome, Mana Drain, Tribal Flames, Mox Sapphire, Malcolm, Alluring Scoundrel, Deep Forest Hermit, The Meathook Massacre, Chrome Mox, Triplicate Titan, Savannah, Bazaar of Baghdad, Thran Dynamo, Fabled Passage, Plateau, Kitsa, Otterball Elite, Frantic Search, Fountainport, Vindicate, Prismatic Ending, Liliana of the Veil, Leyline Binding, Thalia, Guardian of Thraben, Sundering Titan, Searing Spear, Force of Will, Woodland Cemetery, Misty Rainforest, Dauntless Bodyguard, Lightning Bolt, Esper Sentinel, Demonic Tutor, Reclamation Sage, Temple Garden, Price of Progress, Mana Confluence, Wrenn and Six, Tireless Tracker, Courser of Kruphix, Endurance, Hallowed Fountain, Godless Shrine, Show and Tell, Mystic Confluence, Fanatic of Rhonas, Wildfire, Brainstorm, Through the Breach, Fastbond, Ramunap Excavator, Arid Mesa, Noble Hierarch, Urza's Bauble, Lush Portico, Life from the Loam, Serra Paragon, Pernicious Deed, Burst Lightning, Boros Charm, Burning of Xinye, Armageddon, Creeping Tar Pit, Knight of the Ebon Legion, Windswept Heath, Dauthi Voidwalker, Esika's Chariot, Meticulous Archive, Polluted Delta, Mox Pearl, Oath of Druids, Sevinne's Reclamation, Smash to Smithereens, Skyclave Apparition, Thundering Falls, Usher of the Fallen, Planar Genesis, Dack Fayden, Nature's Claim, Ancestral Recall, Hullbreacher, Animate Dead, Volcanic Island, Pentad Prism, Third Path Iconoclast, Deathrite Shaman, Ketria Triome, Tolarian Academy, Kappa Cannoneer, Spirit of the Labyrinth, Overgrown Tomb, Batterskull, Savai Triome, Staff of the Storyteller, Goblin Welder, Supreme Verdict, Black Lotus, Scalding Tarn, Phyrexian Metamorph, Murktide Regent, Tidehollow Sculler, Patchwork Automaton, Bayou, Warden of the Inner Sky, Tasigur, the Golden Fang, Inquisition of Kozilek, Retrofitter Foundry, Adeline, Resplendent Cathar, Generous Plunderer, Titania, Protector of Argoth, Mox Emerald, Ancient Tomb, Broadside Bombardiers, Seething Song, Lurrus of the Dream-Den, Luminarch Aspirant, Toxic Deluge, Ghostfire Slice, Collective Brutality, Ethersworn Canonist, Wooded Foothills, Persist, Marsh Flats, Cut Down, Balance, Portable Hole, Spell Pierce, Lingering Souls, Talisman of Indulgence, Young Pyromancer, Dismember, Avenger of Zendikar, Solitude, Undercity Sewers, Faithless Looting, The One Ring, Urza, Lord High Artificer, Wurmcoil Engine, Dragonskull Summit, Baleful Mastery, Unholy Heat, Archon of Cruelty, Talisman of Dominance, Mishra's Bauble, Vampiric Tutor, Ragavan, Nimble Pilferer, Dryad of the Ilysian Grove, Night's Whisper, Palace Jailer, Orcish Bowmasters, Barrowgoyf, Gitaxian Probe, Expressive Iteration, Grist, the Hunger Tide, Valgavoth, Terror Eater, Fire Covenant, Archon of Emeria, Lion's Eye Diamond, Raffine's Tower, Joraga Treespeaker, Path to Exile, Breeding Pool, Platinum Emperion, Bloodstained Mire, Nettlecyst, Daze, Library of Alexandria, Rootbound Crag, Jacked Rabbit, Mox Opal, Scavenging Ooze, Reckoner Bankbuster, Lightning Greaves, Seasoned Pyromancer, Fiery Islet, Marionette Apprentice, Eureka, Syr Ginger, the Meal Ender, Murderous Cut, Sheoldred, the Apocalypse, Notion Thief, Restoration Angel, Unexpectedly Absent, Arcane Denial, Memory Jar, Ravages of War, Swords to Plowshares, Ocelot Pride, Portal to Phyrexia, Basalt Monolith, Hangarback Walker, Reanimate, Elvish Reclaimer, Goryo's Vengeance, Dance of the Dead, Kinnan, Bonder Prodigy, Fury, Hermit Druid, Mother of Runes, Magmatic Sinkhole, Celestial Colonnade, Questing Beast, Scrapwork Mutt, Thief of Sanity, Palantír of Orthanc, Yawgmoth's Will, Spellskite, Mana Leak, Saheeli, Sublime Artificer, Inti, Seneschal of the Sun, Goblin Guide, Steam Vents, Carnage Interpreter, Field of the Dead, Tendrils of Agony, Mox Ruby, Prismatic Vista, Fear of Missing Out, Cabal Ritual, Sacred Foundry, Mind's Desire, Snapcaster Mage, Underworld Breach, Chandra, Torch of Defiance, Six, Watery Grave, Grim Monolith, Veteran Survivor, Shallow Grave
+INFO 2024-12-22 14:47:40,248 views Pack 1 created for isaac with 15 cards.
+INFO 2024-12-22 14:47:40,257 views Pack 2 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:47:40,269 views Pack 3 created for isaac with 15 cards.
+INFO 2024-12-22 14:47:40,275 views Pack 4 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:47:40,282 views Pack 5 created for isaac with 15 cards.
+INFO 2024-12-22 14:47:40,287 views Pack 6 created for isaac2 with 15 cards.
+DEBUG 2024-12-22 14:47:40,291 http_protocol HTTP 200 response started for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:40,292 http_protocol HTTP close for ['127.0.0.1', 56744]
+DEBUG 2024-12-22 14:47:40,292 http_protocol HTTP response complete for ['127.0.0.1', 56744]
+INFO 2024-12-22 14:47:40,292 runserver [mHTTP POST /drafting/drafts/40/start-draft/ 200 [0.21, 127.0.0.1:56744][0m
+INFO 2024-12-22 14:47:40,292 runserver [mHTTP POST /drafting/drafts/40/start-draft/ 200 [0.21, 127.0.0.1:56744][0m
+DEBUG 2024-12-22 14:47:43,281 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56826]
+INFO 2024-12-22 14:51:06,746 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+INFO 2024-12-22 14:51:06,746 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+DEBUG 2024-12-22 14:51:07,625 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:51:07,960 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:51:07,960 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:51:08,716 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-22 14:51:08,716 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-22 14:51:08,717 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-22 14:51:08,720 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56943]
+INFO 2024-12-22 14:51:08,720 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56943]
+DEBUG 2024-12-22 14:51:08,721 http_protocol Upgraded connection ['127.0.0.1', 56943] to WebSocket
+DEBUG 2024-12-22 14:51:08,732 ws_protocol WebSocket ['127.0.0.1', 56943] open and established
+INFO 2024-12-22 14:51:08,732 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56943]
+INFO 2024-12-22 14:51:08,732 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56943]
+DEBUG 2024-12-22 14:51:08,733 ws_protocol WebSocket ['127.0.0.1', 56943] accepted by application
+DEBUG 2024-12-22 14:51:08,770 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56943]
+INFO 2024-12-22 14:51:09,025 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56948]
+INFO 2024-12-22 14:51:09,025 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56948]
+DEBUG 2024-12-22 14:51:09,026 http_protocol Upgraded connection ['127.0.0.1', 56948] to WebSocket
+DEBUG 2024-12-22 14:51:09,036 ws_protocol WebSocket ['127.0.0.1', 56948] open and established
+INFO 2024-12-22 14:51:09,037 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56948]
+INFO 2024-12-22 14:51:09,037 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56948]
+DEBUG 2024-12-22 14:51:09,037 ws_protocol WebSocket ['127.0.0.1', 56948] accepted by application
+DEBUG 2024-12-22 14:51:09,053 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56943]
+DEBUG 2024-12-22 14:51:09,069 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56948]
+INFO 2024-12-22 14:51:13,144 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+INFO 2024-12-22 14:51:13,144 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+DEBUG 2024-12-22 14:51:14,033 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:51:14,335 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:51:14,335 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:51:19,407 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+INFO 2024-12-22 14:51:19,407 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+DEBUG 2024-12-22 14:51:20,369 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:51:20,697 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:51:20,697 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:51:21,463 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-22 14:51:21,464 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-22 14:51:21,464 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-22 14:51:21,784 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56986]
+INFO 2024-12-22 14:51:21,784 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56986]
+DEBUG 2024-12-22 14:51:21,785 http_protocol Upgraded connection ['127.0.0.1', 56986] to WebSocket
+DEBUG 2024-12-22 14:51:21,799 ws_protocol WebSocket ['127.0.0.1', 56986] open and established
+INFO 2024-12-22 14:51:21,799 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56986]
+INFO 2024-12-22 14:51:21,799 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56986]
+DEBUG 2024-12-22 14:51:21,800 ws_protocol WebSocket ['127.0.0.1', 56986] accepted by application
+DEBUG 2024-12-22 14:51:21,838 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+INFO 2024-12-22 14:51:23,012 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56991]
+INFO 2024-12-22 14:51:23,012 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56991]
+DEBUG 2024-12-22 14:51:23,013 http_protocol Upgraded connection ['127.0.0.1', 56991] to WebSocket
+DEBUG 2024-12-22 14:51:23,021 ws_protocol WebSocket ['127.0.0.1', 56991] open and established
+INFO 2024-12-22 14:51:23,021 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56991]
+INFO 2024-12-22 14:51:23,021 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56991]
+DEBUG 2024-12-22 14:51:23,022 ws_protocol WebSocket ['127.0.0.1', 56991] accepted by application
+DEBUG 2024-12-22 14:51:23,038 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+DEBUG 2024-12-22 14:51:23,055 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56991]
+DEBUG 2024-12-22 14:52:00,668 http_protocol HTTP b'POST' request for ['127.0.0.1', 57013]
+WARNING 2024-12-22 14:52:00,680 log Not Found: /drafting/drafts/40/start-draft/
+WARNING 2024-12-22 14:52:00,680 log Not Found: /drafting/drafts/40/start-draft/
+DEBUG 2024-12-22 14:52:00,681 http_protocol HTTP 404 response started for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:00,681 http_protocol HTTP close for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:00,682 http_protocol HTTP response complete for ['127.0.0.1', 57013]
+WARNING 2024-12-22 14:52:00,682 runserver [33mHTTP POST /drafting/drafts/40/start-draft/ 404 [0.01, 127.0.0.1:57013][0m
+WARNING 2024-12-22 14:52:00,682 runserver [33mHTTP POST /drafting/drafts/40/start-draft/ 404 [0.01, 127.0.0.1:57013][0m
+DEBUG 2024-12-22 14:52:03,937 http_protocol HTTP b'GET' request for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:03,953 http_protocol HTTP 200 response started for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:03,954 http_protocol HTTP close for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:03,954 http_protocol HTTP response complete for ['127.0.0.1', 57013]
+INFO 2024-12-22 14:52:03,954 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:57013][0m
+INFO 2024-12-22 14:52:03,954 runserver [mHTTP GET / 200 [0.02, 127.0.0.1:57013][0m
+INFO 2024-12-22 14:52:04,170 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57019]
+INFO 2024-12-22 14:52:04,170 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57019]
+DEBUG 2024-12-22 14:52:04,171 http_protocol Upgraded connection ['127.0.0.1', 57019] to WebSocket
+DEBUG 2024-12-22 14:52:04,174 ws_protocol WebSocket closed for ['127.0.0.1', 56991]
+INFO 2024-12-22 14:52:04,175 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56991]
+INFO 2024-12-22 14:52:04,175 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56991]
+DEBUG 2024-12-22 14:52:04,197 ws_protocol WebSocket ['127.0.0.1', 57019] open and established
+INFO 2024-12-22 14:52:04,198 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57019]
+INFO 2024-12-22 14:52:04,198 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57019]
+DEBUG 2024-12-22 14:52:04,198 ws_protocol WebSocket ['127.0.0.1', 57019] accepted by application
+DEBUG 2024-12-22 14:52:04,214 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+DEBUG 2024-12-22 14:52:04,229 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57019]
+DEBUG 2024-12-22 14:52:04,247 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+DEBUG 2024-12-22 14:52:12,469 http_protocol HTTP b'GET' request for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:12,479 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test3>, <Cube: test4>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2024-12-22 14:52:12,495 http_protocol HTTP 200 response started for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:12,495 http_protocol HTTP close for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:12,495 http_protocol HTTP response complete for ['127.0.0.1', 57013]
+INFO 2024-12-22 14:52:12,496 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:57013][0m
+INFO 2024-12-22 14:52:12,496 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:57013][0m
+DEBUG 2024-12-22 14:52:12,697 ws_protocol WebSocket closed for ['127.0.0.1', 57019]
+INFO 2024-12-22 14:52:12,698 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57019]
+INFO 2024-12-22 14:52:12,698 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57019]
+DEBUG 2024-12-22 14:52:12,726 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+INFO 2024-12-22 14:52:12,767 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57035]
+INFO 2024-12-22 14:52:12,767 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57035]
+DEBUG 2024-12-22 14:52:12,768 http_protocol Upgraded connection ['127.0.0.1', 57035] to WebSocket
+DEBUG 2024-12-22 14:52:12,780 ws_protocol WebSocket ['127.0.0.1', 57035] open and established
+INFO 2024-12-22 14:52:12,781 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57035]
+INFO 2024-12-22 14:52:12,781 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57035]
+DEBUG 2024-12-22 14:52:12,781 ws_protocol WebSocket ['127.0.0.1', 57035] accepted by application
+DEBUG 2024-12-22 14:52:12,796 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+DEBUG 2024-12-22 14:52:12,812 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57035]
+DEBUG 2024-12-22 14:52:18,621 http_protocol HTTP b'POST' request for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:18,640 http_protocol HTTP 201 response started for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:18,641 http_protocol HTTP close for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:18,641 http_protocol HTTP response complete for ['127.0.0.1', 57013]
+INFO 2024-12-22 14:52:18,641 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:57013][0m
+INFO 2024-12-22 14:52:18,641 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:57013][0m
+DEBUG 2024-12-22 14:52:18,650 http_protocol HTTP b'GET' request for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:18,665 http_protocol HTTP 200 response started for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:18,665 http_protocol HTTP close for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:18,665 http_protocol HTTP response complete for ['127.0.0.1', 57013]
+INFO 2024-12-22 14:52:18,666 runserver [mHTTP GET /drafting/drafting/41/ 200 [0.02, 127.0.0.1:57013][0m
+INFO 2024-12-22 14:52:18,666 runserver [mHTTP GET /drafting/drafting/41/ 200 [0.02, 127.0.0.1:57013][0m
+DEBUG 2024-12-22 14:52:18,819 ws_protocol WebSocket closed for ['127.0.0.1', 57035]
+INFO 2024-12-22 14:52:18,819 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57035]
+INFO 2024-12-22 14:52:18,819 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57035]
+INFO 2024-12-22 14:52:18,830 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57046]
+INFO 2024-12-22 14:52:18,830 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57046]
+DEBUG 2024-12-22 14:52:18,832 http_protocol Upgraded connection ['127.0.0.1', 57046] to WebSocket
+DEBUG 2024-12-22 14:52:18,851 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+DEBUG 2024-12-22 14:52:18,867 ws_protocol WebSocket ['127.0.0.1', 57046] open and established
+INFO 2024-12-22 14:52:18,868 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57046]
+INFO 2024-12-22 14:52:18,868 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57046]
+DEBUG 2024-12-22 14:52:18,868 ws_protocol WebSocket ['127.0.0.1', 57046] accepted by application
+DEBUG 2024-12-22 14:52:18,884 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56986]
+INFO 2024-12-22 14:52:18,886 runserver WebSocket HANDSHAKING /ws/drafts/41/ [127.0.0.1:57051]
+INFO 2024-12-22 14:52:18,886 runserver WebSocket HANDSHAKING /ws/drafts/41/ [127.0.0.1:57051]
+DEBUG 2024-12-22 14:52:18,887 http_protocol Upgraded connection ['127.0.0.1', 57051] to WebSocket
+DEBUG 2024-12-22 14:52:18,899 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57046]
+DEBUG 2024-12-22 14:52:18,908 ws_protocol WebSocket ['127.0.0.1', 57051] open and established
+INFO 2024-12-22 14:52:18,908 runserver WebSocket CONNECT /ws/drafts/41/ [127.0.0.1:57051]
+INFO 2024-12-22 14:52:18,908 runserver WebSocket CONNECT /ws/drafts/41/ [127.0.0.1:57051]
+DEBUG 2024-12-22 14:52:18,909 ws_protocol WebSocket ['127.0.0.1', 57051] accepted by application
+DEBUG 2024-12-22 14:52:18,911 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57051]
+DEBUG 2024-12-22 14:52:27,749 http_protocol HTTP b'GET' request for ['127.0.0.1', 57062]
+DEBUG 2024-12-22 14:52:27,762 http_protocol HTTP 200 response started for ['127.0.0.1', 57062]
+DEBUG 2024-12-22 14:52:27,762 http_protocol HTTP close for ['127.0.0.1', 57062]
+DEBUG 2024-12-22 14:52:27,762 http_protocol HTTP response complete for ['127.0.0.1', 57062]
+INFO 2024-12-22 14:52:27,763 runserver [mHTTP GET /drafting/drafting/41/ 200 [0.01, 127.0.0.1:57062][0m
+INFO 2024-12-22 14:52:27,763 runserver [mHTTP GET /drafting/drafting/41/ 200 [0.01, 127.0.0.1:57062][0m
+DEBUG 2024-12-22 14:52:27,929 ws_protocol WebSocket closed for ['127.0.0.1', 56986]
+INFO 2024-12-22 14:52:27,930 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56986]
+INFO 2024-12-22 14:52:27,930 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56986]
+INFO 2024-12-22 14:52:27,938 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57068]
+INFO 2024-12-22 14:52:27,938 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57068]
+DEBUG 2024-12-22 14:52:27,939 http_protocol Upgraded connection ['127.0.0.1', 57068] to WebSocket
+DEBUG 2024-12-22 14:52:27,959 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57046]
+DEBUG 2024-12-22 14:52:27,967 ws_protocol WebSocket ['127.0.0.1', 57068] open and established
+INFO 2024-12-22 14:52:27,967 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57068]
+INFO 2024-12-22 14:52:27,967 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57068]
+DEBUG 2024-12-22 14:52:27,968 ws_protocol WebSocket ['127.0.0.1', 57068] accepted by application
+INFO 2024-12-22 14:52:27,982 runserver WebSocket HANDSHAKING /ws/drafts/41/ [127.0.0.1:57073]
+INFO 2024-12-22 14:52:27,982 runserver WebSocket HANDSHAKING /ws/drafts/41/ [127.0.0.1:57073]
+DEBUG 2024-12-22 14:52:27,983 http_protocol Upgraded connection ['127.0.0.1', 57073] to WebSocket
+DEBUG 2024-12-22 14:52:27,984 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57046]
+DEBUG 2024-12-22 14:52:27,999 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57068]
+DEBUG 2024-12-22 14:52:28,011 ws_protocol WebSocket ['127.0.0.1', 57073] open and established
+INFO 2024-12-22 14:52:28,011 runserver WebSocket CONNECT /ws/drafts/41/ [127.0.0.1:57073]
+INFO 2024-12-22 14:52:28,011 runserver WebSocket CONNECT /ws/drafts/41/ [127.0.0.1:57073]
+DEBUG 2024-12-22 14:52:28,012 ws_protocol WebSocket ['127.0.0.1', 57073] accepted by application
+DEBUG 2024-12-22 14:52:28,015 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57051]
+DEBUG 2024-12-22 14:52:28,016 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57073]
+DEBUG 2024-12-22 14:52:30,213 http_protocol HTTP b'POST' request for ['127.0.0.1', 57013]
+INFO 2024-12-22 14:52:30,221 views Starting draft for Cube ID: 3
+INFO 2024-12-22 14:52:30,364 views Cards eligible for the draft: Woodfall Primus, Birds of Paradise, Wall of Omens, Wasteland, Searing Blaze, Parallax Wave, Narset, Parter of Veils, Manamorphose, Territorial Kavu, Tundra, Mox Jet, Flash, Bitter Triumph, Elesh Norn, Grand Cenobite, Remand, Ignoble Hierarch, Sphinx of the Steel Wind, Dark Confidant, Sylvan Library, Time Spiral, Myr Battlesphere, Pyroclasm, Mana Vault, Smokestack, Hogaak, Arisen Necropolis, Survival of the Fittest, Brain Freeze, Clifftop Retreat, Hexdrinker, Boseiju, Who Endures, Mishra's Workshop, Phelia, Exuberant Shepherd, Skullclamp, Ledger Shredder, Wrath of God, Duress, Strip Mine, Damn, Jetmir's Garden, Laelia, the Blade Reforged, Goldspan Dragon, Maze of Ith, Commercial District, Treasure Cruise, Talisman of Progress, Malevolent Rumble, Satyr Wayfinder, Raucous Theater, Phlage, Titan of Fire's Fury, Unearth, Ulamog, the Infinite Gyre, Mana Crypt, Mawloc, Mind Twist, Dryad Militant, Wheel of Fortune, Teferi, Time Raveler, Ox of Agonas, Blightsteel Colossus, Gaea's Cradle, Exploration, Farmer Cotton, Hinterland Harbor, Kozilek, Butcher of Truth, Lórien Revealed, Recurring Nightmare, Underground Sea, Dark Ritual, Galvanic Blast, Knight of Autumn, Tangle Wire, Waterlogged Grove, Teferi, Hero of Dominaria, Taiga, Displacer Kitten, Winter Orb, Daretti, Ingenious Iconoclast, Inkwell Leviathan, Upheaval, Porcelain Legionnaire, Ziatora's Proving Ground, Indatha Triome, Bloodtithe Harvester, Sol Ring, Forth Eorlingas!, Entomb, Dragon's Rage Channeler, Windfall, Pest Infestation, Talisman of Creativity, Kytheon, Hero of Akros, Ajani, Nacatl Pariah, Tamiyo, Inquisitive Student, Baleful Strix, Jace, Vryn's Prodigy, Brazen Borrower, Fable of the Mirror-Breaker, Fiery Confluence, Chain Lightning, Urza's Saga, Stomping Ground, Tarmogoyf, Tropical Island, Scrubland, Fireblast, Psychic Frog, Overlord of the Balemurk, Fatal Push, Badlands, Horizon Canopy, Blood Crypt, Thoughtseize, Etched Champion, Minsc & Boo, Timeless Heroes, Monastery Swiftspear, Necromancy, Force of Negation, Leovold, Emissary of Trest, Monastery Mentor, Underground Mortuary, Voice of Resurgence, Oko, Thief of Crowns, Lotus Cobra, Bone Shards, Figure of Destiny, Sensei's Divining Top, Xander's Lounge, Atraxa, Grand Unifier, Worldspine Wurm, Walking Ballista, Cryptbreaker, Echo of Eons, Lotus Petal, Smuggler's Copter, Emrakul, the Promised End, Loran of the Third Path, Crucible of Worlds, Troll of Khazad-dûm, Sneak Attack, Time Walk, Elvish Mystic, Spara's Headquarters, Silent Clearing, Torsten, Founder of Benalia, Emry, Lurker of the Loch, Ponder, Currency Converter, Ratchet Bomb, Soul of Windgrace, Fyndhorn Elves, Flooded Strand, Blade Splicer, Timetwister, Arena of Glory, No More Lies, Channel, Magda, Brazen Outlaw, Emrakul, the Aeons Torn, Goblin Engineer, Llanowar Elves, Tinker, Alpha Deathclaw, Dig Through Time, Sunbaked Canyon, Uro, Titan of Nature's Wrath, Relic of Sauron, Vaultborn Tyrant, Zagoth Triome, Timeless Witness, Bloodbraid Challenger, Oni-Cult Anvil, Umezawa's Jitte, Jace, the Mind Sculptor, Miscalculation, Kolaghan's Command, Verdant Catacombs, Shadowy Backstreet, Bitterblossom, Karakas, Mox Diamond, Raugrin Triome, Mana Drain, Tribal Flames, Mox Sapphire, Malcolm, Alluring Scoundrel, Deep Forest Hermit, The Meathook Massacre, Chrome Mox, Triplicate Titan, Savannah, Bazaar of Baghdad, Thran Dynamo, Fabled Passage, Plateau, Kitsa, Otterball Elite, Frantic Search, Fountainport, Vindicate, Prismatic Ending, Liliana of the Veil, Leyline Binding, Thalia, Guardian of Thraben, Sundering Titan, Searing Spear, Force of Will, Woodland Cemetery, Misty Rainforest, Dauntless Bodyguard, Lightning Bolt, Esper Sentinel, Demonic Tutor, Reclamation Sage, Temple Garden, Price of Progress, Mana Confluence, Wrenn and Six, Tireless Tracker, Courser of Kruphix, Endurance, Hallowed Fountain, Godless Shrine, Show and Tell, Mystic Confluence, Fanatic of Rhonas, Wildfire, Brainstorm, Through the Breach, Fastbond, Ramunap Excavator, Arid Mesa, Noble Hierarch, Urza's Bauble, Lush Portico, Life from the Loam, Serra Paragon, Pernicious Deed, Burst Lightning, Boros Charm, Burning of Xinye, Armageddon, Creeping Tar Pit, Knight of the Ebon Legion, Windswept Heath, Dauthi Voidwalker, Esika's Chariot, Meticulous Archive, Polluted Delta, Mox Pearl, Oath of Druids, Sevinne's Reclamation, Smash to Smithereens, Skyclave Apparition, Thundering Falls, Usher of the Fallen, Planar Genesis, Dack Fayden, Nature's Claim, Ancestral Recall, Hullbreacher, Animate Dead, Volcanic Island, Pentad Prism, Third Path Iconoclast, Deathrite Shaman, Ketria Triome, Tolarian Academy, Kappa Cannoneer, Spirit of the Labyrinth, Overgrown Tomb, Batterskull, Savai Triome, Staff of the Storyteller, Goblin Welder, Supreme Verdict, Black Lotus, Scalding Tarn, Phyrexian Metamorph, Murktide Regent, Tidehollow Sculler, Patchwork Automaton, Bayou, Warden of the Inner Sky, Tasigur, the Golden Fang, Inquisition of Kozilek, Retrofitter Foundry, Adeline, Resplendent Cathar, Generous Plunderer, Titania, Protector of Argoth, Mox Emerald, Ancient Tomb, Broadside Bombardiers, Seething Song, Lurrus of the Dream-Den, Luminarch Aspirant, Toxic Deluge, Ghostfire Slice, Collective Brutality, Ethersworn Canonist, Wooded Foothills, Persist, Marsh Flats, Cut Down, Balance, Portable Hole, Spell Pierce, Lingering Souls, Talisman of Indulgence, Young Pyromancer, Dismember, Avenger of Zendikar, Solitude, Undercity Sewers, Faithless Looting, The One Ring, Urza, Lord High Artificer, Wurmcoil Engine, Dragonskull Summit, Baleful Mastery, Unholy Heat, Archon of Cruelty, Talisman of Dominance, Mishra's Bauble, Vampiric Tutor, Ragavan, Nimble Pilferer, Dryad of the Ilysian Grove, Night's Whisper, Palace Jailer, Orcish Bowmasters, Barrowgoyf, Gitaxian Probe, Expressive Iteration, Grist, the Hunger Tide, Valgavoth, Terror Eater, Fire Covenant, Archon of Emeria, Lion's Eye Diamond, Raffine's Tower, Joraga Treespeaker, Path to Exile, Breeding Pool, Platinum Emperion, Bloodstained Mire, Nettlecyst, Daze, Library of Alexandria, Rootbound Crag, Jacked Rabbit, Mox Opal, Scavenging Ooze, Reckoner Bankbuster, Lightning Greaves, Seasoned Pyromancer, Fiery Islet, Marionette Apprentice, Eureka, Syr Ginger, the Meal Ender, Murderous Cut, Sheoldred, the Apocalypse, Notion Thief, Restoration Angel, Unexpectedly Absent, Arcane Denial, Memory Jar, Ravages of War, Swords to Plowshares, Ocelot Pride, Portal to Phyrexia, Basalt Monolith, Hangarback Walker, Reanimate, Elvish Reclaimer, Goryo's Vengeance, Dance of the Dead, Kinnan, Bonder Prodigy, Fury, Hermit Druid, Mother of Runes, Magmatic Sinkhole, Celestial Colonnade, Questing Beast, Scrapwork Mutt, Thief of Sanity, Palantír of Orthanc, Yawgmoth's Will, Spellskite, Mana Leak, Saheeli, Sublime Artificer, Inti, Seneschal of the Sun, Goblin Guide, Steam Vents, Carnage Interpreter, Field of the Dead, Tendrils of Agony, Mox Ruby, Prismatic Vista, Fear of Missing Out, Cabal Ritual, Sacred Foundry, Mind's Desire, Snapcaster Mage, Underworld Breach, Chandra, Torch of Defiance, Six, Watery Grave, Grim Monolith, Veteran Survivor, Shallow Grave
+INFO 2024-12-22 14:52:30,379 views Pack 1 created for isaac with 15 cards.
+INFO 2024-12-22 14:52:30,388 views Pack 2 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:52:30,395 views Pack 3 created for isaac with 15 cards.
+INFO 2024-12-22 14:52:30,404 views Pack 4 created for isaac2 with 15 cards.
+INFO 2024-12-22 14:52:30,435 views Pack 5 created for isaac with 15 cards.
+INFO 2024-12-22 14:52:30,443 views Pack 6 created for isaac2 with 15 cards.
+DEBUG 2024-12-22 14:52:30,447 http_protocol HTTP 200 response started for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:30,448 http_protocol HTTP close for ['127.0.0.1', 57013]
+DEBUG 2024-12-22 14:52:30,448 http_protocol HTTP response complete for ['127.0.0.1', 57013]
+INFO 2024-12-22 14:52:30,448 runserver [mHTTP POST /drafting/drafts/41/start-draft/ 200 [0.23, 127.0.0.1:57013][0m
+INFO 2024-12-22 14:52:30,448 runserver [mHTTP POST /drafting/drafts/41/start-draft/ 200 [0.23, 127.0.0.1:57013][0m
+DEBUG 2024-12-22 14:52:48,918 ws_protocol WebSocket incoming frame on ['127.0.0.1', 57051]
+INFO 2024-12-22 14:54:17,438 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+INFO 2024-12-22 14:54:17,438 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+DEBUG 2024-12-22 14:54:18,317 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:54:18,644 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:54:18,644 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:54:22,589 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+INFO 2024-12-22 14:54:22,589 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_drafting\consumers.py changed, reloading.
+DEBUG 2024-12-22 14:54:23,507 selector_events Using selector: SelectSelector
+INFO 2024-12-22 14:54:23,864 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:54:23,864 autoreload Watching for file changes with StatReloader
+INFO 2024-12-22 14:54:24,580 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-22 14:54:24,581 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-22 14:54:24,582 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-22 14:54:24,810 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57150]
+INFO 2024-12-22 14:54:24,810 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57150]
+DEBUG 2024-12-22 14:54:24,811 http_protocol Upgraded connection ['127.0.0.1', 57150] to WebSocket
+DEBUG 2024-12-22 14:54:24,822 ws_protocol WebSocket ['127.0.0.1', 57150] open and established
+INFO 2024-12-22 14:54:24,823 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57150]
+INFO 2024-12-22 14:54:24,823 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57150]
+DEBUG 2024-12-22 14:54:24,823 ws_protocol WebSocket ['127.0.0.1', 57150] accepted by application
+DEBUG 2024-12-22 14:54:24,862 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57150]
+INFO 2024-12-22 14:54:25,033 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57152]
+INFO 2024-12-22 14:54:25,033 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:57152]
+DEBUG 2024-12-22 14:54:25,034 http_protocol Upgraded connection ['127.0.0.1', 57152] to WebSocket
+DEBUG 2024-12-22 14:54:25,044 ws_protocol WebSocket ['127.0.0.1', 57152] open and established
+INFO 2024-12-22 14:54:25,044 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57152]
+INFO 2024-12-22 14:54:25,044 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:57152]
+DEBUG 2024-12-22 14:54:25,045 ws_protocol WebSocket ['127.0.0.1', 57152] accepted by application
+DEBUG 2024-12-22 14:54:25,060 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57150]
+DEBUG 2024-12-22 14:54:25,078 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57152]
+DEBUG 2024-12-22 16:47:18,597 ws_protocol WebSocket closed for ['127.0.0.1', 57150]
+INFO 2024-12-22 16:47:18,598 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57150]
+INFO 2024-12-22 16:47:18,598 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57150]
+DEBUG 2024-12-22 16:47:18,632 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 57152]
+DEBUG 2024-12-22 21:48:49,446 ws_protocol WebSocket closed for ['127.0.0.1', 57152]
+INFO 2024-12-22 21:48:49,450 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57152]
+INFO 2024-12-22 21:48:49,450 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:57152]
+INFO 2024-12-23 05:25:19,352 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54143]
+INFO 2024-12-23 05:25:19,352 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54143]
+DEBUG 2024-12-23 05:25:19,357 http_protocol Upgraded connection ['127.0.0.1', 54143] to WebSocket
+DEBUG 2024-12-23 05:25:19,390 ws_protocol WebSocket ['127.0.0.1', 54143] open and established
+INFO 2024-12-23 05:25:19,391 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54143]
+INFO 2024-12-23 05:25:19,391 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54143]
+DEBUG 2024-12-23 05:25:19,391 ws_protocol WebSocket ['127.0.0.1', 54143] accepted by application
+DEBUG 2024-12-23 05:25:19,437 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 54143]
+DEBUG 2024-12-23 06:27:36,511 ws_protocol WebSocket closed for ['127.0.0.1', 54143]
+INFO 2024-12-23 06:27:36,512 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54143]
+INFO 2024-12-23 06:27:36,512 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54143]
+INFO 2024-12-23 07:08:23,294 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54322]
+INFO 2024-12-23 07:08:23,294 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54322]
+DEBUG 2024-12-23 07:08:23,297 http_protocol Upgraded connection ['127.0.0.1', 54322] to WebSocket
+DEBUG 2024-12-23 07:08:23,328 ws_protocol WebSocket ['127.0.0.1', 54322] open and established
+INFO 2024-12-23 07:08:23,330 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54322]
+INFO 2024-12-23 07:08:23,330 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54322]
+DEBUG 2024-12-23 07:08:23,331 ws_protocol WebSocket ['127.0.0.1', 54322] accepted by application
+DEBUG 2024-12-23 07:08:23,366 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 54322]
+DEBUG 2024-12-23 08:10:05,764 ws_protocol WebSocket closed for ['127.0.0.1', 54322]
+INFO 2024-12-23 08:10:05,765 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54322]
+INFO 2024-12-23 08:10:05,765 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54322]
+INFO 2024-12-23 19:08:33,268 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54490]
+INFO 2024-12-23 19:08:33,268 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54490]
+DEBUG 2024-12-23 19:08:33,276 http_protocol Upgraded connection ['127.0.0.1', 54490] to WebSocket
+DEBUG 2024-12-23 19:08:33,321 ws_protocol WebSocket ['127.0.0.1', 54490] open and established
+INFO 2024-12-23 19:08:33,322 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54490]
+INFO 2024-12-23 19:08:33,322 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54490]
+DEBUG 2024-12-23 19:08:33,322 ws_protocol WebSocket ['127.0.0.1', 54490] accepted by application
+DEBUG 2024-12-23 19:08:33,365 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 54490]
+DEBUG 2024-12-23 23:10:40,520 ws_protocol WebSocket closed for ['127.0.0.1', 54490]
+INFO 2024-12-23 23:10:40,522 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54490]
+INFO 2024-12-23 23:10:40,522 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54490]
+INFO 2024-12-23 23:37:35,616 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54419]
+INFO 2024-12-23 23:37:35,616 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:54419]
+DEBUG 2024-12-23 23:37:35,617 http_protocol Upgraded connection ['127.0.0.1', 54419] to WebSocket
+DEBUG 2024-12-23 23:37:35,635 ws_protocol WebSocket ['127.0.0.1', 54419] open and established
+INFO 2024-12-23 23:37:35,636 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54419]
+INFO 2024-12-23 23:37:35,636 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:54419]
+DEBUG 2024-12-23 23:37:35,636 ws_protocol WebSocket ['127.0.0.1', 54419] accepted by application
+DEBUG 2024-12-23 23:37:35,658 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 54419]
+DEBUG 2024-12-24 00:28:27,123 ws_protocol WebSocket closed for ['127.0.0.1', 54419]
+INFO 2024-12-24 00:28:27,124 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54419]
+INFO 2024-12-24 00:28:27,124 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:54419]
+INFO 2024-12-24 16:03:17,573 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:53388]
+INFO 2024-12-24 16:03:17,573 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:53388]
+DEBUG 2024-12-24 16:03:17,574 http_protocol Upgraded connection ['127.0.0.1', 53388] to WebSocket
+DEBUG 2024-12-24 16:03:17,594 ws_protocol WebSocket ['127.0.0.1', 53388] open and established
+INFO 2024-12-24 16:03:17,595 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:53388]
+INFO 2024-12-24 16:03:17,595 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:53388]
+DEBUG 2024-12-24 16:03:17,596 ws_protocol WebSocket ['127.0.0.1', 53388] accepted by application
+DEBUG 2024-12-24 16:03:17,617 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 53388]
+INFO 2024-12-24 16:29:57,533 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_rtchat\consumers.py changed, reloading.
+INFO 2024-12-24 16:29:57,533 autoreload C:\Users\isaac\Downloads\django-starter-main\django-starter-main\a_rtchat\consumers.py changed, reloading.
+DEBUG 2024-12-24 16:29:58,771 selector_events Using selector: SelectSelector
+INFO 2024-12-24 16:29:59,219 autoreload Watching for file changes with StatReloader
+INFO 2024-12-24 16:29:59,219 autoreload Watching for file changes with StatReloader
+INFO 2024-12-24 16:30:00,145 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2024-12-24 16:30:00,146 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2024-12-24 16:30:00,147 server Listening on TCP address 127.0.0.1:8000
+INFO 2024-12-24 16:30:00,547 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60458]
+INFO 2024-12-24 16:30:00,547 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60458]
+DEBUG 2024-12-24 16:30:00,548 http_protocol Upgraded connection ['127.0.0.1', 60458] to WebSocket
+DEBUG 2024-12-24 16:30:00,560 ws_protocol WebSocket ['127.0.0.1', 60458] open and established
+INFO 2024-12-24 16:30:00,561 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60458]
+INFO 2024-12-24 16:30:00,561 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60458]
+DEBUG 2024-12-24 16:30:00,561 ws_protocol WebSocket ['127.0.0.1', 60458] accepted by application
+DEBUG 2024-12-24 16:30:00,605 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60458]
+DEBUG 2024-12-24 19:52:58,930 ws_protocol WebSocket closed for ['127.0.0.1', 60458]
+INFO 2024-12-24 19:52:58,932 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60458]
+INFO 2024-12-24 19:52:58,932 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60458]
+INFO 2024-12-24 20:18:51,546 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:52860]
+INFO 2024-12-24 20:18:51,546 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:52860]
+DEBUG 2024-12-24 20:18:51,547 http_protocol Upgraded connection ['127.0.0.1', 52860] to WebSocket
+DEBUG 2024-12-24 20:18:51,567 ws_protocol WebSocket ['127.0.0.1', 52860] open and established
+INFO 2024-12-24 20:18:51,567 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:52860]
+INFO 2024-12-24 20:18:51,567 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:52860]
+DEBUG 2024-12-24 20:18:51,568 ws_protocol WebSocket ['127.0.0.1', 52860] accepted by application
+DEBUG 2024-12-24 20:18:51,582 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 52860]
+DEBUG 2024-12-25 08:21:37,712 ws_protocol WebSocket closed for ['127.0.0.1', 52860]
+INFO 2024-12-25 08:21:37,713 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:52860]
+INFO 2024-12-25 08:21:37,713 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:52860]
+INFO 2024-12-25 08:53:46,275 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:53087]
+INFO 2024-12-25 08:53:46,275 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:53087]
+DEBUG 2024-12-25 08:53:46,277 http_protocol Upgraded connection ['127.0.0.1', 53087] to WebSocket
+DEBUG 2024-12-25 08:53:46,318 ws_protocol WebSocket ['127.0.0.1', 53087] open and established
+INFO 2024-12-25 08:53:46,319 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:53087]
+INFO 2024-12-25 08:53:46,319 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:53087]
+DEBUG 2024-12-25 08:53:46,320 ws_protocol WebSocket ['127.0.0.1', 53087] accepted by application
+DEBUG 2024-12-25 08:53:46,358 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 53087]

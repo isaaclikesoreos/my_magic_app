@@ -1,93 +1,84 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse
+from django.shortcuts import get_object_or_404, redirect
+from django.urls import reverse_lazy
 from allauth.account.utils import send_email_confirmation
-from django.contrib.auth.decorators import login_required
-from django.contrib.auth import logout
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
-from django.contrib.auth.views import redirect_to_login
+from django.views import View
+from django.views.generic import TemplateView, UpdateView, FormView, DeleteView
 from django.contrib import messages
-from .forms import *
-
-def profile_view(request, username=None):
-    if username:
-        profile = get_object_or_404(User, username=username).profile
-    else:
-        try:
-            profile = request.user.profile
-        except:
-            return redirect_to_login(request.get_full_path())
-    return render(request, 'a_users/profile.html', {'profile':profile})
+from .forms import ProfileForm, EmailForm
+from .models import Profile
 
 
-@login_required
-def profile_edit_view(request):
-    form = ProfileForm(instance=request.user.profile)  
-    
-    if request.method == 'POST':
-        form = ProfileForm(request.POST, request.FILES, instance=request.user.profile)
-        if form.is_valid():
-            form.save()
-            return redirect('profile')
-        
-    if request.path == reverse('profile-onboarding'):
-        onboarding = True
-    else:
-        onboarding = False
-      
-    return render(request, 'a_users/profile_edit.html', { 'form':form, 'onboarding':onboarding })
+class ProfileView(LoginRequiredMixin, TemplateView):
+    template_name = "a_users/profile.html"
 
-
-@login_required
-def profile_settings_view(request):
-    return render(request, 'a_users/profile_settings.html')
-
-
-@login_required
-def profile_emailchange(request):
-    
-    if request.htmx:
-        form = EmailForm(instance=request.user)
-        return render(request, 'partials/email_form.html', {'form':form})
-    
-    if request.method == 'POST':
-        form = EmailForm(request.POST, instance=request.user)
-
-        if form.is_valid():
-            
-            # Check if the email already exists
-            email = form.cleaned_data['email']
-            if User.objects.filter(email=email).exclude(id=request.user.id).exists():
-                messages.warning(request, f'{email} is already in use.')
-                return redirect('profile-settings')
-            
-            form.save() 
-            
-            # Then Signal updates emailaddress and set verified to False
-            
-            # Then send confirmation email 
-            send_email_confirmation(request, request.user)
-            
-            return redirect('profile-settings')
+    def get_context_data(self, **kwargs):
+        username = self.kwargs.get("username")
+        if username:
+            profile = get_object_or_404(User, username=username).profile
         else:
-            messages.warning(request, 'Form not valid')
-            return redirect('profile-settings')
-        
-    return redirect('home')
+            profile = self.request.user.profile
+        return {"profile": profile}
 
 
-@login_required
-def profile_emailverify(request):
-    send_email_confirmation(request, request.user)
-    return redirect('profile-settings')
+class ProfileEditView(LoginRequiredMixin, UpdateView):
+    model = Profile
+    form_class = ProfileForm
+    template_name = "a_users/profile_edit.html"
+
+    def get_object(self):
+        return self.request.user.profile
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["onboarding"] = self.request.path == reverse_lazy("profile-onboarding")
+        return context
+
+    def get_success_url(self):
+        return reverse_lazy("profile")
 
 
-@login_required
-def profile_delete_view(request):
-    user = request.user
-    if request.method == "POST":
-        logout(request)
-        user.delete()
-        messages.success(request, 'Account deleted, what a pity')
-        return redirect('home')
-    
-    return render(request, 'a_users/profile_delete.html')
+class ProfileSettingsView(LoginRequiredMixin, TemplateView):
+    template_name = "a_users/profile_settings.html"
+
+
+class ProfileEmailChangeView(LoginRequiredMixin, FormView):
+    form_class = EmailForm
+    template_name = "partials/email_form.html"
+
+    def get_form_kwargs(self):
+        kwargs = super().get_form_kwargs()
+        kwargs["instance"] = self.request.user
+        return kwargs
+
+    def form_valid(self, form):
+        email = form.cleaned_data["email"]
+        if User.objects.filter(email=email).exclude(id=self.request.user.id).exists():
+            messages.warning(self.request, f"{email} is already in use.")
+        else:
+            form.save()
+            send_email_confirmation(self.request, self.request.user)
+            messages.success(self.request, "Email updated and confirmation sent.")
+        return redirect("profile-settings")
+
+
+class ProfileEmailVerifyView(LoginRequiredMixin, View):
+    def get(self, request):
+        send_email_confirmation(request, request.user)
+        messages.success(request, "Verification email sent.")
+        return redirect("profile-settings")
+
+
+class ProfileDeleteView(LoginRequiredMixin, DeleteView):
+    model = User
+    template_name = "a_users/profile_delete.html"
+    success_url = reverse_lazy("home")
+
+    def get_object(self):
+        return self.request.user
+
+    def form_valid(self, form):
+        logout(self.request)
+        messages.success(self.request, "Account deleted successfully.")
+        return super().form_valid(form)
