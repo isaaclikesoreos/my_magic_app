@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Cube, Card, Draft, DeckList, CubeCard, CardImage, CubeImage, DraftPlayer, DraftPack
+from .models import Cube, Card, Draft, DeckList, CubeCard, CardImage, CubeImage, DraftPlayer, DraftPack, DraftDeck
 from django.utils.html import format_html
 
 # Custom Admin for Card
@@ -38,3 +38,4 @@ admin.site.register(CardImage)
 admin.site.register(CubeImage)
 admin.site.register(DraftPlayer)
 admin.site.register(DraftPack)
+admin.site.register(DraftDeck)

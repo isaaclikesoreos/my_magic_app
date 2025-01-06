@@ -36,11 +36,11 @@ class Card(models.Model):
 class Draft(models.Model):
     cube = models.ForeignKey(Cube, on_delete=models.CASCADE, related_name='drafts')
     pack_count = models.IntegerField(default=3)
-    cards_per_pack = models.IntegerField(default=15)
+    cards_per_pack = models.IntegerField(default=5)
     player_count = models.IntegerField()
     max_players = models.IntegerField(default=8)  # Add this field
     active = models.BooleanField(default=True)
-
+    players_with_active_packs = models.IntegerField(default=0)
     def __str__(self):
         return f"Draft for {self.cube.name}"
 
@@ -110,3 +110,13 @@ class DraftPack(models.Model):
 
     def __str__(self):
         return f"Pack for Draft {self.draft.id} - Player: {self.player.username if self.player else 'None'}"
+
+
+class DraftDeck(models.Model):
+    draft = models.ForeignKey(Draft, on_delete=models.CASCADE, related_name="decks")
+    player = models.ForeignKey(User, on_delete=models.CASCADE, related_name="decks")
+    card = models.ForeignKey(Card, on_delete=models.CASCADE)
+    mainboard = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"{self.card.name} drafted by {self.player.username} in {self.draft.cube.name}"

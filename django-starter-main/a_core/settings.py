@@ -109,11 +109,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'magic_db2',
         'USER': 'root',
-        'PASSWORD': 'Mysql7312!',
-        'HOST': 'localhost',  # Or the IP of your MySQL server
+        'PASSWORD': 'ht65e43@^#$gdrfy56#*$fTFR',
+        'HOST': 'localhost',  # Or another host
         'PORT': '3306',       # Default MySQL port
     }
 }
+
 
 
 # Password validation

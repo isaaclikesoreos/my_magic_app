@@ -29,7 +29,7 @@ class ChatroomView(LoginRequiredMixin, TemplateView):
 
         other_user = None
         if chat_group.is_private:
-            if self.request.user not in chat_group.members.all():
+            if self.request.user not in chat_group.members.all(): #make sure the belongs in the chat and identify other users, for 1 on 1 chat
                 raise Http404()
             for member in chat_group.members.all():
                 if member != self.request.user:
@@ -37,7 +37,7 @@ class ChatroomView(LoginRequiredMixin, TemplateView):
                     break
 
         if chat_group.groupchat_name:
-            if self.request.user not in chat_group.members.all():
+            if self.request.user not in chat_group.members.all(): #if the person is not in the groupchat add them when they arrive
                 if self.request.user.emailaddress_set.filter(verified=True).exists():
                     chat_group.members.add(self.request.user)
                 else:

@@ -216,6 +216,7 @@ class UpdateCardDatabaseView(APIView):
 
     def post(self, request):
         logger = logging.getLogger(__name__)
+        DEFAULT_IMAGE_URL = "https://example.com/default_card_image.jpg"  # Replace with your default image URL
 
         try:
             # Fetch Scryfall bulk data
@@ -253,12 +254,20 @@ class UpdateCardDatabaseView(APIView):
                     },
                 )
 
-                # Store multiple images for the card
-                for size, url in image_urls.items():
+                # Store images for the card, or assign a default image if none are available
+                if image_urls:
+                    for size, url in image_urls.items():
+                        CardImage.objects.update_or_create(
+                            card=card,
+                            image_url=url,
+                            defaults={"is_primary": size == "normal"},
+                        )
+                else:
+                    # Assign default image
                     CardImage.objects.update_or_create(
                         card=card,
-                        image_url=url,
-                        defaults={"is_primary": size == "normal"},
+                        image_url=DEFAULT_IMAGE_URL,
+                        defaults={"is_primary": True},
                     )
 
             logger.info("Card database updated successfully!")

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add your custom styles here */
+.card-container {
+  @apply bg-white shadow-md rounded overflow-hidden flex flex-col items-center p-4 hover:shadow-lg transition-shadow duration-200;
+}
+
+.card-img {
+  @apply w-full h-auto rounded;
+}
+
+.card-name {
+  @apply mt-2 text-center font-semibold text-sm;
+}
+
+.draft-button {
+  @apply mt-2 px-4 py-2 bg-blue-500 text-white text-sm rounded hover:bg-blue-600 transition-colors duration-200;
+}
+
+.pack-display-section {
+  @apply p-4;
+}
+
+.pack-display {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4;
+}
