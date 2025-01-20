@@ -51,6 +51,10 @@ INSTALLED_APPS = [
     'a_users',
     'a_rtchat',
     'a_drafting',
+    'tailwind',
+    'theme',
+    'django_browser_reload',
+    
 ]
 
 SITE_ID = 1
@@ -65,6 +69,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
     'django_htmx.middleware.HtmxMiddleware',
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 AUTHENTICATION_BACKENDS = [
@@ -93,6 +98,10 @@ TEMPLATES = [
 #WSGI_APPLICATION = 'a_core.wsgi.application'
 
 ASGI_APPLICATION = 'a_core.asgi.application'
+
+TAILWIND_APP_NAME = 'theme'
+
+NPM_BIN_PATH = "C:/Program Files/nodejs/npm.cmd"
 
 CHANNEL_LAYERS = {
     'default': {
@@ -146,6 +155,10 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
 
 
 # Static files (CSS, JavaScript, Images)

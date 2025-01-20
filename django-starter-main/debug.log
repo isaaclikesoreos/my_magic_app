@@ -45428,3 +45428,1619 @@ INFO 2025-01-05 22:30:43,020 consumers Draft started, packs sent to all players.
 DEBUG 2025-01-05 22:30:43,021 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 58963]
 DEBUG 2025-01-05 22:30:43,022 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59034]
 DEBUG 2025-01-05 22:30:43,023 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 58999]
+DEBUG 2025-01-09 18:07:13,325 selector_events Using selector: SelectSelector
+DEBUG 2025-01-09 18:07:14,389 selector_events Using selector: SelectSelector
+INFO 2025-01-09 18:07:14,675 autoreload Watching for file changes with StatReloader
+INFO 2025-01-09 18:07:14,675 autoreload Watching for file changes with StatReloader
+INFO 2025-01-09 18:07:15,370 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-01-09 18:07:15,370 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-01-09 18:07:15,371 server Listening on TCP address 127.0.0.1:8000
+DEBUG 2025-01-09 18:07:18,682 http_protocol HTTP b'GET' request for ['127.0.0.1', 55649]
+DEBUG 2025-01-09 18:07:18,775 http_protocol HTTP 200 response started for ['127.0.0.1', 55649]
+DEBUG 2025-01-09 18:07:18,775 http_protocol HTTP close for ['127.0.0.1', 55649]
+DEBUG 2025-01-09 18:07:18,776 http_protocol HTTP response complete for ['127.0.0.1', 55649]
+INFO 2025-01-09 18:07:18,776 runserver [mHTTP GET / 200 [0.09, 127.0.0.1:55649][0m
+INFO 2025-01-09 18:07:18,776 runserver [mHTTP GET / 200 [0.09, 127.0.0.1:55649][0m
+DEBUG 2025-01-09 18:07:18,803 http_protocol HTTP b'GET' request for ['127.0.0.1', 55649]
+DEBUG 2025-01-09 18:07:18,804 http_protocol HTTP b'GET' request for ['127.0.0.1', 55653]
+DEBUG 2025-01-09 18:07:18,808 http_protocol HTTP 304 response started for ['127.0.0.1', 55649]
+DEBUG 2025-01-09 18:07:18,809 http_protocol HTTP close for ['127.0.0.1', 55649]
+DEBUG 2025-01-09 18:07:18,810 http_protocol HTTP response complete for ['127.0.0.1', 55649]
+INFO 2025-01-09 18:07:18,810 runserver [36mHTTP GET /static/images/logo.svg 304 [0.01, 127.0.0.1:55649][0m
+INFO 2025-01-09 18:07:18,810 runserver [36mHTTP GET /static/images/logo.svg 304 [0.01, 127.0.0.1:55649][0m
+DEBUG 2025-01-09 18:07:18,811 http_protocol HTTP 304 response started for ['127.0.0.1', 55653]
+DEBUG 2025-01-09 18:07:18,812 http_protocol HTTP close for ['127.0.0.1', 55653]
+DEBUG 2025-01-09 18:07:18,812 http_protocol HTTP response complete for ['127.0.0.1', 55653]
+INFO 2025-01-09 18:07:18,812 runserver [36mHTTP GET /static/images/avatar.svg 304 [0.01, 127.0.0.1:55653][0m
+INFO 2025-01-09 18:07:18,812 runserver [36mHTTP GET /static/images/avatar.svg 304 [0.01, 127.0.0.1:55653][0m
+DEBUG 2025-01-09 18:07:19,071 http_protocol HTTP b'GET' request for ['127.0.0.1', 55653]
+DEBUG 2025-01-09 18:07:19,074 http_protocol HTTP 304 response started for ['127.0.0.1', 55653]
+DEBUG 2025-01-09 18:07:19,075 http_protocol HTTP close for ['127.0.0.1', 55653]
+DEBUG 2025-01-09 18:07:19,075 http_protocol HTTP response complete for ['127.0.0.1', 55653]
+INFO 2025-01-09 18:07:19,076 runserver [36mHTTP GET /static/django-htmx.js 304 [0.01, 127.0.0.1:55653][0m
+INFO 2025-01-09 18:07:19,076 runserver [36mHTTP GET /static/django-htmx.js 304 [0.01, 127.0.0.1:55653][0m
+INFO 2025-01-09 18:07:19,243 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55665]
+INFO 2025-01-09 18:07:19,243 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:55665]
+DEBUG 2025-01-09 18:07:19,243 http_protocol Upgraded connection ['127.0.0.1', 55665] to WebSocket
+DEBUG 2025-01-09 18:07:19,254 ws_protocol WebSocket ['127.0.0.1', 55665] open and established
+INFO 2025-01-09 18:07:19,255 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55665]
+INFO 2025-01-09 18:07:19,255 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:55665]
+DEBUG 2025-01-09 18:07:19,255 ws_protocol WebSocket ['127.0.0.1', 55665] accepted by application
+DEBUG 2025-01-09 18:07:19,278 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 55665]
+DEBUG 2025-01-18 18:44:00,517 selector_events Using selector: SelectSelector
+DEBUG 2025-01-18 18:44:01,730 selector_events Using selector: SelectSelector
+INFO 2025-01-18 18:44:02,051 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 18:44:02,051 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 18:44:02,902 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-01-18 18:44:02,903 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-01-18 18:44:02,904 server Listening on TCP address 127.0.0.1:8000
+DEBUG 2025-01-18 18:44:15,104 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+WARNING 2025-01-18 18:44:15,202 log Not Found: /Quit
+WARNING 2025-01-18 18:44:15,202 log Not Found: /Quit
+DEBUG 2025-01-18 18:44:15,203 http_protocol HTTP 404 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:15,204 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:15,204 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+WARNING 2025-01-18 18:44:15,204 runserver [33mHTTP GET /Quit 404 [0.10, 127.0.0.1:56519][0m
+WARNING 2025-01-18 18:44:15,204 runserver [33mHTTP GET /Quit 404 [0.10, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:15,273 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+WARNING 2025-01-18 18:44:15,283 log Not Found: /favicon.ico
+WARNING 2025-01-18 18:44:15,283 log Not Found: /favicon.ico
+DEBUG 2025-01-18 18:44:15,284 http_protocol HTTP 404 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:15,284 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:15,285 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+WARNING 2025-01-18 18:44:15,286 runserver [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:56519][0m
+WARNING 2025-01-18 18:44:15,286 runserver [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:34,813 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:34,818 http_protocol HTTP 302 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:34,819 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:34,819 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:34,820 runserver [32mHTTP GET / 302 [0.01, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:34,820 runserver [32mHTTP GET / 302 [0.01, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:34,823 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,031 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,032 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,032 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:35,033 runserver [mHTTP GET /accounts/login/?next=/ 200 [0.21, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:35,033 runserver [mHTTP GET /accounts/login/?next=/ 200 [0.21, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:35,048 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,095 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,096 http_protocol HTTP response chunk for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,097 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,097 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:35,097 runserver [mHTTP GET /static/images/logo.svg 200 [0.05, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:35,097 runserver [mHTTP GET /static/images/logo.svg 200 [0.05, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:35,260 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,280 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,281 http_protocol HTTP response chunk for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,282 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,282 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:35,282 runserver [mHTTP GET /static/django-htmx.js 200 [0.02, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:35,282 runserver [mHTTP GET /static/django-htmx.js 200 [0.02, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:35,737 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,748 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,750 http_protocol HTTP response chunk for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,750 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:35,750 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:35,750 runserver [mHTTP GET /static/favicon.ico 200 [0.01, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:35,750 runserver [mHTTP GET /static/favicon.ico 200 [0.01, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:49,822 http_protocol HTTP b'POST' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,532 http_protocol HTTP 302 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,532 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,533 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:50,533 runserver [32mHTTP POST /accounts/login/ 302 [0.71, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:50,533 runserver [32mHTTP POST /accounts/login/ 302 [0.71, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:50,537 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,575 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,576 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,576 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:50,576 runserver [mHTTP GET / 200 [0.04, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:50,576 runserver [mHTTP GET / 200 [0.04, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:44:50,594 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,608 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,609 http_protocol HTTP response chunk for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,610 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:50,610 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:50,610 runserver [mHTTP GET /static/images/avatar.svg 200 [0.02, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:50,610 runserver [mHTTP GET /static/images/avatar.svg 200 [0.02, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:50,727 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56533]
+INFO 2025-01-18 18:44:50,727 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56533]
+DEBUG 2025-01-18 18:44:50,728 http_protocol Upgraded connection ['127.0.0.1', 56533] to WebSocket
+DEBUG 2025-01-18 18:44:50,760 ws_protocol WebSocket ['127.0.0.1', 56533] open and established
+INFO 2025-01-18 18:44:50,761 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56533]
+INFO 2025-01-18 18:44:50,761 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56533]
+DEBUG 2025-01-18 18:44:50,761 ws_protocol WebSocket ['127.0.0.1', 56533] accepted by application
+DEBUG 2025-01-18 18:44:50,808 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56533]
+DEBUG 2025-01-18 18:44:59,786 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:59,810 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-18 18:44:59,911 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:59,912 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:44:59,912 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:44:59,912 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.13, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:44:59,912 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.13, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:45:04,244 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56539]
+INFO 2025-01-18 18:45:04,244 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56539]
+DEBUG 2025-01-18 18:45:04,245 http_protocol Upgraded connection ['127.0.0.1', 56539] to WebSocket
+DEBUG 2025-01-18 18:45:04,247 ws_protocol WebSocket closed for ['127.0.0.1', 56533]
+INFO 2025-01-18 18:45:04,248 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56533]
+INFO 2025-01-18 18:45:04,248 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56533]
+DEBUG 2025-01-18 18:45:04,268 ws_protocol WebSocket ['127.0.0.1', 56539] open and established
+INFO 2025-01-18 18:45:04,268 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56539]
+INFO 2025-01-18 18:45:04,268 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56539]
+DEBUG 2025-01-18 18:45:04,269 ws_protocol WebSocket ['127.0.0.1', 56539] accepted by application
+DEBUG 2025-01-18 18:45:04,285 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56539]
+DEBUG 2025-01-18 18:45:14,462 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:14,473 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-18 18:45:14,485 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:14,486 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:14,486 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:45:14,486 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:45:14,486 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:45:14,808 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56545]
+INFO 2025-01-18 18:45:14,808 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56545]
+DEBUG 2025-01-18 18:45:14,810 http_protocol Upgraded connection ['127.0.0.1', 56545] to WebSocket
+DEBUG 2025-01-18 18:45:14,822 ws_protocol WebSocket ['127.0.0.1', 56545] open and established
+INFO 2025-01-18 18:45:14,822 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56545]
+INFO 2025-01-18 18:45:14,822 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56545]
+DEBUG 2025-01-18 18:45:14,823 ws_protocol WebSocket ['127.0.0.1', 56545] accepted by application
+DEBUG 2025-01-18 18:45:14,839 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56539]
+DEBUG 2025-01-18 18:45:14,855 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56545]
+DEBUG 2025-01-18 18:45:22,774 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:22,900 http_protocol HTTP 200 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:22,901 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:22,901 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:45:22,902 runserver [mHTTP GET /admin/ 200 [0.13, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:45:22,902 runserver [mHTTP GET /admin/ 200 [0.13, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:45:22,917 http_protocol HTTP b'GET' request for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:22,918 ws_protocol WebSocket closed for ['127.0.0.1', 56545]
+INFO 2025-01-18 18:45:22,919 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56545]
+INFO 2025-01-18 18:45:22,919 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56545]
+DEBUG 2025-01-18 18:45:22,923 http_protocol HTTP b'GET' request for ['127.0.0.1', 56550]
+DEBUG 2025-01-18 18:45:22,925 http_protocol HTTP b'GET' request for ['127.0.0.1', 56553]
+DEBUG 2025-01-18 18:45:22,926 http_protocol HTTP b'GET' request for ['127.0.0.1', 56554]
+DEBUG 2025-01-18 18:45:22,928 http_protocol HTTP b'GET' request for ['127.0.0.1', 56555]
+DEBUG 2025-01-18 18:45:22,929 http_protocol HTTP 304 response started for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:22,929 http_protocol HTTP close for ['127.0.0.1', 56519]
+DEBUG 2025-01-18 18:45:22,930 http_protocol HTTP response complete for ['127.0.0.1', 56519]
+INFO 2025-01-18 18:45:22,930 runserver [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:56519][0m
+INFO 2025-01-18 18:45:22,930 runserver [36mHTTP GET /static/admin/css/base.css 304 [0.01, 127.0.0.1:56519][0m
+DEBUG 2025-01-18 18:45:22,932 http_protocol HTTP b'GET' request for ['127.0.0.1', 56556]
+DEBUG 2025-01-18 18:45:22,939 http_protocol HTTP 304 response started for ['127.0.0.1', 56550]
+DEBUG 2025-01-18 18:45:22,940 http_protocol HTTP close for ['127.0.0.1', 56550]
+DEBUG 2025-01-18 18:45:22,940 http_protocol HTTP response complete for ['127.0.0.1', 56550]
+INFO 2025-01-18 18:45:22,940 runserver [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:56550][0m
+INFO 2025-01-18 18:45:22,940 runserver [36mHTTP GET /static/admin/css/dark_mode.css 304 [0.02, 127.0.0.1:56550][0m
+DEBUG 2025-01-18 18:45:22,942 http_protocol HTTP 304 response started for ['127.0.0.1', 56553]
+DEBUG 2025-01-18 18:45:22,943 http_protocol HTTP close for ['127.0.0.1', 56553]
+DEBUG 2025-01-18 18:45:22,944 http_protocol HTTP response complete for ['127.0.0.1', 56553]
+INFO 2025-01-18 18:45:22,944 runserver [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:56553][0m
+INFO 2025-01-18 18:45:22,944 runserver [36mHTTP GET /static/admin/css/nav_sidebar.css 304 [0.02, 127.0.0.1:56553][0m
+DEBUG 2025-01-18 18:45:22,946 http_protocol HTTP 304 response started for ['127.0.0.1', 56554]
+DEBUG 2025-01-18 18:45:22,946 http_protocol HTTP close for ['127.0.0.1', 56554]
+DEBUG 2025-01-18 18:45:22,947 http_protocol HTTP response complete for ['127.0.0.1', 56554]
+INFO 2025-01-18 18:45:22,948 runserver [36mHTTP GET /static/admin/css/dashboard.css 304 [0.02, 127.0.0.1:56554][0m
+INFO 2025-01-18 18:45:22,948 runserver [36mHTTP GET /static/admin/css/dashboard.css 304 [0.02, 127.0.0.1:56554][0m
+DEBUG 2025-01-18 18:45:22,952 http_protocol HTTP 304 response started for ['127.0.0.1', 56555]
+DEBUG 2025-01-18 18:45:22,952 http_protocol HTTP close for ['127.0.0.1', 56555]
+DEBUG 2025-01-18 18:45:22,953 http_protocol HTTP response complete for ['127.0.0.1', 56555]
+INFO 2025-01-18 18:45:22,953 runserver [36mHTTP GET /static/admin/css/responsive.css 304 [0.03, 127.0.0.1:56555][0m
+INFO 2025-01-18 18:45:22,953 runserver [36mHTTP GET /static/admin/css/responsive.css 304 [0.03, 127.0.0.1:56555][0m
+DEBUG 2025-01-18 18:45:22,954 http_protocol HTTP 304 response started for ['127.0.0.1', 56556]
+DEBUG 2025-01-18 18:45:22,954 http_protocol HTTP close for ['127.0.0.1', 56556]
+DEBUG 2025-01-18 18:45:22,954 http_protocol HTTP response complete for ['127.0.0.1', 56556]
+INFO 2025-01-18 18:45:22,954 runserver [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:56556][0m
+INFO 2025-01-18 18:45:22,954 runserver [36mHTTP GET /static/admin/js/theme.js 304 [0.02, 127.0.0.1:56556][0m
+DEBUG 2025-01-18 18:45:22,956 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56539]
+DEBUG 2025-01-18 18:45:22,958 http_protocol HTTP b'GET' request for ['127.0.0.1', 56555]
+DEBUG 2025-01-18 18:45:22,961 http_protocol HTTP 304 response started for ['127.0.0.1', 56555]
+DEBUG 2025-01-18 18:45:22,962 http_protocol HTTP close for ['127.0.0.1', 56555]
+DEBUG 2025-01-18 18:45:22,962 http_protocol HTTP response complete for ['127.0.0.1', 56555]
+INFO 2025-01-18 18:45:22,962 runserver [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:56555][0m
+INFO 2025-01-18 18:45:22,962 runserver [36mHTTP GET /static/admin/js/nav_sidebar.js 304 [0.00, 127.0.0.1:56555][0m
+DEBUG 2025-01-18 18:45:22,963 http_protocol HTTP b'GET' request for ['127.0.0.1', 56556]
+DEBUG 2025-01-18 18:45:22,964 http_protocol HTTP b'GET' request for ['127.0.0.1', 56554]
+DEBUG 2025-01-18 18:45:22,969 http_protocol HTTP 304 response started for ['127.0.0.1', 56556]
+DEBUG 2025-01-18 18:45:22,970 http_protocol HTTP close for ['127.0.0.1', 56556]
+DEBUG 2025-01-18 18:45:22,970 http_protocol HTTP response complete for ['127.0.0.1', 56556]
+INFO 2025-01-18 18:45:22,970 runserver [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.01, 127.0.0.1:56556][0m
+INFO 2025-01-18 18:45:22,970 runserver [36mHTTP GET /static/admin/img/icon-addlink.svg 304 [0.01, 127.0.0.1:56556][0m
+DEBUG 2025-01-18 18:45:22,971 http_protocol HTTP 304 response started for ['127.0.0.1', 56554]
+DEBUG 2025-01-18 18:45:22,971 http_protocol HTTP close for ['127.0.0.1', 56554]
+DEBUG 2025-01-18 18:45:22,971 http_protocol HTTP response complete for ['127.0.0.1', 56554]
+INFO 2025-01-18 18:45:22,972 runserver [36mHTTP GET /static/admin/img/icon-changelink.svg 304 [0.01, 127.0.0.1:56554][0m
+INFO 2025-01-18 18:45:22,972 runserver [36mHTTP GET /static/admin/img/icon-changelink.svg 304 [0.01, 127.0.0.1:56554][0m
+DEBUG 2025-01-18 18:45:44,110 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,121 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-18 18:45:44,130 http_protocol HTTP 200 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,130 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,131 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:45:44,131 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:45:44,131 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:45:44,168 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,171 http_protocol HTTP 304 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,172 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,172 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:45:44,172 runserver [36mHTTP GET /static/images/logo.svg 304 [0.00, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:45:44,172 runserver [36mHTTP GET /static/images/logo.svg 304 [0.00, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:45:44,627 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,631 http_protocol HTTP 304 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,632 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,633 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:45:44,633 runserver [36mHTTP GET /static/django-htmx.js 304 [0.01, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:45:44,633 runserver [36mHTTP GET /static/django-htmx.js 304 [0.01, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:45:44,899 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,902 http_protocol HTTP 304 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,902 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:44,902 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:45:44,903 runserver [36mHTTP GET /static/favicon.ico 304 [0.00, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:45:44,903 runserver [36mHTTP GET /static/favicon.ico 304 [0.00, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:45:52,824 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:52,838 http_protocol HTTP 200 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:52,839 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:45:52,839 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:45:52,840 runserver [mHTTP GET /accounts/login/ 200 [0.02, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:45:52,840 runserver [mHTTP GET /accounts/login/ 200 [0.02, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:46:02,763 http_protocol HTTP b'POST' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,414 http_protocol HTTP 302 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,414 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,415 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:46:03,415 runserver [32mHTTP POST /accounts/login/ 302 [0.65, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:46:03,415 runserver [32mHTTP POST /accounts/login/ 302 [0.65, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:46:03,418 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,429 http_protocol HTTP 200 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,429 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,430 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:46:03,430 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:46:03,430 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:56577][0m
+DEBUG 2025-01-18 18:46:03,447 http_protocol HTTP b'GET' request for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,450 http_protocol HTTP 304 response started for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,451 http_protocol HTTP close for ['127.0.0.1', 56577]
+DEBUG 2025-01-18 18:46:03,451 http_protocol HTTP response complete for ['127.0.0.1', 56577]
+INFO 2025-01-18 18:46:03,452 runserver [36mHTTP GET /static/images/avatar.svg 304 [0.01, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:46:03,452 runserver [36mHTTP GET /static/images/avatar.svg 304 [0.01, 127.0.0.1:56577][0m
+INFO 2025-01-18 18:46:03,584 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56588]
+INFO 2025-01-18 18:46:03,584 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56588]
+DEBUG 2025-01-18 18:46:03,584 http_protocol Upgraded connection ['127.0.0.1', 56588] to WebSocket
+DEBUG 2025-01-18 18:46:03,595 ws_protocol WebSocket ['127.0.0.1', 56588] open and established
+INFO 2025-01-18 18:46:03,596 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56588]
+INFO 2025-01-18 18:46:03,596 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56588]
+DEBUG 2025-01-18 18:46:03,597 ws_protocol WebSocket ['127.0.0.1', 56588] accepted by application
+DEBUG 2025-01-18 18:46:03,611 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56539]
+DEBUG 2025-01-18 18:46:03,625 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56588]
+DEBUG 2025-01-18 18:47:26,092 http_protocol HTTP b'POST' request for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,131 http_protocol HTTP 201 response started for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,132 http_protocol HTTP close for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,132 http_protocol HTTP response complete for ['127.0.0.1', 56603]
+INFO 2025-01-18 18:47:26,132 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.04, 127.0.0.1:56603][0m
+INFO 2025-01-18 18:47:26,132 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.04, 127.0.0.1:56603][0m
+DEBUG 2025-01-18 18:47:26,143 http_protocol HTTP b'GET' request for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,160 http_protocol HTTP 200 response started for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,161 http_protocol HTTP close for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,161 http_protocol HTTP response complete for ['127.0.0.1', 56603]
+INFO 2025-01-18 18:47:26,161 runserver [mHTTP GET /drafting/drafting/68/ 200 [0.02, 127.0.0.1:56603][0m
+INFO 2025-01-18 18:47:26,161 runserver [mHTTP GET /drafting/drafting/68/ 200 [0.02, 127.0.0.1:56603][0m
+DEBUG 2025-01-18 18:47:26,181 http_protocol HTTP b'GET' request for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,186 http_protocol HTTP b'GET' request for ['127.0.0.1', 56605]
+DEBUG 2025-01-18 18:47:26,190 http_protocol HTTP 200 response started for ['127.0.0.1', 56605]
+DEBUG 2025-01-18 18:47:26,192 http_protocol HTTP response chunk for ['127.0.0.1', 56605]
+DEBUG 2025-01-18 18:47:26,193 http_protocol HTTP close for ['127.0.0.1', 56605]
+DEBUG 2025-01-18 18:47:26,193 http_protocol HTTP response complete for ['127.0.0.1', 56605]
+INFO 2025-01-18 18:47:26,194 runserver [mHTTP GET /static/a_drafting/js/draft_room.js 200 [0.01, 127.0.0.1:56605][0m
+INFO 2025-01-18 18:47:26,194 runserver [mHTTP GET /static/a_drafting/js/draft_room.js 200 [0.01, 127.0.0.1:56605][0m
+DEBUG 2025-01-18 18:47:26,195 http_protocol HTTP 200 response started for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,196 http_protocol HTTP response chunk for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,197 http_protocol HTTP close for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:47:26,197 http_protocol HTTP response complete for ['127.0.0.1', 56603]
+INFO 2025-01-18 18:47:26,197 runserver [mHTTP GET /static/css/style.css 200 [0.02, 127.0.0.1:56603][0m
+INFO 2025-01-18 18:47:26,197 runserver [mHTTP GET /static/css/style.css 200 [0.02, 127.0.0.1:56603][0m
+DEBUG 2025-01-18 18:47:26,361 ws_protocol WebSocket closed for ['127.0.0.1', 56539]
+INFO 2025-01-18 18:47:26,362 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56539]
+INFO 2025-01-18 18:47:26,362 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56539]
+INFO 2025-01-18 18:47:26,372 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56610]
+INFO 2025-01-18 18:47:26,372 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56610]
+DEBUG 2025-01-18 18:47:26,375 http_protocol Upgraded connection ['127.0.0.1', 56610] to WebSocket
+DEBUG 2025-01-18 18:47:26,383 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56588]
+DEBUG 2025-01-18 18:47:26,398 ws_protocol WebSocket ['127.0.0.1', 56610] open and established
+INFO 2025-01-18 18:47:26,398 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56610]
+INFO 2025-01-18 18:47:26,398 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56610]
+DEBUG 2025-01-18 18:47:26,399 ws_protocol WebSocket ['127.0.0.1', 56610] accepted by application
+INFO 2025-01-18 18:47:26,412 runserver WebSocket HANDSHAKING /ws/drafts/68/ [127.0.0.1:56614]
+INFO 2025-01-18 18:47:26,412 runserver WebSocket HANDSHAKING /ws/drafts/68/ [127.0.0.1:56614]
+DEBUG 2025-01-18 18:47:26,414 http_protocol Upgraded connection ['127.0.0.1', 56614] to WebSocket
+DEBUG 2025-01-18 18:47:26,414 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56588]
+DEBUG 2025-01-18 18:47:26,431 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56610]
+DEBUG 2025-01-18 18:47:26,440 ws_protocol WebSocket ['127.0.0.1', 56614] open and established
+INFO 2025-01-18 18:47:26,441 runserver WebSocket CONNECT /ws/drafts/68/ [127.0.0.1:56614]
+INFO 2025-01-18 18:47:26,441 runserver WebSocket CONNECT /ws/drafts/68/ [127.0.0.1:56614]
+DEBUG 2025-01-18 18:47:26,442 ws_protocol WebSocket ['127.0.0.1', 56614] accepted by application
+DEBUG 2025-01-18 18:47:26,445 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:47:34,350 http_protocol HTTP b'GET' request for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,362 http_protocol HTTP 200 response started for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,363 http_protocol HTTP close for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,363 http_protocol HTTP response complete for ['127.0.0.1', 56618]
+INFO 2025-01-18 18:47:34,363 runserver [mHTTP GET /drafting/drafting/68/ 200 [0.01, 127.0.0.1:56618][0m
+INFO 2025-01-18 18:47:34,363 runserver [mHTTP GET /drafting/drafting/68/ 200 [0.01, 127.0.0.1:56618][0m
+DEBUG 2025-01-18 18:47:34,380 http_protocol HTTP b'GET' request for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,382 http_protocol HTTP b'GET' request for ['127.0.0.1', 56619]
+DEBUG 2025-01-18 18:47:34,384 http_protocol HTTP 200 response started for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,386 http_protocol HTTP response chunk for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,387 http_protocol HTTP close for ['127.0.0.1', 56618]
+DEBUG 2025-01-18 18:47:34,387 http_protocol HTTP response complete for ['127.0.0.1', 56618]
+INFO 2025-01-18 18:47:34,387 runserver [mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:56618][0m
+INFO 2025-01-18 18:47:34,387 runserver [mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:56618][0m
+DEBUG 2025-01-18 18:47:34,390 http_protocol HTTP 200 response started for ['127.0.0.1', 56619]
+DEBUG 2025-01-18 18:47:34,391 http_protocol HTTP response chunk for ['127.0.0.1', 56619]
+DEBUG 2025-01-18 18:47:34,392 http_protocol HTTP close for ['127.0.0.1', 56619]
+DEBUG 2025-01-18 18:47:34,392 http_protocol HTTP response complete for ['127.0.0.1', 56619]
+INFO 2025-01-18 18:47:34,393 runserver [mHTTP GET /static/a_drafting/js/draft_room.js 200 [0.01, 127.0.0.1:56619][0m
+INFO 2025-01-18 18:47:34,393 runserver [mHTTP GET /static/a_drafting/js/draft_room.js 200 [0.01, 127.0.0.1:56619][0m
+DEBUG 2025-01-18 18:47:34,536 ws_protocol WebSocket closed for ['127.0.0.1', 56588]
+INFO 2025-01-18 18:47:34,537 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56588]
+INFO 2025-01-18 18:47:34,537 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56588]
+INFO 2025-01-18 18:47:34,560 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56625]
+INFO 2025-01-18 18:47:34,560 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:56625]
+DEBUG 2025-01-18 18:47:34,562 http_protocol Upgraded connection ['127.0.0.1', 56625] to WebSocket
+DEBUG 2025-01-18 18:47:34,563 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56610]
+DEBUG 2025-01-18 18:47:34,575 ws_protocol WebSocket ['127.0.0.1', 56625] open and established
+INFO 2025-01-18 18:47:34,575 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56625]
+INFO 2025-01-18 18:47:34,575 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:56625]
+DEBUG 2025-01-18 18:47:34,576 ws_protocol WebSocket ['127.0.0.1', 56625] accepted by application
+INFO 2025-01-18 18:47:34,589 runserver WebSocket HANDSHAKING /ws/drafts/68/ [127.0.0.1:56629]
+INFO 2025-01-18 18:47:34,589 runserver WebSocket HANDSHAKING /ws/drafts/68/ [127.0.0.1:56629]
+DEBUG 2025-01-18 18:47:34,591 http_protocol Upgraded connection ['127.0.0.1', 56629] to WebSocket
+DEBUG 2025-01-18 18:47:34,592 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56610]
+DEBUG 2025-01-18 18:47:34,602 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56625]
+DEBUG 2025-01-18 18:47:34,616 ws_protocol WebSocket ['127.0.0.1', 56629] open and established
+INFO 2025-01-18 18:47:34,617 runserver WebSocket CONNECT /ws/drafts/68/ [127.0.0.1:56629]
+INFO 2025-01-18 18:47:34,617 runserver WebSocket CONNECT /ws/drafts/68/ [127.0.0.1:56629]
+DEBUG 2025-01-18 18:47:34,617 ws_protocol WebSocket ['127.0.0.1', 56629] accepted by application
+DEBUG 2025-01-18 18:47:34,621 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:47:34,622 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:48:19,652 http_protocol HTTP b'POST' request for ['127.0.0.1', 56603]
+INFO 2025-01-18 18:48:19,663 views Starting draft for Cube ID: 3
+INFO 2025-01-18 18:48:19,862 views Cards eligible for the draft: Dauntless Bodyguard, Dryad Militant, Esper Sentinel, Kytheon, Hero of Akros, Mother of Runes, Ocelot Pride, Usher of the Fallen, Veteran Survivor, Warden of the Inner Sky, Ajani, Nacatl Pariah, Ethersworn Canonist, Jacked Rabbit, Luminarch Aspirant, Phelia, Exuberant Shepherd, Spirit of the Labyrinth, Thalia, Guardian of Thraben, Wall of Omens, Adeline, Resplendent Cathar, Archon of Emeria, Blade Splicer, Loran of the Third Path, Monastery Mentor, Skyclave Apparition, Palace Jailer, Restoration Angel, Serra Paragon, Solitude, Elesh Norn, Grand Cenobite, Path to Exile, Swords to Plowshares, Unexpectedly Absent, Prismatic Ending, Balance, Lingering Souls, Sevinne's Reclamation, Armageddon, Ravages of War, Wrath of God, Portable Hole, Staff of the Storyteller, Parallax Wave, Leyline Binding, Karakas, Tamiyo, Inquisitive Student, Jace, Vryn's Prodigy, Kitsa, Otterball Elite, Ledger Shredder, Malcolm, Alluring Scoundrel, Snapcaster Mage, Brazen Borrower, Emry, Lurker of the Loch, Hullbreacher, Displacer Kitten, Urza, Lord High Artificer, Kappa Cannoneer, Murktide Regent, Inkwell Leviathan, Narset, Parter of Veils, Jace, the Mind Sculptor, Ancestral Recall, Brainstorm, Spell Pierce, Arcane Denial, Brain Freeze, Daze, Flash, Mana Drain, Mana Leak, Miscalculation, Remand, Force of Negation, Frantic Search, Force of Will, Mystic Confluence, Dig Through Time, Ponder, Time Walk, Show and Tell, Timetwister, Tinker, Windfall, Lórien Revealed, Echo of Eons, Mind's Desire, Time Spiral, Upheaval, Treasure Cruise, Tolarian Academy, Cryptbreaker, Knight of the Ebon Legion, Dark Confidant, Dauthi Voidwalker, Marionette Apprentice, Orcish Bowmasters, Barrowgoyf, Sheoldred, the Apocalypse, Overlord of the Balemurk, Troll of Khazad-dûm, Archon of Cruelty, Valgavoth, Terror Eater, Liliana of the Veil, Cut Down, Dark Ritual, Entomb, Fatal Push, Vampiric Tutor, Bitter Triumph, Cabal Ritual, Goryo's Vengeance, Shallow Grave, Baleful Mastery, Murderous Cut, Bone Shards, Duress, Inquisition of Kozilek, Mind Twist, Reanimate, Thoughtseize, Unearth, Collective Brutality, Demonic Tutor, Night's Whisper, Persist, Toxic Deluge, Yawgmoth's Will, Tendrils of Agony, Animate Dead, Bitterblossom, Dance of the Dead, Necromancy, Recurring Nightmare, The Meathook Massacre, Dragon's Rage Channeler, Goblin Guide, Goblin Welder, Monastery Swiftspear, Ragavan, Nimble Pilferer, Fear of Missing Out, Generous Plunderer, Goblin Engineer, Inti, Seneschal of the Sun, Magda, Brazen Outlaw, Young Pyromancer, Broadside Bombardiers, Laelia, the Blade Reforged, Seasoned Pyromancer, Fury, Goldspan Dragon, Ox of Agonas, Chandra, Torch of Defiance, Burst Lightning, Galvanic Blast, Lightning Bolt, Unholy Heat, Manamorphose, Price of Progress, Searing Blaze, Searing Spear, Smash to Smithereens, Ghostfire Slice, Seething Song, Through the Breach, Fireblast, Magmatic Sinkhole, Chain Lightning, Faithless Looting, Pyroclasm, Tribal Flames, Wheel of Fortune, Fiery Confluence, Burning of Xinye, Wildfire, Underworld Breach, Fable of the Mirror-Breaker, Sneak Attack, Arena of Glory, Birds of Paradise, Elvish Mystic, Elvish Reclaimer, Fyndhorn Elves, Hexdrinker, Ignoble Hierarch, Joraga Treespeaker, Llanowar Elves, Noble Hierarch, Fanatic of Rhonas, Hermit Druid, Lotus Cobra, Satyr Wayfinder, Scavenging Ooze, Tarmogoyf, Courser of Kruphix, Dryad of the Ilysian Grove, Endurance, Ramunap Excavator, Reclamation Sage, Six, Tireless Tracker, Questing Beast, Timeless Witness, Deep Forest Hermit, Titania, Protector of Argoth, Avenger of Zendikar, Vaultborn Tyrant, Woodfall Primus, Worldspine Wurm, Nature's Claim, Channel, Life from the Loam, Malevolent Rumble, Eureka, Pest Infestation, Esika's Chariot, Exploration, Fastbond, Oath of Druids, Survival of the Fittest, Sylvan Library, Boseiju, Who Endures, Gaea's Cradle, No More Lies, Teferi, Time Raveler, Supreme Verdict, Teferi, Hero of Dominaria, Baleful Strix, Psychic Frog, Thief of Sanity, Notion Thief, Bloodtithe Harvester, Oni-Cult Anvil, Carnage Interpreter, Daretti, Ingenious Iconoclast, Fire Covenant, Kolaghan's Command, Mawloc, Territorial Kavu, Wrenn and Six, Minsc & Boo, Timeless Heroes, Bloodbraid Challenger, Farmer Cotton, Voice of Resurgence, Knight of Autumn, Torsten, Founder of Benalia, Damn, Tidehollow Sculler, Lurrus of the Dream-Den, Vindicate, Expressive Iteration, Third Path Iconoclast, Dack Fayden, Saheeli, Sublime Artificer, Deathrite Shaman, Grist, the Hunger Tide, Pernicious Deed, Alpha Deathclaw, Hogaak, Arisen Necropolis, Figure of Destiny, Boros Charm, Forth Eorlingas!, Phlage, Titan of Fire's Fury, Kinnan, Bonder Prodigy, Planar Genesis, Oko, Thief of Crowns, Uro, Titan of Nature's Wrath, Sphinx of the Steel Wind, Soul of Windgrace, Leovold, Emissary of Trest, Tasigur, the Golden Fang, Atraxa, Grand Unifier, Patchwork Automaton, Scrapwork Mutt, Spellskite, Syr Ginger, the Meal Ender, Etched Champion, Porcelain Legionnaire, Hangarback Walker, Phyrexian Metamorph, Walking Ballista, Wurmcoil Engine, Myr Battlesphere, Blightsteel Colossus, Emrakul, the Aeons Torn, Emrakul, the Promised End, Kozilek, Butcher of Truth, Platinum Emperion, Sundering Titan, Triplicate Titan, Ulamog, the Infinite Gyre, Dismember, Gitaxian Probe, Black Lotus, Chrome Mox, Lion's Eye Diamond, Lotus Petal, Mana Crypt, Mishra's Bauble, Mox Diamond, Mox Emerald, Mox Jet, Mox Opal, Mox Pearl, Mox Ruby, Mox Sapphire, Urza's Bauble, Currency Converter, Mana Vault, Retrofitter Foundry, Sensei's Divining Top, Skullclamp, Sol Ring, Grim Monolith, Lightning Greaves, Pentad Prism, Ratchet Bomb, Reckoner Bankbuster, Smuggler's Copter, Talisman of Creativity, Talisman of Dominance, Talisman of Indulgence, Talisman of Progress, Umezawa's Jitte, Winter Orb, Basalt Monolith, Crucible of Worlds, Nettlecyst, Palantír of Orthanc, Tangle Wire, Relic of Sauron, Smokestack, The One Ring, Thran Dynamo, Batterskull, Memory Jar, Portal to Phyrexia, Celestial Colonnade, Hallowed Fountain, Meticulous Archive, Tundra, Creeping Tar Pit, Undercity Sewers, Underground Sea, Watery Grave, Badlands, Blood Crypt, Dragonskull Summit, Raucous Theater, Commercial District, Rootbound Crag, Stomping Ground, Taiga, Horizon Canopy, Lush Portico, Savannah, Temple Garden, Godless Shrine, Scrubland, Shadowy Backstreet, Silent Clearing, Fiery Islet, Steam Vents, Thundering Falls, Volcanic Island, Bayou, Overgrown Tomb, Underground Mortuary, Woodland Cemetery, Clifftop Retreat, Plateau, Sacred Foundry, Sunbaked Canyon, Breeding Pool, Hinterland Harbor, Tropical Island, Waterlogged Grove, Spara's Headquarters, Raffine's Tower, Xander's Lounge, Ziatora's Proving Ground, Jetmir's Garden, Savai Triome, Ketria Triome, Indatha Triome, Raugrin Triome, Zagoth Triome, Ancient Tomb, Arid Mesa, Bazaar of Baghdad, Bloodstained Mire, Fabled Passage, Field of the Dead, Flooded Strand, Fountainport, Library of Alexandria, Mana Confluence, Marsh Flats, Maze of Ith, Mishra's Workshop, Misty Rainforest, Polluted Delta, Prismatic Vista, Scalding Tarn, Strip Mine, Urza's Saga, Verdant Catacombs, Wasteland, Windswept Heath, Wooded Foothills
+INFO 2025-01-18 18:48:19,896 views Pack 1 created for isaac with 5 cards.
+INFO 2025-01-18 18:48:19,906 views Pack 2 created for isaac2 with 5 cards.
+INFO 2025-01-18 18:48:19,913 views Pack 3 created for isaac with 5 cards.
+INFO 2025-01-18 18:48:19,919 views Pack 4 created for isaac2 with 5 cards.
+INFO 2025-01-18 18:48:19,925 views Pack 5 created for isaac with 5 cards.
+INFO 2025-01-18 18:48:19,932 views Pack 6 created for isaac2 with 5 cards.
+DEBUG 2025-01-18 18:48:19,936 http_protocol HTTP 200 response started for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:48:19,936 http_protocol HTTP close for ['127.0.0.1', 56603]
+DEBUG 2025-01-18 18:48:19,936 http_protocol HTTP response complete for ['127.0.0.1', 56603]
+INFO 2025-01-18 18:48:19,937 runserver [mHTTP POST /drafting/drafts/68/start-draft/ 200 [0.28, 127.0.0.1:56603][0m
+INFO 2025-01-18 18:48:19,937 runserver [mHTTP POST /drafting/drafts/68/start-draft/ 200 [0.28, 127.0.0.1:56603][0m
+DEBUG 2025-01-18 18:48:21,366 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:48:21,368 consumers Handling 'start_draft' for user: isaac
+INFO 2025-01-18 18:48:21,372 consumers Draft found for WebSocket event: Draft for test6
+INFO 2025-01-18 18:48:21,380 consumers Sending pack to user isaac: ['Fatal Push', "Gaea's Cradle", 'Lurrus of the Dream-Den', 'Porcelain Legionnaire', 'Badlands']
+INFO 2025-01-18 18:48:21,409 consumers Sending pack to user isaac2: ['Esper Sentinel', 'Mana Drain', 'Timeless Witness', 'Grist, the Hunger Tide', 'Blightsteel Colossus']
+INFO 2025-01-18 18:48:21,422 consumers Draft started, packs sent to all players.
+DEBUG 2025-01-18 18:48:21,423 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:48:21,424 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:48:37,201 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:48:37,232 consumers Player isaac drafted card: Fatal Push
+INFO 2025-01-18 18:48:37,236 consumers Total players: 2
+INFO 2025-01-18 18:48:37,237 consumers Active packs: 6
+INFO 2025-01-18 18:48:37,237 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:48:37,238 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:48:43,484 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:48:43,499 consumers Player isaac2 drafted card: Timeless Witness
+INFO 2025-01-18 18:48:43,504 consumers Total players: 2
+INFO 2025-01-18 18:48:43,505 consumers Active packs: 6
+INFO 2025-01-18 18:48:43,505 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:48:43,506 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:48:43,508 consumers Rotating packs among players.
+INFO 2025-01-18 18:48:43,510 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:43,514 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:43,518 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:43,523 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:43,527 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:43,531 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:48:43,555 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:48:43,557 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:48:49,330 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:48:49,343 consumers Player isaac drafted card: Esper Sentinel
+INFO 2025-01-18 18:48:49,348 consumers Total players: 2
+INFO 2025-01-18 18:48:49,349 consumers Active packs: 6
+INFO 2025-01-18 18:48:49,349 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:48:49,349 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:48:50,122 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:48:50,132 consumers Player isaac2 drafted card: Lurrus of the Dream-Den
+INFO 2025-01-18 18:48:50,137 consumers Total players: 2
+INFO 2025-01-18 18:48:50,138 consumers Active packs: 6
+INFO 2025-01-18 18:48:50,138 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:48:50,139 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:48:50,141 consumers Rotating packs among players.
+INFO 2025-01-18 18:48:50,143 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:50,146 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:50,150 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:50,155 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:50,158 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:50,161 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:48:50,180 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:48:50,181 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:48:52,520 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:48:52,535 consumers Player isaac2 drafted card: Mana Drain
+INFO 2025-01-18 18:48:52,543 consumers Total players: 2
+INFO 2025-01-18 18:48:52,543 consumers Active packs: 6
+INFO 2025-01-18 18:48:52,544 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:48:52,544 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:48:53,695 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:48:53,706 consumers Player isaac drafted card: Gaea's Cradle
+INFO 2025-01-18 18:48:53,711 consumers Total players: 2
+INFO 2025-01-18 18:48:53,712 consumers Active packs: 6
+INFO 2025-01-18 18:48:53,712 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:48:53,713 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:48:53,715 consumers Rotating packs among players.
+INFO 2025-01-18 18:48:53,717 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:53,720 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:53,724 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:53,728 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:53,732 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:53,736 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:48:53,754 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:48:53,755 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:48:55,303 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:48:55,314 consumers Player isaac2 drafted card: Porcelain Legionnaire
+INFO 2025-01-18 18:48:55,320 consumers Total players: 2
+INFO 2025-01-18 18:48:55,321 consumers Active packs: 6
+INFO 2025-01-18 18:48:55,322 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:48:55,322 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:48:56,879 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:48:56,892 consumers Player isaac drafted card: Grist, the Hunger Tide
+INFO 2025-01-18 18:48:56,897 consumers Total players: 2
+INFO 2025-01-18 18:48:56,898 consumers Active packs: 6
+INFO 2025-01-18 18:48:56,899 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:48:56,899 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:48:56,902 consumers Rotating packs among players.
+INFO 2025-01-18 18:48:56,904 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:56,907 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:56,910 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:56,913 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:48:56,916 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:48:56,920 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:48:56,933 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:48:56,934 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:48:58,860 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:48:58,870 consumers Player isaac2 drafted card: Blightsteel Colossus
+INFO 2025-01-18 18:48:58,879 consumers Total players: 2
+INFO 2025-01-18 18:48:58,880 consumers Active packs: 5
+INFO 2025-01-18 18:48:58,880 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:48:58,880 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:00,529 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:00,542 consumers Player isaac drafted card: Badlands
+INFO 2025-01-18 18:49:00,549 consumers Total players: 2
+INFO 2025-01-18 18:49:00,549 consumers Active packs: 4
+INFO 2025-01-18 18:49:00,550 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:00,550 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:00,553 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:00,554 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:00,557 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:00,561 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:00,564 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:49:00,594 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:00,595 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:18,739 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:18,752 consumers Player isaac2 drafted card: Wall of Omens
+INFO 2025-01-18 18:49:18,759 consumers Total players: 2
+INFO 2025-01-18 18:49:18,760 consumers Active packs: 4
+INFO 2025-01-18 18:49:18,761 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:18,761 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:20,426 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:20,439 consumers Player isaac drafted card: Timetwister
+INFO 2025-01-18 18:49:20,445 consumers Total players: 2
+INFO 2025-01-18 18:49:20,447 consumers Active packs: 4
+INFO 2025-01-18 18:49:20,447 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:20,447 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:20,448 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:20,449 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:20,453 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:20,456 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:20,460 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:49:20,483 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:20,484 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:20,489 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:49:20,501 http_protocol HTTP 200 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:49:20,502 http_protocol HTTP response chunk for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:49:20,502 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:49:20,503 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:49:20,503 runserver [mHTTP GET /static/images/default_card.png 200 [0.01, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:49:20,503 runserver [mHTTP GET /static/images/default_card.png 200 [0.01, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:49:22,750 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:22,761 consumers Player isaac drafted card: Brazen Borrower
+INFO 2025-01-18 18:49:22,765 consumers Total players: 2
+INFO 2025-01-18 18:49:22,766 consumers Active packs: 4
+INFO 2025-01-18 18:49:22,766 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:22,767 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:24,023 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:24,035 consumers Player isaac2 drafted card: Night's Whisper
+INFO 2025-01-18 18:49:24,041 consumers Total players: 2
+INFO 2025-01-18 18:49:24,042 consumers Active packs: 4
+INFO 2025-01-18 18:49:24,043 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:24,043 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:24,045 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:24,046 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:24,051 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:24,056 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:24,058 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:49:24,076 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:24,079 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:25,607 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:25,619 consumers Player isaac drafted card: Lotus Cobra
+INFO 2025-01-18 18:49:25,624 consumers Total players: 2
+INFO 2025-01-18 18:49:25,625 consumers Active packs: 4
+INFO 2025-01-18 18:49:25,625 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:25,625 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:26,802 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:26,814 consumers Player isaac2 drafted card: Orcish Bowmasters
+INFO 2025-01-18 18:49:26,819 consumers Total players: 2
+INFO 2025-01-18 18:49:26,820 consumers Active packs: 4
+INFO 2025-01-18 18:49:26,821 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:26,821 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:26,824 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:26,825 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:26,828 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:26,831 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:26,834 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:49:26,853 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:26,855 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:29,455 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:29,465 consumers Player isaac2 drafted card: Kolaghan's Command
+INFO 2025-01-18 18:49:29,471 consumers Total players: 2
+INFO 2025-01-18 18:49:29,472 consumers Active packs: 4
+INFO 2025-01-18 18:49:29,473 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:29,473 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:30,956 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:30,967 consumers Player isaac drafted card: Psychic Frog
+INFO 2025-01-18 18:49:30,973 consumers Total players: 2
+INFO 2025-01-18 18:49:30,974 consumers Active packs: 4
+INFO 2025-01-18 18:49:30,974 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:30,974 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:30,976 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:30,977 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:30,980 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:30,984 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:30,988 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:49:31,003 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:31,004 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:33,710 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:33,720 consumers Player isaac2 drafted card: Ketria Triome
+INFO 2025-01-18 18:49:33,728 consumers Total players: 2
+INFO 2025-01-18 18:49:33,731 consumers Active packs: 3
+INFO 2025-01-18 18:49:33,731 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:33,731 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:35,672 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:35,686 consumers Player isaac drafted card: Boros Charm
+INFO 2025-01-18 18:49:35,694 consumers Total players: 2
+INFO 2025-01-18 18:49:35,695 consumers Active packs: 2
+INFO 2025-01-18 18:49:35,695 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:35,695 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:35,697 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:35,699 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:35,702 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:49:35,736 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:35,738 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:37,567 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:37,580 consumers Player isaac2 drafted card: Demonic Tutor
+INFO 2025-01-18 18:49:37,585 consumers Total players: 2
+INFO 2025-01-18 18:49:37,586 consumers Active packs: 2
+INFO 2025-01-18 18:49:37,586 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:37,587 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:39,171 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:39,185 consumers Player isaac drafted card: Barrowgoyf
+INFO 2025-01-18 18:49:39,191 consumers Total players: 2
+INFO 2025-01-18 18:49:39,192 consumers Active packs: 2
+INFO 2025-01-18 18:49:39,192 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:39,192 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:39,194 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:39,195 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:39,198 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:49:39,222 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:39,223 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:40,812 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:40,826 consumers Player isaac2 drafted card: Animate Dead
+INFO 2025-01-18 18:49:40,831 consumers Total players: 2
+INFO 2025-01-18 18:49:40,832 consumers Active packs: 2
+INFO 2025-01-18 18:49:40,832 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:40,832 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:42,285 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:42,296 consumers Player isaac drafted card: Tribal Flames
+INFO 2025-01-18 18:49:42,304 consumers Total players: 2
+INFO 2025-01-18 18:49:42,305 consumers Active packs: 2
+INFO 2025-01-18 18:49:42,306 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:42,306 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:42,308 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:42,309 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:42,312 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:49:42,330 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:42,331 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:44,490 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:44,505 consumers Player isaac2 drafted card: Endurance
+INFO 2025-01-18 18:49:44,510 consumers Total players: 2
+INFO 2025-01-18 18:49:44,511 consumers Active packs: 2
+INFO 2025-01-18 18:49:44,511 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:44,512 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:45,589 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:45,602 consumers Player isaac drafted card: Seasoned Pyromancer
+INFO 2025-01-18 18:49:45,607 consumers Total players: 2
+INFO 2025-01-18 18:49:45,609 consumers Active packs: 2
+INFO 2025-01-18 18:49:45,610 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:45,610 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:45,612 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:45,613 consumers Pack rotated from isaac to isaac2
+INFO 2025-01-18 18:49:45,617 consumers Pack rotated from isaac2 to isaac
+DEBUG 2025-01-18 18:49:45,632 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:45,633 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:47,099 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:47,112 consumers Player isaac2 drafted card: Urza's Bauble
+INFO 2025-01-18 18:49:47,116 consumers Total players: 2
+INFO 2025-01-18 18:49:47,118 consumers Active packs: 2
+INFO 2025-01-18 18:49:47,119 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:47,119 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:48,257 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:48,270 consumers Player isaac drafted card: Six
+INFO 2025-01-18 18:49:48,274 consumers Total players: 2
+INFO 2025-01-18 18:49:48,275 consumers Active packs: 2
+INFO 2025-01-18 18:49:48,275 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:48,275 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:48,277 consumers Rotating packs among players.
+INFO 2025-01-18 18:49:48,279 consumers Pack rotated from isaac2 to isaac
+INFO 2025-01-18 18:49:48,283 consumers Pack rotated from isaac to isaac2
+DEBUG 2025-01-18 18:49:48,297 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:48,298 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:49:50,143 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56629]
+INFO 2025-01-18 18:49:50,156 consumers Player isaac2 drafted card: Palantír of Orthanc
+INFO 2025-01-18 18:49:50,163 consumers Total players: 2
+INFO 2025-01-18 18:49:50,164 consumers Active packs: 1
+INFO 2025-01-18 18:49:50,164 consumers Players who have drafted in this round: 1/2
+INFO 2025-01-18 18:49:50,164 consumers Waiting for 1 player(s) to make their selection.
+DEBUG 2025-01-18 18:49:51,894 ws_protocol WebSocket incoming frame on ['127.0.0.1', 56614]
+INFO 2025-01-18 18:49:51,907 consumers Player isaac drafted card: Verdant Catacombs
+INFO 2025-01-18 18:49:51,915 consumers Total players: 2
+INFO 2025-01-18 18:49:51,917 consumers Active packs: 0
+INFO 2025-01-18 18:49:51,917 consumers Players who have drafted in this round: 2/2
+INFO 2025-01-18 18:49:51,918 consumers All players have drafted. Rotating packs.
+INFO 2025-01-18 18:49:51,920 consumers No packs left to rotate. Ending draft.
+INFO 2025-01-18 18:49:51,969 consumers Draft completion data sent to all players.
+INFO 2025-01-18 18:49:51,970 consumers No active packs remain. Ending draft.
+DEBUG 2025-01-18 18:49:51,971 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 18:49:51,972 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56629]
+DEBUG 2025-01-18 18:50:13,480 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,613 http_protocol HTTP 200 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,614 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,614 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:13,615 runserver [mHTTP GET /admin/a_drafting/cube/ 200 [0.13, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:13,615 runserver [mHTTP GET /admin/a_drafting/cube/ 200 [0.13, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:13,637 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,640 http_protocol HTTP 304 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,640 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,641 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:13,642 runserver [36mHTTP GET /static/admin/css/changelists.css 304 [0.00, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:13,642 runserver [36mHTTP GET /static/admin/css/changelists.css 304 [0.00, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:13,643 http_protocol HTTP b'GET' request for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:13,645 http_protocol HTTP b'GET' request for ['127.0.0.1', 56680]
+DEBUG 2025-01-18 18:50:13,646 http_protocol HTTP b'GET' request for ['127.0.0.1', 56681]
+DEBUG 2025-01-18 18:50:13,647 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,649 http_protocol HTTP b'GET' request for ['127.0.0.1', 56682]
+DEBUG 2025-01-18 18:50:13,653 http_protocol HTTP b'GET' request for ['127.0.0.1', 56683]
+DEBUG 2025-01-18 18:50:13,658 http_protocol HTTP 304 response started for ['127.0.0.1', 56680]
+DEBUG 2025-01-18 18:50:13,659 http_protocol HTTP close for ['127.0.0.1', 56680]
+DEBUG 2025-01-18 18:50:13,659 http_protocol HTTP response complete for ['127.0.0.1', 56680]
+INFO 2025-01-18 18:50:13,660 runserver [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:56680][0m
+INFO 2025-01-18 18:50:13,660 runserver [36mHTTP GET /static/admin/js/vendor/jquery/jquery.js 304 [0.02, 127.0.0.1:56680][0m
+DEBUG 2025-01-18 18:50:13,661 http_protocol HTTP 304 response started for ['127.0.0.1', 56681]
+DEBUG 2025-01-18 18:50:13,661 http_protocol HTTP close for ['127.0.0.1', 56681]
+DEBUG 2025-01-18 18:50:13,662 http_protocol HTTP response complete for ['127.0.0.1', 56681]
+INFO 2025-01-18 18:50:13,662 runserver [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:56681][0m
+INFO 2025-01-18 18:50:13,662 runserver [36mHTTP GET /static/admin/js/jquery.init.js 304 [0.02, 127.0.0.1:56681][0m
+DEBUG 2025-01-18 18:50:13,663 http_protocol HTTP 304 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,664 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,665 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:13,665 runserver [36mHTTP GET /static/admin/js/actions.js 304 [0.02, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:13,665 runserver [36mHTTP GET /static/admin/js/actions.js 304 [0.02, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:13,667 http_protocol HTTP 304 response started for ['127.0.0.1', 56682]
+DEBUG 2025-01-18 18:50:13,667 http_protocol HTTP close for ['127.0.0.1', 56682]
+DEBUG 2025-01-18 18:50:13,668 http_protocol HTTP response complete for ['127.0.0.1', 56682]
+INFO 2025-01-18 18:50:13,668 runserver [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:56682][0m
+INFO 2025-01-18 18:50:13,668 runserver [36mHTTP GET /static/admin/js/core.js 304 [0.02, 127.0.0.1:56682][0m
+DEBUG 2025-01-18 18:50:13,669 http_protocol HTTP 304 response started for ['127.0.0.1', 56683]
+DEBUG 2025-01-18 18:50:13,670 http_protocol HTTP close for ['127.0.0.1', 56683]
+DEBUG 2025-01-18 18:50:13,670 http_protocol HTTP response complete for ['127.0.0.1', 56683]
+INFO 2025-01-18 18:50:13,671 runserver [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:56683][0m
+INFO 2025-01-18 18:50:13,671 runserver [36mHTTP GET /static/admin/js/admin/RelatedObjectLookups.js 304 [0.02, 127.0.0.1:56683][0m
+DEBUG 2025-01-18 18:50:13,673 http_protocol HTTP b'GET' request for ['127.0.0.1', 56680]
+DEBUG 2025-01-18 18:50:13,674 http_protocol HTTP b'GET' request for ['127.0.0.1', 56681]
+DEBUG 2025-01-18 18:50:13,676 http_protocol HTTP b'GET' request for ['127.0.0.1', 56682]
+DEBUG 2025-01-18 18:50:13,678 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,686 http_protocol HTTP 304 response started for ['127.0.0.1', 56680]
+DEBUG 2025-01-18 18:50:13,687 http_protocol HTTP close for ['127.0.0.1', 56680]
+DEBUG 2025-01-18 18:50:13,688 http_protocol HTTP response complete for ['127.0.0.1', 56680]
+INFO 2025-01-18 18:50:13,688 runserver [36mHTTP GET /static/admin/js/urlify.js 304 [0.02, 127.0.0.1:56680][0m
+INFO 2025-01-18 18:50:13,688 runserver [36mHTTP GET /static/admin/js/urlify.js 304 [0.02, 127.0.0.1:56680][0m
+DEBUG 2025-01-18 18:50:13,689 http_protocol HTTP 304 response started for ['127.0.0.1', 56681]
+DEBUG 2025-01-18 18:50:13,690 http_protocol HTTP close for ['127.0.0.1', 56681]
+DEBUG 2025-01-18 18:50:13,692 http_protocol HTTP response complete for ['127.0.0.1', 56681]
+INFO 2025-01-18 18:50:13,692 runserver [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.02, 127.0.0.1:56681][0m
+INFO 2025-01-18 18:50:13,692 runserver [36mHTTP GET /static/admin/js/prepopulate.js 304 [0.02, 127.0.0.1:56681][0m
+DEBUG 2025-01-18 18:50:13,693 http_protocol HTTP 304 response started for ['127.0.0.1', 56682]
+DEBUG 2025-01-18 18:50:13,694 http_protocol HTTP close for ['127.0.0.1', 56682]
+DEBUG 2025-01-18 18:50:13,694 http_protocol HTTP response complete for ['127.0.0.1', 56682]
+INFO 2025-01-18 18:50:13,694 runserver [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.02, 127.0.0.1:56682][0m
+INFO 2025-01-18 18:50:13,694 runserver [36mHTTP GET /static/admin/js/vendor/xregexp/xregexp.js 304 [0.02, 127.0.0.1:56682][0m
+DEBUG 2025-01-18 18:50:13,696 http_protocol HTTP 304 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,696 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,697 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:13,698 runserver [36mHTTP GET /static/admin/img/search.svg 304 [0.02, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:13,698 runserver [36mHTTP GET /static/admin/img/search.svg 304 [0.02, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:13,706 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,709 http_protocol HTTP 304 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,709 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,710 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:13,710 runserver [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:13,710 runserver [36mHTTP GET /static/admin/js/filters.js 304 [0.00, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:13,726 http_protocol HTTP 200 response started for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:13,726 http_protocol HTTP close for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:13,727 http_protocol HTTP response complete for ['127.0.0.1', 56678]
+INFO 2025-01-18 18:50:13,727 runserver [mHTTP GET /admin/jsi18n/ 200 [0.08, 127.0.0.1:56678][0m
+INFO 2025-01-18 18:50:13,727 runserver [mHTTP GET /admin/jsi18n/ 200 [0.08, 127.0.0.1:56678][0m
+DEBUG 2025-01-18 18:50:13,753 http_protocol HTTP b'GET' request for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:13,754 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,757 http_protocol HTTP 304 response started for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:13,758 http_protocol HTTP close for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:13,758 http_protocol HTTP response complete for ['127.0.0.1', 56678]
+INFO 2025-01-18 18:50:13,759 runserver [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:56678][0m
+INFO 2025-01-18 18:50:13,759 runserver [36mHTTP GET /static/admin/img/tooltag-add.svg 304 [0.01, 127.0.0.1:56678][0m
+DEBUG 2025-01-18 18:50:13,760 http_protocol HTTP 304 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,760 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:13,761 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:13,761 runserver [36mHTTP GET /static/admin/img/icon-viewlink.svg 304 [0.01, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:13,761 runserver [36mHTTP GET /static/admin/img/icon-viewlink.svg 304 [0.01, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:22,240 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,298 http_protocol HTTP 200 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,299 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,299 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:22,299 runserver [mHTTP GET /admin/a_drafting/draft/ 200 [0.06, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:22,299 runserver [mHTTP GET /admin/a_drafting/draft/ 200 [0.06, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:22,311 http_protocol HTTP b'GET' request for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,312 http_protocol HTTP b'GET' request for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:22,324 http_protocol HTTP 200 response started for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:22,325 http_protocol HTTP close for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:22,325 http_protocol HTTP response complete for ['127.0.0.1', 56678]
+INFO 2025-01-18 18:50:22,325 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56678][0m
+INFO 2025-01-18 18:50:22,325 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56678][0m
+DEBUG 2025-01-18 18:50:22,328 http_protocol HTTP 200 response started for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,329 http_protocol HTTP b'GET' request for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:22,330 http_protocol HTTP response chunk for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,331 http_protocol HTTP close for ['127.0.0.1', 56657]
+DEBUG 2025-01-18 18:50:22,331 http_protocol HTTP response complete for ['127.0.0.1', 56657]
+INFO 2025-01-18 18:50:22,332 runserver [mHTTP GET /static/admin/img/icon-no.svg 200 [0.02, 127.0.0.1:56657][0m
+INFO 2025-01-18 18:50:22,332 runserver [mHTTP GET /static/admin/img/icon-no.svg 200 [0.02, 127.0.0.1:56657][0m
+DEBUG 2025-01-18 18:50:22,335 http_protocol HTTP 304 response started for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:22,335 http_protocol HTTP close for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:22,336 http_protocol HTTP response complete for ['127.0.0.1', 56678]
+INFO 2025-01-18 18:50:22,336 runserver [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:56678][0m
+INFO 2025-01-18 18:50:22,336 runserver [36mHTTP GET /static/admin/img/icon-yes.svg 304 [0.01, 127.0.0.1:56678][0m
+DEBUG 2025-01-18 18:50:26,269 http_protocol HTTP b'GET' request for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:26,494 http_protocol HTTP 200 response started for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:26,495 http_protocol HTTP close for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:26,495 http_protocol HTTP response complete for ['127.0.0.1', 56678]
+INFO 2025-01-18 18:50:26,496 runserver [mHTTP GET /admin/a_drafting/draftplayer/ 200 [0.23, 127.0.0.1:56678][0m
+INFO 2025-01-18 18:50:26,496 runserver [mHTTP GET /admin/a_drafting/draftplayer/ 200 [0.23, 127.0.0.1:56678][0m
+DEBUG 2025-01-18 18:50:26,509 http_protocol HTTP b'GET' request for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:26,520 http_protocol HTTP 200 response started for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:26,520 http_protocol HTTP close for ['127.0.0.1', 56678]
+DEBUG 2025-01-18 18:50:26,521 http_protocol HTTP response complete for ['127.0.0.1', 56678]
+INFO 2025-01-18 18:50:26,521 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56678][0m
+INFO 2025-01-18 18:50:26,521 runserver [mHTTP GET /admin/jsi18n/ 200 [0.01, 127.0.0.1:56678][0m
+DEBUG 2025-01-18 20:22:38,076 ws_protocol WebSocket closed for ['127.0.0.1', 56625]
+INFO 2025-01-18 20:22:38,076 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56625]
+INFO 2025-01-18 20:22:38,076 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56625]
+DEBUG 2025-01-18 20:22:38,077 ws_protocol WebSocket closed for ['127.0.0.1', 56629]
+INFO 2025-01-18 20:22:38,078 runserver WebSocket DISCONNECT /ws/drafts/68/ [127.0.0.1:56629]
+INFO 2025-01-18 20:22:38,078 runserver WebSocket DISCONNECT /ws/drafts/68/ [127.0.0.1:56629]
+DEBUG 2025-01-18 20:22:38,115 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56610]
+DEBUG 2025-01-18 20:22:38,116 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 56614]
+DEBUG 2025-01-18 22:27:40,763 ws_protocol WebSocket closed for ['127.0.0.1', 56614]
+INFO 2025-01-18 22:27:40,763 runserver WebSocket DISCONNECT /ws/drafts/68/ [127.0.0.1:56614]
+INFO 2025-01-18 22:27:40,763 runserver WebSocket DISCONNECT /ws/drafts/68/ [127.0.0.1:56614]
+DEBUG 2025-01-18 22:27:40,764 ws_protocol WebSocket closed for ['127.0.0.1', 56610]
+INFO 2025-01-18 22:27:40,765 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56610]
+INFO 2025-01-18 22:27:40,765 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:56610]
+DEBUG 2025-01-19 17:11:11,153 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:11:12,355 selector_events Using selector: SelectSelector
+INFO 2025-01-19 17:11:12,664 autoreload Watching for file changes with StatReloader
+INFO 2025-01-19 17:11:12,664 autoreload Watching for file changes with StatReloader
+INFO 2025-01-19 17:11:13,402 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-01-19 17:11:13,403 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-01-19 17:11:13,404 server Listening on TCP address 127.0.0.1:8000
+DEBUG 2025-01-19 17:11:21,220 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+WARNING 2025-01-19 17:11:21,274 log Not Found: /Quit
+WARNING 2025-01-19 17:11:21,274 log Not Found: /Quit
+DEBUG 2025-01-19 17:11:21,275 http_protocol HTTP 404 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:21,276 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:21,276 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+WARNING 2025-01-19 17:11:21,276 runserver [33mHTTP GET /Quit 404 [0.06, 127.0.0.1:58982][0m
+WARNING 2025-01-19 17:11:21,276 runserver [33mHTTP GET /Quit 404 [0.06, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:21,322 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+WARNING 2025-01-19 17:11:21,373 log Not Found: /favicon.ico
+WARNING 2025-01-19 17:11:21,373 log Not Found: /favicon.ico
+DEBUG 2025-01-19 17:11:21,374 http_protocol HTTP 404 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:21,374 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:21,374 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+WARNING 2025-01-19 17:11:21,375 runserver [33mHTTP GET /favicon.ico 404 [0.05, 127.0.0.1:58982][0m
+WARNING 2025-01-19 17:11:21,375 runserver [33mHTTP GET /favicon.ico 404 [0.05, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:25,620 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,625 http_protocol HTTP 302 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,626 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,626 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:25,627 runserver [32mHTTP GET / 302 [0.01, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:25,627 runserver [32mHTTP GET / 302 [0.01, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:25,629 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,816 http_protocol HTTP 200 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,816 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,816 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:25,817 runserver [mHTTP GET /accounts/login/?next=/ 200 [0.19, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:25,817 runserver [mHTTP GET /accounts/login/?next=/ 200 [0.19, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:25,828 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,831 http_protocol HTTP 304 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,832 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,832 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:25,833 runserver [36mHTTP GET /static/images/logo.svg 304 [0.00, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:25,833 runserver [36mHTTP GET /static/images/logo.svg 304 [0.00, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:25,938 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,941 http_protocol HTTP 304 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,942 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:25,942 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:25,942 runserver [36mHTTP GET /static/django-htmx.js 304 [0.00, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:25,942 runserver [36mHTTP GET /static/django-htmx.js 304 [0.00, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:26,492 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:26,495 http_protocol HTTP 304 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:26,495 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:26,496 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:26,496 runserver [36mHTTP GET /static/favicon.ico 304 [0.00, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:26,496 runserver [36mHTTP GET /static/favicon.ico 304 [0.00, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:28,137 http_protocol HTTP b'POST' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,802 http_protocol HTTP 302 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,803 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,803 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:28,803 runserver [32mHTTP POST /accounts/login/ 302 [0.67, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:28,803 runserver [32mHTTP POST /accounts/login/ 302 [0.67, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:28,806 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,831 http_protocol HTTP 200 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,832 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,832 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:28,833 runserver [mHTTP GET / 200 [0.03, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:28,833 runserver [mHTTP GET / 200 [0.03, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:28,851 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,853 http_protocol HTTP 304 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,854 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:28,854 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:28,855 runserver [36mHTTP GET /static/images/avatar.svg 304 [0.00, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:28,855 runserver [36mHTTP GET /static/images/avatar.svg 304 [0.00, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:28,998 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59027]
+INFO 2025-01-19 17:11:28,998 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59027]
+DEBUG 2025-01-19 17:11:28,999 http_protocol Upgraded connection ['127.0.0.1', 59027] to WebSocket
+DEBUG 2025-01-19 17:11:29,013 ws_protocol WebSocket ['127.0.0.1', 59027] open and established
+INFO 2025-01-19 17:11:29,014 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59027]
+INFO 2025-01-19 17:11:29,014 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59027]
+DEBUG 2025-01-19 17:11:29,015 ws_protocol WebSocket ['127.0.0.1', 59027] accepted by application
+DEBUG 2025-01-19 17:11:29,039 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59027]
+DEBUG 2025-01-19 17:11:34,593 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:34,620 http_protocol HTTP 200 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:34,621 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:34,621 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:34,622 runserver [mHTTP GET /profile/settings/ 200 [0.03, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:34,622 runserver [mHTTP GET /profile/settings/ 200 [0.03, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:34,757 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59064]
+INFO 2025-01-19 17:11:34,757 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59064]
+DEBUG 2025-01-19 17:11:34,758 http_protocol Upgraded connection ['127.0.0.1', 59064] to WebSocket
+DEBUG 2025-01-19 17:11:34,766 ws_protocol WebSocket closed for ['127.0.0.1', 59027]
+INFO 2025-01-19 17:11:34,766 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59027]
+INFO 2025-01-19 17:11:34,766 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59027]
+DEBUG 2025-01-19 17:11:34,768 ws_protocol WebSocket ['127.0.0.1', 59064] open and established
+INFO 2025-01-19 17:11:34,768 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59064]
+INFO 2025-01-19 17:11:34,768 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59064]
+DEBUG 2025-01-19 17:11:34,769 ws_protocol WebSocket ['127.0.0.1', 59064] accepted by application
+DEBUG 2025-01-19 17:11:34,785 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59064]
+DEBUG 2025-01-19 17:11:34,793 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59064]
+DEBUG 2025-01-19 17:11:39,733 http_protocol HTTP b'GET' request for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:39,742 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-19 17:11:39,823 http_protocol HTTP 200 response started for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:39,824 http_protocol HTTP close for ['127.0.0.1', 58982]
+DEBUG 2025-01-19 17:11:39,824 http_protocol HTTP response complete for ['127.0.0.1', 58982]
+INFO 2025-01-19 17:11:39,824 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.09, 127.0.0.1:58982][0m
+INFO 2025-01-19 17:11:39,824 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.09, 127.0.0.1:58982][0m
+DEBUG 2025-01-19 17:11:39,958 ws_protocol WebSocket closed for ['127.0.0.1', 59064]
+INFO 2025-01-19 17:11:39,959 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59064]
+INFO 2025-01-19 17:11:39,959 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59064]
+INFO 2025-01-19 17:11:40,002 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59072]
+INFO 2025-01-19 17:11:40,002 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59072]
+DEBUG 2025-01-19 17:11:40,003 http_protocol Upgraded connection ['127.0.0.1', 59072] to WebSocket
+DEBUG 2025-01-19 17:11:40,015 ws_protocol WebSocket ['127.0.0.1', 59072] open and established
+INFO 2025-01-19 17:11:40,015 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59072]
+INFO 2025-01-19 17:11:40,015 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59072]
+DEBUG 2025-01-19 17:11:40,016 ws_protocol WebSocket ['127.0.0.1', 59072] accepted by application
+DEBUG 2025-01-19 17:11:40,024 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59072]
+DEBUG 2025-01-19 17:11:53,185 http_protocol HTTP b'GET' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:11:53,196 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-19 17:11:53,207 http_protocol HTTP 200 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:11:53,208 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:11:53,208 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:11:53,209 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:11:53,209 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.02, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:11:58,662 http_protocol HTTP b'POST' request for ['127.0.0.1', 59079]
+ERROR 2025-01-19 17:11:58,875 log Internal Server Error: /drafting/drafts/create-lobby/
+Traceback (most recent call last):
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\OneDrive\Desktop\test3\my_magic_app\django-starter-main\a_drafting\views.py", line 56, in create_lobby
+    DraftPlayer.objects.create(draft=draft, user=user, role="creator")
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.auth.models.AnonymousUser object at 0x000001D85860EAE0>": "DraftPlayer.user" must be a "User" instance.
+ERROR 2025-01-19 17:11:58,875 log Internal Server Error: /drafting/drafts/create-lobby/
+Traceback (most recent call last):
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\asgiref\sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\OneDrive\Desktop\test3\my_magic_app\django-starter-main\a_drafting\views.py", line 56, in create_lobby
+    DraftPlayer.objects.create(draft=draft, user=user, role="creator")
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.auth.models.AnonymousUser object at 0x000001D85860EAE0>": "DraftPlayer.user" must be a "User" instance.
+DEBUG 2025-01-19 17:11:58,893 http_protocol HTTP 500 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:11:58,893 http_protocol HTTP response chunk for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:11:58,894 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:11:58,894 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+ERROR 2025-01-19 17:11:58,894 runserver [35;1mHTTP POST /drafting/drafts/create-lobby/ 500 [0.23, 127.0.0.1:59079][0m
+ERROR 2025-01-19 17:11:58,894 runserver [35;1mHTTP POST /drafting/drafts/create-lobby/ 500 [0.23, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:28,314 http_protocol HTTP b'GET' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:28,323 http_protocol HTTP 200 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:28,324 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:28,324 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:28,324 runserver [mHTTP GET /accounts/login/ 200 [0.01, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:28,324 runserver [mHTTP GET /accounts/login/ 200 [0.01, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:38,108 http_protocol HTTP b'POST' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:38,759 http_protocol HTTP 302 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:38,759 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:38,760 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:38,760 runserver [32mHTTP POST /accounts/login/ 302 [0.65, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:38,760 runserver [32mHTTP POST /accounts/login/ 302 [0.65, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:38,763 http_protocol HTTP b'GET' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:38,773 http_protocol HTTP 200 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:38,774 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:38,774 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:38,774 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:38,774 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:38,947 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59109]
+INFO 2025-01-19 17:12:38,947 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59109]
+DEBUG 2025-01-19 17:12:38,948 http_protocol Upgraded connection ['127.0.0.1', 59109] to WebSocket
+DEBUG 2025-01-19 17:12:38,964 ws_protocol WebSocket ['127.0.0.1', 59109] open and established
+INFO 2025-01-19 17:12:38,965 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59109]
+INFO 2025-01-19 17:12:38,965 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59109]
+DEBUG 2025-01-19 17:12:38,965 ws_protocol WebSocket ['127.0.0.1', 59109] accepted by application
+DEBUG 2025-01-19 17:12:38,975 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59072]
+DEBUG 2025-01-19 17:12:38,989 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59109]
+DEBUG 2025-01-19 17:12:46,084 http_protocol HTTP b'GET' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:46,095 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-19 17:12:46,110 http_protocol HTTP 200 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:46,110 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:46,111 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:46,111 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:46,111 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:46,319 ws_protocol WebSocket closed for ['127.0.0.1', 59109]
+INFO 2025-01-19 17:12:46,319 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59109]
+INFO 2025-01-19 17:12:46,319 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59109]
+DEBUG 2025-01-19 17:12:46,337 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59072]
+INFO 2025-01-19 17:12:46,355 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59144]
+INFO 2025-01-19 17:12:46,355 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59144]
+DEBUG 2025-01-19 17:12:46,356 http_protocol Upgraded connection ['127.0.0.1', 59144] to WebSocket
+DEBUG 2025-01-19 17:12:46,369 ws_protocol WebSocket ['127.0.0.1', 59144] open and established
+INFO 2025-01-19 17:12:46,370 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59144]
+INFO 2025-01-19 17:12:46,370 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59144]
+DEBUG 2025-01-19 17:12:46,371 ws_protocol WebSocket ['127.0.0.1', 59144] accepted by application
+DEBUG 2025-01-19 17:12:46,379 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59072]
+DEBUG 2025-01-19 17:12:46,396 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59144]
+DEBUG 2025-01-19 17:12:51,326 http_protocol HTTP b'POST' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,342 http_protocol HTTP 201 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,342 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,343 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:51,343 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:51,343 runserver [mHTTP POST /drafting/drafts/create-lobby/ 201 [0.02, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:51,356 http_protocol HTTP b'GET' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,381 http_protocol HTTP 200 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,382 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,382 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:51,382 runserver [mHTTP GET /drafting/drafting/70/ 200 [0.03, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:51,382 runserver [mHTTP GET /drafting/drafting/70/ 200 [0.03, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:51,397 http_protocol HTTP b'GET' request for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,443 http_protocol HTTP 200 response started for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,444 http_protocol HTTP response chunk for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,445 http_protocol HTTP close for ['127.0.0.1', 59079]
+DEBUG 2025-01-19 17:12:51,445 http_protocol HTTP response complete for ['127.0.0.1', 59079]
+INFO 2025-01-19 17:12:51,445 runserver [mHTTP GET /static/css/style.css 200 [0.05, 127.0.0.1:59079][0m
+INFO 2025-01-19 17:12:51,445 runserver [mHTTP GET /static/css/style.css 200 [0.05, 127.0.0.1:59079][0m
+DEBUG 2025-01-19 17:12:51,501 ws_protocol WebSocket closed for ['127.0.0.1', 59144]
+INFO 2025-01-19 17:12:51,502 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59144]
+INFO 2025-01-19 17:12:51,502 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59144]
+DEBUG 2025-01-19 17:12:51,525 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59072]
+INFO 2025-01-19 17:12:51,544 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59156]
+INFO 2025-01-19 17:12:51,544 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59156]
+DEBUG 2025-01-19 17:12:51,546 http_protocol Upgraded connection ['127.0.0.1', 59156] to WebSocket
+DEBUG 2025-01-19 17:12:51,558 ws_protocol WebSocket ['127.0.0.1', 59156] open and established
+INFO 2025-01-19 17:12:51,558 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59156]
+INFO 2025-01-19 17:12:51,558 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59156]
+DEBUG 2025-01-19 17:12:51,559 ws_protocol WebSocket ['127.0.0.1', 59156] accepted by application
+DEBUG 2025-01-19 17:12:51,571 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59072]
+INFO 2025-01-19 17:12:51,574 runserver WebSocket HANDSHAKING /ws/drafts/70/ [127.0.0.1:59160]
+INFO 2025-01-19 17:12:51,574 runserver WebSocket HANDSHAKING /ws/drafts/70/ [127.0.0.1:59160]
+DEBUG 2025-01-19 17:12:51,575 http_protocol Upgraded connection ['127.0.0.1', 59160] to WebSocket
+DEBUG 2025-01-19 17:12:51,588 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59156]
+DEBUG 2025-01-19 17:12:51,598 ws_protocol WebSocket ['127.0.0.1', 59160] open and established
+INFO 2025-01-19 17:12:51,599 runserver WebSocket CONNECT /ws/drafts/70/ [127.0.0.1:59160]
+INFO 2025-01-19 17:12:51,599 runserver WebSocket CONNECT /ws/drafts/70/ [127.0.0.1:59160]
+DEBUG 2025-01-19 17:12:51,599 ws_protocol WebSocket ['127.0.0.1', 59160] accepted by application
+DEBUG 2025-01-19 17:12:51,603 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59160]
+DEBUG 2025-01-19 17:13:03,702 http_protocol HTTP b'GET' request for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,717 http_protocol HTTP 200 response started for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,718 http_protocol HTTP close for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,718 http_protocol HTTP response complete for ['127.0.0.1', 59164]
+INFO 2025-01-19 17:13:03,718 runserver [mHTTP GET /drafting/drafting/70/ 200 [0.02, 127.0.0.1:59164][0m
+INFO 2025-01-19 17:13:03,718 runserver [mHTTP GET /drafting/drafting/70/ 200 [0.02, 127.0.0.1:59164][0m
+DEBUG 2025-01-19 17:13:03,735 http_protocol HTTP b'GET' request for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,738 http_protocol HTTP 200 response started for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,739 http_protocol HTTP response chunk for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,740 http_protocol HTTP close for ['127.0.0.1', 59164]
+DEBUG 2025-01-19 17:13:03,740 http_protocol HTTP response complete for ['127.0.0.1', 59164]
+INFO 2025-01-19 17:13:03,741 runserver [mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:59164][0m
+INFO 2025-01-19 17:13:03,741 runserver [mHTTP GET /static/css/style.css 200 [0.01, 127.0.0.1:59164][0m
+DEBUG 2025-01-19 17:13:03,742 http_protocol HTTP b'GET' request for ['127.0.0.1', 59165]
+DEBUG 2025-01-19 17:13:03,766 http_protocol HTTP 200 response started for ['127.0.0.1', 59165]
+DEBUG 2025-01-19 17:13:03,768 http_protocol HTTP response chunk for ['127.0.0.1', 59165]
+DEBUG 2025-01-19 17:13:03,768 http_protocol HTTP close for ['127.0.0.1', 59165]
+DEBUG 2025-01-19 17:13:03,769 http_protocol HTTP response complete for ['127.0.0.1', 59165]
+INFO 2025-01-19 17:13:03,769 runserver [mHTTP GET /static/a_drafting/js/draft_room.js 200 [0.03, 127.0.0.1:59165][0m
+INFO 2025-01-19 17:13:03,769 runserver [mHTTP GET /static/a_drafting/js/draft_room.js 200 [0.03, 127.0.0.1:59165][0m
+DEBUG 2025-01-19 17:13:03,857 ws_protocol WebSocket closed for ['127.0.0.1', 59072]
+INFO 2025-01-19 17:13:03,858 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59072]
+INFO 2025-01-19 17:13:03,858 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59072]
+DEBUG 2025-01-19 17:13:03,878 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59156]
+INFO 2025-01-19 17:13:03,906 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59175]
+INFO 2025-01-19 17:13:03,906 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59175]
+DEBUG 2025-01-19 17:13:03,907 http_protocol Upgraded connection ['127.0.0.1', 59175] to WebSocket
+DEBUG 2025-01-19 17:13:03,919 ws_protocol WebSocket ['127.0.0.1', 59175] open and established
+INFO 2025-01-19 17:13:03,919 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59175]
+INFO 2025-01-19 17:13:03,919 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59175]
+DEBUG 2025-01-19 17:13:03,920 ws_protocol WebSocket ['127.0.0.1', 59175] accepted by application
+DEBUG 2025-01-19 17:13:03,934 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59156]
+INFO 2025-01-19 17:13:03,937 runserver WebSocket HANDSHAKING /ws/drafts/70/ [127.0.0.1:59179]
+INFO 2025-01-19 17:13:03,937 runserver WebSocket HANDSHAKING /ws/drafts/70/ [127.0.0.1:59179]
+DEBUG 2025-01-19 17:13:03,938 http_protocol Upgraded connection ['127.0.0.1', 59179] to WebSocket
+DEBUG 2025-01-19 17:13:03,943 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59175]
+DEBUG 2025-01-19 17:13:03,956 ws_protocol WebSocket ['127.0.0.1', 59179] open and established
+INFO 2025-01-19 17:13:03,957 runserver WebSocket CONNECT /ws/drafts/70/ [127.0.0.1:59179]
+INFO 2025-01-19 17:13:03,957 runserver WebSocket CONNECT /ws/drafts/70/ [127.0.0.1:59179]
+DEBUG 2025-01-19 17:13:03,957 ws_protocol WebSocket ['127.0.0.1', 59179] accepted by application
+DEBUG 2025-01-19 17:13:03,961 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59160]
+DEBUG 2025-01-19 17:13:03,962 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59179]
+DEBUG 2025-01-19 17:13:05,392 http_protocol HTTP b'POST' request for ['127.0.0.1', 59165]
+INFO 2025-01-19 17:13:05,401 views Starting draft for Cube ID: 3
+INFO 2025-01-19 17:13:05,570 views Cards eligible for the draft: Dauntless Bodyguard, Dryad Militant, Esper Sentinel, Kytheon, Hero of Akros, Mother of Runes, Ocelot Pride, Usher of the Fallen, Veteran Survivor, Warden of the Inner Sky, Ajani, Nacatl Pariah, Ethersworn Canonist, Jacked Rabbit, Luminarch Aspirant, Phelia, Exuberant Shepherd, Spirit of the Labyrinth, Thalia, Guardian of Thraben, Wall of Omens, Adeline, Resplendent Cathar, Archon of Emeria, Blade Splicer, Loran of the Third Path, Monastery Mentor, Skyclave Apparition, Palace Jailer, Restoration Angel, Serra Paragon, Solitude, Elesh Norn, Grand Cenobite, Path to Exile, Swords to Plowshares, Unexpectedly Absent, Prismatic Ending, Balance, Lingering Souls, Sevinne's Reclamation, Armageddon, Ravages of War, Wrath of God, Portable Hole, Staff of the Storyteller, Parallax Wave, Leyline Binding, Karakas, Tamiyo, Inquisitive Student, Jace, Vryn's Prodigy, Kitsa, Otterball Elite, Ledger Shredder, Malcolm, Alluring Scoundrel, Snapcaster Mage, Brazen Borrower, Emry, Lurker of the Loch, Hullbreacher, Displacer Kitten, Urza, Lord High Artificer, Kappa Cannoneer, Murktide Regent, Inkwell Leviathan, Narset, Parter of Veils, Jace, the Mind Sculptor, Ancestral Recall, Brainstorm, Spell Pierce, Arcane Denial, Brain Freeze, Daze, Flash, Mana Drain, Mana Leak, Miscalculation, Remand, Force of Negation, Frantic Search, Force of Will, Mystic Confluence, Dig Through Time, Ponder, Time Walk, Show and Tell, Timetwister, Tinker, Windfall, Lórien Revealed, Echo of Eons, Mind's Desire, Time Spiral, Upheaval, Treasure Cruise, Tolarian Academy, Cryptbreaker, Knight of the Ebon Legion, Dark Confidant, Dauthi Voidwalker, Marionette Apprentice, Orcish Bowmasters, Barrowgoyf, Sheoldred, the Apocalypse, Overlord of the Balemurk, Troll of Khazad-dûm, Archon of Cruelty, Valgavoth, Terror Eater, Liliana of the Veil, Cut Down, Dark Ritual, Entomb, Fatal Push, Vampiric Tutor, Bitter Triumph, Cabal Ritual, Goryo's Vengeance, Shallow Grave, Baleful Mastery, Murderous Cut, Bone Shards, Duress, Inquisition of Kozilek, Mind Twist, Reanimate, Thoughtseize, Unearth, Collective Brutality, Demonic Tutor, Night's Whisper, Persist, Toxic Deluge, Yawgmoth's Will, Tendrils of Agony, Animate Dead, Bitterblossom, Dance of the Dead, Necromancy, Recurring Nightmare, The Meathook Massacre, Dragon's Rage Channeler, Goblin Guide, Goblin Welder, Monastery Swiftspear, Ragavan, Nimble Pilferer, Fear of Missing Out, Generous Plunderer, Goblin Engineer, Inti, Seneschal of the Sun, Magda, Brazen Outlaw, Young Pyromancer, Broadside Bombardiers, Laelia, the Blade Reforged, Seasoned Pyromancer, Fury, Goldspan Dragon, Ox of Agonas, Chandra, Torch of Defiance, Burst Lightning, Galvanic Blast, Lightning Bolt, Unholy Heat, Manamorphose, Price of Progress, Searing Blaze, Searing Spear, Smash to Smithereens, Ghostfire Slice, Seething Song, Through the Breach, Fireblast, Magmatic Sinkhole, Chain Lightning, Faithless Looting, Pyroclasm, Tribal Flames, Wheel of Fortune, Fiery Confluence, Burning of Xinye, Wildfire, Underworld Breach, Fable of the Mirror-Breaker, Sneak Attack, Arena of Glory, Birds of Paradise, Elvish Mystic, Elvish Reclaimer, Fyndhorn Elves, Hexdrinker, Ignoble Hierarch, Joraga Treespeaker, Llanowar Elves, Noble Hierarch, Fanatic of Rhonas, Hermit Druid, Lotus Cobra, Satyr Wayfinder, Scavenging Ooze, Tarmogoyf, Courser of Kruphix, Dryad of the Ilysian Grove, Endurance, Ramunap Excavator, Reclamation Sage, Six, Tireless Tracker, Questing Beast, Timeless Witness, Deep Forest Hermit, Titania, Protector of Argoth, Avenger of Zendikar, Vaultborn Tyrant, Woodfall Primus, Worldspine Wurm, Nature's Claim, Channel, Life from the Loam, Malevolent Rumble, Eureka, Pest Infestation, Esika's Chariot, Exploration, Fastbond, Oath of Druids, Survival of the Fittest, Sylvan Library, Boseiju, Who Endures, Gaea's Cradle, No More Lies, Teferi, Time Raveler, Supreme Verdict, Teferi, Hero of Dominaria, Baleful Strix, Psychic Frog, Thief of Sanity, Notion Thief, Bloodtithe Harvester, Oni-Cult Anvil, Carnage Interpreter, Daretti, Ingenious Iconoclast, Fire Covenant, Kolaghan's Command, Mawloc, Territorial Kavu, Wrenn and Six, Minsc & Boo, Timeless Heroes, Bloodbraid Challenger, Farmer Cotton, Voice of Resurgence, Knight of Autumn, Torsten, Founder of Benalia, Damn, Tidehollow Sculler, Lurrus of the Dream-Den, Vindicate, Expressive Iteration, Third Path Iconoclast, Dack Fayden, Saheeli, Sublime Artificer, Deathrite Shaman, Grist, the Hunger Tide, Pernicious Deed, Alpha Deathclaw, Hogaak, Arisen Necropolis, Figure of Destiny, Boros Charm, Forth Eorlingas!, Phlage, Titan of Fire's Fury, Kinnan, Bonder Prodigy, Planar Genesis, Oko, Thief of Crowns, Uro, Titan of Nature's Wrath, Sphinx of the Steel Wind, Soul of Windgrace, Leovold, Emissary of Trest, Tasigur, the Golden Fang, Atraxa, Grand Unifier, Patchwork Automaton, Scrapwork Mutt, Spellskite, Syr Ginger, the Meal Ender, Etched Champion, Porcelain Legionnaire, Hangarback Walker, Phyrexian Metamorph, Walking Ballista, Wurmcoil Engine, Myr Battlesphere, Blightsteel Colossus, Emrakul, the Aeons Torn, Emrakul, the Promised End, Kozilek, Butcher of Truth, Platinum Emperion, Sundering Titan, Triplicate Titan, Ulamog, the Infinite Gyre, Dismember, Gitaxian Probe, Black Lotus, Chrome Mox, Lion's Eye Diamond, Lotus Petal, Mana Crypt, Mishra's Bauble, Mox Diamond, Mox Emerald, Mox Jet, Mox Opal, Mox Pearl, Mox Ruby, Mox Sapphire, Urza's Bauble, Currency Converter, Mana Vault, Retrofitter Foundry, Sensei's Divining Top, Skullclamp, Sol Ring, Grim Monolith, Lightning Greaves, Pentad Prism, Ratchet Bomb, Reckoner Bankbuster, Smuggler's Copter, Talisman of Creativity, Talisman of Dominance, Talisman of Indulgence, Talisman of Progress, Umezawa's Jitte, Winter Orb, Basalt Monolith, Crucible of Worlds, Nettlecyst, Palantír of Orthanc, Tangle Wire, Relic of Sauron, Smokestack, The One Ring, Thran Dynamo, Batterskull, Memory Jar, Portal to Phyrexia, Celestial Colonnade, Hallowed Fountain, Meticulous Archive, Tundra, Creeping Tar Pit, Undercity Sewers, Underground Sea, Watery Grave, Badlands, Blood Crypt, Dragonskull Summit, Raucous Theater, Commercial District, Rootbound Crag, Stomping Ground, Taiga, Horizon Canopy, Lush Portico, Savannah, Temple Garden, Godless Shrine, Scrubland, Shadowy Backstreet, Silent Clearing, Fiery Islet, Steam Vents, Thundering Falls, Volcanic Island, Bayou, Overgrown Tomb, Underground Mortuary, Woodland Cemetery, Clifftop Retreat, Plateau, Sacred Foundry, Sunbaked Canyon, Breeding Pool, Hinterland Harbor, Tropical Island, Waterlogged Grove, Spara's Headquarters, Raffine's Tower, Xander's Lounge, Ziatora's Proving Ground, Jetmir's Garden, Savai Triome, Ketria Triome, Indatha Triome, Raugrin Triome, Zagoth Triome, Ancient Tomb, Arid Mesa, Bazaar of Baghdad, Bloodstained Mire, Fabled Passage, Field of the Dead, Flooded Strand, Fountainport, Library of Alexandria, Mana Confluence, Marsh Flats, Maze of Ith, Mishra's Workshop, Misty Rainforest, Polluted Delta, Prismatic Vista, Scalding Tarn, Strip Mine, Urza's Saga, Verdant Catacombs, Wasteland, Windswept Heath, Wooded Foothills
+INFO 2025-01-19 17:13:05,584 views Pack 1 created for isaac with 5 cards.
+INFO 2025-01-19 17:13:05,591 views Pack 2 created for bob with 5 cards.
+INFO 2025-01-19 17:13:05,597 views Pack 3 created for isaac with 5 cards.
+INFO 2025-01-19 17:13:05,604 views Pack 4 created for bob with 5 cards.
+INFO 2025-01-19 17:13:05,610 views Pack 5 created for isaac with 5 cards.
+INFO 2025-01-19 17:13:05,616 views Pack 6 created for bob with 5 cards.
+DEBUG 2025-01-19 17:13:05,621 http_protocol HTTP 200 response started for ['127.0.0.1', 59165]
+DEBUG 2025-01-19 17:13:05,622 http_protocol HTTP close for ['127.0.0.1', 59165]
+DEBUG 2025-01-19 17:13:05,622 http_protocol HTTP response complete for ['127.0.0.1', 59165]
+INFO 2025-01-19 17:13:05,622 runserver [mHTTP POST /drafting/drafts/70/start-draft/ 200 [0.23, 127.0.0.1:59165][0m
+INFO 2025-01-19 17:13:05,622 runserver [mHTTP POST /drafting/drafts/70/start-draft/ 200 [0.23, 127.0.0.1:59165][0m
+DEBUG 2025-01-19 17:13:07,026 ws_protocol WebSocket incoming frame on ['127.0.0.1', 59179]
+INFO 2025-01-19 17:13:07,027 consumers Handling 'start_draft' for user: bob
+INFO 2025-01-19 17:13:07,031 consumers Draft found for WebSocket event: Draft for test6
+INFO 2025-01-19 17:13:07,036 consumers Sending pack to user isaac: ['Serra Paragon', 'Treasure Cruise', 'Oko, Thief of Crowns', 'Atraxa, Grand Unifier', 'Palantír of Orthanc']
+INFO 2025-01-19 17:13:07,054 consumers Sending pack to user bob: ['Inkwell Leviathan', 'Burning of Xinye', 'Bloodbraid Challenger', 'Mana Crypt', 'Savai Triome']
+INFO 2025-01-19 17:13:07,067 consumers Draft started, packs sent to all players.
+DEBUG 2025-01-19 17:13:07,068 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59160]
+DEBUG 2025-01-19 17:13:07,070 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59179]
+DEBUG 2025-01-19 17:14:30,419 http_protocol HTTP b'GET' request for ['127.0.0.1', 59232]
+DEBUG 2025-01-19 17:14:30,436 http_protocol HTTP 200 response started for ['127.0.0.1', 59232]
+DEBUG 2025-01-19 17:14:30,436 http_protocol HTTP close for ['127.0.0.1', 59232]
+DEBUG 2025-01-19 17:14:30,437 http_protocol HTTP response complete for ['127.0.0.1', 59232]
+INFO 2025-01-19 17:14:30,437 runserver [mHTTP GET /drafting/drafting/70/ 200 [0.02, 127.0.0.1:59232][0m
+INFO 2025-01-19 17:14:30,437 runserver [mHTTP GET /drafting/drafting/70/ 200 [0.02, 127.0.0.1:59232][0m
+DEBUG 2025-01-19 17:14:30,444 ws_protocol WebSocket closed for ['127.0.0.1', 59175]
+INFO 2025-01-19 17:14:30,445 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59175]
+INFO 2025-01-19 17:14:30,445 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:59175]
+DEBUG 2025-01-19 17:14:30,446 ws_protocol WebSocket closed for ['127.0.0.1', 59179]
+INFO 2025-01-19 17:14:30,447 runserver WebSocket DISCONNECT /ws/drafts/70/ [127.0.0.1:59179]
+INFO 2025-01-19 17:14:30,447 runserver WebSocket DISCONNECT /ws/drafts/70/ [127.0.0.1:59179]
+DEBUG 2025-01-19 17:14:30,483 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59156]
+DEBUG 2025-01-19 17:14:30,485 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59160]
+INFO 2025-01-19 17:14:30,553 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59244]
+INFO 2025-01-19 17:14:30,553 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:59244]
+DEBUG 2025-01-19 17:14:30,554 http_protocol Upgraded connection ['127.0.0.1', 59244] to WebSocket
+DEBUG 2025-01-19 17:14:30,567 ws_protocol WebSocket ['127.0.0.1', 59244] open and established
+INFO 2025-01-19 17:14:30,567 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59244]
+INFO 2025-01-19 17:14:30,567 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:59244]
+DEBUG 2025-01-19 17:14:30,568 ws_protocol WebSocket ['127.0.0.1', 59244] accepted by application
+DEBUG 2025-01-19 17:14:30,583 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59156]
+INFO 2025-01-19 17:14:30,585 runserver WebSocket HANDSHAKING /ws/drafts/70/ [127.0.0.1:59248]
+INFO 2025-01-19 17:14:30,585 runserver WebSocket HANDSHAKING /ws/drafts/70/ [127.0.0.1:59248]
+DEBUG 2025-01-19 17:14:30,586 http_protocol Upgraded connection ['127.0.0.1', 59248] to WebSocket
+DEBUG 2025-01-19 17:14:30,590 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59244]
+DEBUG 2025-01-19 17:14:30,601 ws_protocol WebSocket ['127.0.0.1', 59248] open and established
+INFO 2025-01-19 17:14:30,602 runserver WebSocket CONNECT /ws/drafts/70/ [127.0.0.1:59248]
+INFO 2025-01-19 17:14:30,602 runserver WebSocket CONNECT /ws/drafts/70/ [127.0.0.1:59248]
+DEBUG 2025-01-19 17:14:30,602 ws_protocol WebSocket ['127.0.0.1', 59248] accepted by application
+DEBUG 2025-01-19 17:14:30,605 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59160]
+DEBUG 2025-01-19 17:14:30,606 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 59248]
+DEBUG 2025-01-19 17:15:34,253 selector_events Using selector: SelectSelector
+VERBOSE 2025-01-19 17:15:35,398 _log For variant 'global', will try loading 'C:\ProgramData\pip\pip.ini'
+VERBOSE 2025-01-19 17:15:35,398 _log For variant 'user', will try loading 'C:\Users\isaac\pip\pip.ini'
+VERBOSE 2025-01-19 17:15:35,399 _log For variant 'user', will try loading 'C:\Users\isaac\AppData\Roaming\pip\pip.ini'
+VERBOSE 2025-01-19 17:15:35,399 _log For variant 'site', will try loading 'C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\pip.ini'
+DEBUG 2025-01-19 17:15:35,837 versioncontrol Registered VCS backend: bzr
+DEBUG 2025-01-19 17:15:35,839 versioncontrol Registered VCS backend: git
+DEBUG 2025-01-19 17:15:35,840 versioncontrol Registered VCS backend: hg
+DEBUG 2025-01-19 17:15:35,841 versioncontrol Registered VCS backend: svn
+VERBOSE 2025-01-19 17:15:35,932 _log For variant 'global', will try loading 'C:\ProgramData\pip\pip.ini'
+VERBOSE 2025-01-19 17:15:35,933 _log For variant 'user', will try loading 'C:\Users\isaac\pip\pip.ini'
+VERBOSE 2025-01-19 17:15:35,934 _log For variant 'user', will try loading 'C:\Users\isaac\AppData\Roaming\pip\pip.ini'
+VERBOSE 2025-01-19 17:15:35,934 _log For variant 'site', will try loading 'C:\Users\isaac\.virtualenvs\New_folder__11_-2sU_N60K\pip.ini'
+DEBUG 2025-01-19 17:22:13,767 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:26:03,071 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:26:33,880 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:28:22,402 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:47:05,891 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:47:19,994 selector_events Using selector: SelectSelector
+DEBUG 2025-01-19 17:47:21,076 selector_events Using selector: SelectSelector
+INFO 2025-01-19 17:47:21,475 autoreload Watching for file changes with StatReloader
+INFO 2025-01-19 17:47:21,475 autoreload Watching for file changes with StatReloader
+INFO 2025-01-19 17:47:22,242 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-01-19 17:47:22,243 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-01-19 17:47:22,244 server Listening on TCP address 127.0.0.1:8000
+DEBUG 2025-01-19 17:47:27,238 http_protocol HTTP b'GET' request for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,329 http_protocol HTTP 200 response started for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,330 http_protocol HTTP close for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,330 http_protocol HTTP response complete for ['127.0.0.1', 60624]
+INFO 2025-01-19 17:47:27,331 runserver [mHTTP GET / 200 [0.09, 127.0.0.1:60624][0m
+INFO 2025-01-19 17:47:27,331 runserver [mHTTP GET / 200 [0.09, 127.0.0.1:60624][0m
+DEBUG 2025-01-19 17:47:27,355 http_protocol HTTP b'GET' request for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,383 http_protocol HTTP b'GET' request for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,407 http_protocol HTTP 200 response started for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,408 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,409 http_protocol HTTP close for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:27,409 http_protocol HTTP response complete for ['127.0.0.1', 60624]
+INFO 2025-01-19 17:47:27,410 runserver [mHTTP GET /static/css/dist/styles.css?v=1737337647 200 [0.06, 127.0.0.1:60624][0m
+INFO 2025-01-19 17:47:27,410 runserver [mHTTP GET /static/css/dist/styles.css?v=1737337647 200 [0.06, 127.0.0.1:60624][0m
+DEBUG 2025-01-19 17:47:27,435 http_protocol HTTP 200 response started for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,436 http_protocol HTTP response chunk for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,437 http_protocol HTTP close for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,437 http_protocol HTTP response complete for ['127.0.0.1', 60625]
+INFO 2025-01-19 17:47:27,438 runserver [mHTTP GET /static/django-browser-reload/reload-listener.js 200 [0.06, 127.0.0.1:60625][0m
+INFO 2025-01-19 17:47:27,438 runserver [mHTTP GET /static/django-browser-reload/reload-listener.js 200 [0.06, 127.0.0.1:60625][0m
+DEBUG 2025-01-19 17:47:27,618 http_protocol HTTP b'GET' request for ['127.0.0.1', 60625]
+INFO 2025-01-19 17:47:27,621 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60637]
+INFO 2025-01-19 17:47:27,621 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60637]
+DEBUG 2025-01-19 17:47:27,622 http_protocol Upgraded connection ['127.0.0.1', 60637] to WebSocket
+DEBUG 2025-01-19 17:47:27,633 ws_protocol WebSocket ['127.0.0.1', 60637] open and established
+INFO 2025-01-19 17:47:27,634 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60637]
+INFO 2025-01-19 17:47:27,634 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60637]
+DEBUG 2025-01-19 17:47:27,635 ws_protocol WebSocket ['127.0.0.1', 60637] accepted by application
+DEBUG 2025-01-19 17:47:27,640 http_protocol HTTP 200 response started for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,641 http_protocol HTTP response chunk for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,642 http_protocol HTTP close for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,644 http_protocol HTTP response complete for ['127.0.0.1', 60625]
+INFO 2025-01-19 17:47:27,645 runserver [mHTTP GET /static/django-browser-reload/reload-worker.js 200 [0.03, 127.0.0.1:60625][0m
+INFO 2025-01-19 17:47:27,645 runserver [mHTTP GET /static/django-browser-reload/reload-worker.js 200 [0.03, 127.0.0.1:60625][0m
+DEBUG 2025-01-19 17:47:27,647 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60637]
+DEBUG 2025-01-19 17:47:27,683 http_protocol HTTP b'GET' request for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:27,688 http_protocol HTTP 200 response started for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:28,690 http_protocol HTTP response chunk for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:29,693 http_protocol HTTP response chunk for ['127.0.0.1', 60625]
+INFO 2025-01-19 17:47:30,208 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60643]
+INFO 2025-01-19 17:47:30,208 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60643]
+DEBUG 2025-01-19 17:47:30,209 http_protocol Upgraded connection ['127.0.0.1', 60643] to WebSocket
+DEBUG 2025-01-19 17:47:30,218 ws_protocol WebSocket ['127.0.0.1', 60643] open and established
+INFO 2025-01-19 17:47:30,219 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60643]
+INFO 2025-01-19 17:47:30,219 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60643]
+DEBUG 2025-01-19 17:47:30,220 ws_protocol WebSocket ['127.0.0.1', 60643] accepted by application
+DEBUG 2025-01-19 17:47:30,228 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60637]
+DEBUG 2025-01-19 17:47:30,237 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60643]
+DEBUG 2025-01-19 17:47:30,704 http_protocol HTTP response chunk for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:31,706 http_protocol HTTP response chunk for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:32,003 http_protocol HTTP b'GET' request for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,015 http_protocol HTTP 200 response started for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,015 http_protocol HTTP close for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,016 http_protocol HTTP response complete for ['127.0.0.1', 60624]
+INFO 2025-01-19 17:47:32,016 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:60624][0m
+INFO 2025-01-19 17:47:32,016 runserver [mHTTP GET / 200 [0.01, 127.0.0.1:60624][0m
+DEBUG 2025-01-19 17:47:32,020 ws_protocol WebSocket closed for ['127.0.0.1', 60637]
+INFO 2025-01-19 17:47:32,021 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60637]
+INFO 2025-01-19 17:47:32,021 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60637]
+DEBUG 2025-01-19 17:47:32,023 http_protocol HTTP disconnect for ['127.0.0.1', 60625]
+DEBUG 2025-01-19 17:47:32,026 http_protocol HTTP b'GET' request for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,030 http_protocol HTTP 200 response started for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,031 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,032 http_protocol HTTP close for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,033 http_protocol HTTP response complete for ['127.0.0.1', 60624]
+INFO 2025-01-19 17:47:32,033 runserver [mHTTP GET /static/css/dist/styles.css?v=1737337652 200 [0.01, 127.0.0.1:60624][0m
+INFO 2025-01-19 17:47:32,033 runserver [mHTTP GET /static/css/dist/styles.css?v=1737337652 200 [0.01, 127.0.0.1:60624][0m
+DEBUG 2025-01-19 17:47:32,043 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60643]
+INFO 2025-01-19 17:47:32,168 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60654]
+INFO 2025-01-19 17:47:32,168 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60654]
+DEBUG 2025-01-19 17:47:32,170 http_protocol Upgraded connection ['127.0.0.1', 60654] to WebSocket
+DEBUG 2025-01-19 17:47:32,175 http_protocol HTTP b'GET' request for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,183 http_protocol HTTP 200 response started for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:32,186 ws_protocol WebSocket ['127.0.0.1', 60654] open and established
+INFO 2025-01-19 17:47:32,187 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60654]
+INFO 2025-01-19 17:47:32,187 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60654]
+DEBUG 2025-01-19 17:47:32,187 ws_protocol WebSocket ['127.0.0.1', 60654] accepted by application
+DEBUG 2025-01-19 17:47:32,197 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60643]
+DEBUG 2025-01-19 17:47:32,205 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60654]
+DEBUG 2025-01-19 17:47:33,189 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:34,218 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:35,218 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:36,232 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:37,233 http_protocol HTTP response chunk for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:37,544 http_protocol HTTP b'GET' request for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,554 views Grouped Cubes: {'Vintage': <QuerySet [<Cube: test1>, <Cube: test2>, <Cube: test6>]>, 'Legacy': <QuerySet []>, 'Modern': <QuerySet []>, 'Pioneer': <QuerySet []>, 'Pauper': <QuerySet []>}
+DEBUG 2025-01-19 17:47:37,571 http_protocol HTTP 200 response started for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,572 http_protocol HTTP close for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,572 http_protocol HTTP response complete for ['127.0.0.1', 60663]
+INFO 2025-01-19 17:47:37,573 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:60663][0m
+INFO 2025-01-19 17:47:37,573 runserver [mHTTP GET /drafting/popular-cubes/ 200 [0.03, 127.0.0.1:60663][0m
+DEBUG 2025-01-19 17:47:37,588 http_protocol HTTP b'GET' request for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,591 http_protocol HTTP 200 response started for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,593 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,593 http_protocol HTTP close for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,594 http_protocol HTTP response complete for ['127.0.0.1', 60663]
+INFO 2025-01-19 17:47:37,594 runserver [mHTTP GET /static/css/dist/styles.css?v=1737337657 200 [0.01, 127.0.0.1:60663][0m
+INFO 2025-01-19 17:47:37,594 runserver [mHTTP GET /static/css/dist/styles.css?v=1737337657 200 [0.01, 127.0.0.1:60663][0m
+DEBUG 2025-01-19 17:47:37,597 ws_protocol WebSocket closed for ['127.0.0.1', 60654]
+INFO 2025-01-19 17:47:37,597 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60654]
+INFO 2025-01-19 17:47:37,597 runserver WebSocket DISCONNECT /ws/online-status/ [127.0.0.1:60654]
+DEBUG 2025-01-19 17:47:37,599 http_protocol HTTP disconnect for ['127.0.0.1', 60624]
+DEBUG 2025-01-19 17:47:37,616 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60643]
+INFO 2025-01-19 17:47:37,758 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60667]
+INFO 2025-01-19 17:47:37,758 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60667]
+DEBUG 2025-01-19 17:47:37,759 http_protocol Upgraded connection ['127.0.0.1', 60667] to WebSocket
+DEBUG 2025-01-19 17:47:37,762 http_protocol HTTP b'GET' request for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,772 http_protocol HTTP 200 response started for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:37,775 ws_protocol WebSocket ['127.0.0.1', 60667] open and established
+INFO 2025-01-19 17:47:37,775 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60667]
+INFO 2025-01-19 17:47:37,775 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60667]
+DEBUG 2025-01-19 17:47:37,776 ws_protocol WebSocket ['127.0.0.1', 60667] accepted by application
+DEBUG 2025-01-19 17:47:37,785 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60643]
+DEBUG 2025-01-19 17:47:37,792 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60667]
+DEBUG 2025-01-19 17:47:38,781 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:39,779 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:40,778 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:41,776 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:42,776 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:43,791 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:44,803 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+INFO 2025-01-19 17:47:45,219 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60675]
+INFO 2025-01-19 17:47:45,219 runserver WebSocket HANDSHAKING /ws/online-status/ [127.0.0.1:60675]
+DEBUG 2025-01-19 17:47:45,220 http_protocol Upgraded connection ['127.0.0.1', 60675] to WebSocket
+DEBUG 2025-01-19 17:47:45,231 ws_protocol WebSocket ['127.0.0.1', 60675] open and established
+INFO 2025-01-19 17:47:45,231 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60675]
+INFO 2025-01-19 17:47:45,231 runserver WebSocket CONNECT /ws/online-status/ [127.0.0.1:60675]
+DEBUG 2025-01-19 17:47:45,232 ws_protocol WebSocket ['127.0.0.1', 60675] accepted by application
+DEBUG 2025-01-19 17:47:45,239 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60643]
+DEBUG 2025-01-19 17:47:45,247 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60667]
+DEBUG 2025-01-19 17:47:45,262 ws_protocol Sent WebSocket packet to client for ['127.0.0.1', 60675]
+DEBUG 2025-01-19 17:47:45,818 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:46,817 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:47,831 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:48,832 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:49,837 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:50,842 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:51,843 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:52,830 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:53,857 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:54,859 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:55,861 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:56,877 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:57,893 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:58,903 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:47:59,918 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:00,918 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:01,916 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:02,932 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:03,931 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:04,930 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:05,936 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:06,934 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:07,951 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:08,963 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:09,979 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:10,982 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:11,997 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:13,009 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:14,023 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:15,031 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:16,047 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:17,045 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:18,042 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:19,054 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:20,073 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:21,085 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:22,100 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:23,099 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:24,098 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:25,112 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:26,128 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:27,142 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:28,172 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:29,172 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:30,172 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:31,186 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:32,182 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:33,201 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:34,207 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:35,222 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:36,241 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:37,252 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:38,267 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:39,284 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:40,298 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:41,299 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:42,316 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:43,318 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:44,321 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:45,317 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:46,331 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:47,330 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:48,344 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:49,335 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:50,340 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:51,359 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:52,362 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:53,379 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:54,378 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:55,379 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:56,392 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:57,395 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:58,395 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:48:59,401 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:00,403 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:01,401 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:02,416 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:03,428 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:04,443 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:05,448 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:06,448 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:07,462 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:08,459 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:09,461 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:10,475 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:11,489 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:12,490 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:13,503 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:14,518 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:15,523 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:16,529 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:17,531 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:18,543 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:19,559 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:20,570 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:21,581 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:22,597 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:23,601 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:24,618 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:25,617 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:26,616 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:27,630 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:28,647 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:29,660 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:30,676 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:31,689 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:32,704 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:33,696 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:34,695 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:35,691 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:36,690 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:37,696 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:38,694 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:39,695 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:40,695 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:41,707 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:42,722 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:43,749 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:44,765 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:45,753 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:46,756 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:47,757 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:48,771 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:49,769 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:50,783 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:51,784 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:52,802 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:53,818 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:54,823 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:55,829 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:56,858 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:57,860 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:58,863 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:49:59,865 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:00,885 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:01,905 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:02,919 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:03,933 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:04,932 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:05,932 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:06,945 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:07,943 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:08,942 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:09,941 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:10,954 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:11,984 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:12,999 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:14,013 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:15,018 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:16,033 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:17,029 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:18,042 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:19,058 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:20,073 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:21,079 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:22,079 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:23,081 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:24,095 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:25,125 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:26,129 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:27,155 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:28,161 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:29,168 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:30,169 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:31,174 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:32,193 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:33,175 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:34,191 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:35,176 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:36,178 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:37,176 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:38,194 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:39,191 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:40,209 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:41,224 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:42,224 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:43,240 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:44,237 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:45,241 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:46,258 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:47,255 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:48,269 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:49,253 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:50,254 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:51,252 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:52,253 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:53,256 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:54,267 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:55,271 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:56,274 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:57,276 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:58,277 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:50:59,278 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:00,281 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:01,285 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:02,288 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:03,295 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:04,298 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:05,314 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:06,317 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:07,301 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:08,305 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:09,308 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:10,309 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:11,317 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:12,318 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:13,331 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:14,345 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:15,346 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:16,362 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:17,349 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:18,353 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:19,351 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:20,362 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:21,361 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:22,364 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:23,370 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:24,375 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:25,375 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:26,389 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:27,390 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:28,402 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:29,402 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:30,415 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:31,412 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:32,412 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:33,413 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:34,418 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:35,418 http_protocol HTTP response chunk for ['127.0.0.1', 60663]
+DEBUG 2025-01-19 17:51:36,421 http_protocol HTTP response chunk for ['127.0.0.1', 60663]

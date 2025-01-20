@@ -26,6 +26,7 @@ from a_home import views as home_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("__reload__/", include("django_browser_reload.urls")),
     path('', home_views.home, name='home'),  # Default to home
     path('home/', home_views.home, name='home'),
     path('accounts/', include('allauth.urls')),
