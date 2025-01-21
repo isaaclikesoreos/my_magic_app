@@ -164,8 +164,11 @@ INTERNAL_IPS = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = [ BASE_DIR / 'static' ]
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "a_drafting" / "static",  # Add this if it's missing
+]
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media' 

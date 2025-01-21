@@ -1,28 +1,44 @@
 {% extends 'layouts/blank.html' %}
-
+{% load static %}
 {% block content %}
-<h1>Popular Cubes</h1>
+<h1 class="red-title">
+    Popular Cubes
+</h1>
+
+<script src="{% static 'a_drafting/js/popular_cubes.js' %}"></script>
 
 {% for level, cubes in grouped_cubes.items %}
     <h2>{{ level }}</h2>
     <div class="cube-section">
-        {% if cubes %}
+        <!-- Flexbox container for cubes -->
+        <div class="cube-row" id="row-{{ level|slugify }}">
             {% for cube in cubes %}
-                <div class="cube-card">
+                <div class="cube-card {% if forloop.counter > 4 %}hidden{% endif %}">
                     <img src="{{ cube.image_url }}" alt="Cube Image" class="cube-image">
                     <h3>{{ cube.name }}</h3>
-                    <p>Created by: {{ cube.creator.username }}</p>
+                    <p>Created by: {{ cube.creator }}</p>
                     <p>Drafted {{ cube.draft_count }} times</p>
                 </div>
             {% endfor %}
-        {% else %}
-            <p>No cubes available for this level.</p>
+        </div>
+        {% if cubes|length > 4 %}
+            <button 
+                class="see-more-button" 
+                onclick="showMore('{{ level|slugify }}')">
+                See More
+            </button>
         {% endif %}
+        
     </div>
 {% endfor %}
+
+
+
 {% include 'drafting/components/update_card_database.html' %}
 {% include 'drafting/components/cube_upload.html' %}
 {% include 'drafting/components/draft_lobby_form.html' %}
 {% endblock %}
+
+
 
 

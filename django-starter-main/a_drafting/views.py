@@ -288,12 +288,29 @@ class PopularCubesView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         grouped_cubes = {}
+
+        # Iterate through power levels
         for level, level_name in Cube.POWER_LEVEL_CHOICES:
-            cubes = Cube.objects.filter(power_level=level).order_by('-draft_count')
-            grouped_cubes[level_name] = cubes
-        logger.debug(f"Grouped Cubes: {grouped_cubes}")
+            # Fetch cubes for the current power level
+            cubes = Cube.objects.filter(power_level=level).order_by('-draft_count').prefetch_related('images')
+
+            # Create a list of cube data with image handling
+            grouped_cubes[level_name] = [
+                {
+                    "name": cube.name,
+                    "creator": cube.creator.username,
+                    "draft_count": cube.draft_count,
+                    "image_url": cube.images.filter(is_primary=True).first().image_url
+                    if cube.images.filter(is_primary=True).exists()
+                    else "/static/images/default_card.png",  # Fallback image
+                }
+                for cube in cubes
+            ]
+
         context['grouped_cubes'] = grouped_cubes
         return context
+
+
     
 
 class DraftRoomView(TemplateView):

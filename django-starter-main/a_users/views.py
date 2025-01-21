@@ -8,18 +8,30 @@ from django.views.generic import TemplateView, UpdateView, FormView, DeleteView
 from django.contrib import messages
 from .forms import ProfileForm, EmailForm
 from .models import Profile
+from a_drafting.models import Cube
 
 
 class ProfileView(LoginRequiredMixin, TemplateView):
     template_name = "a_users/profile.html"
 
     def get_context_data(self, **kwargs):
-        username = self.kwargs.get("username")
-        if username:
-            profile = get_object_or_404(User, username=username).profile
-        else:
-            profile = self.request.user.profile
-        return {"profile": profile}
+        context = super().get_context_data(**kwargs)
+        user = self.request.user
+
+        # Retrieve cubes created by the user
+        user_cubes = Cube.objects.filter(creator=user).order_by('-id')
+
+        context['user_cubes'] = [
+            {
+                "name": cube.name,
+                "draft_count": cube.draft_count,
+                "image_url": cube.images.filter(is_primary=True).first().image_url
+                if cube.images.filter(is_primary=True).exists()
+                else "/static/images/default_card.png",  # Fallback image
+            }
+            for cube in user_cubes
+        ]
+        return context
 
 
 class ProfileEditView(LoginRequiredMixin, UpdateView):

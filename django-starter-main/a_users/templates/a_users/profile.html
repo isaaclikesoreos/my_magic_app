@@ -1,19 +1,29 @@
 {% extends 'layouts/blank.html' %}
-
+{% load static %}
 {% block content %}
+<h1 class="profile-heading">Your Profile</h1>
 
-<div class="max-w-lg mx-auto flex flex-col items-center pt-20 px-4">
-    <img class="w-36 h-36 rounded-full object-cover mb-4" src="{{ profile.avatar }}" />
-    <div class="text-center">
-        <h1>{{ profile.name }}</h1>
-        <div class="text-gray-400 mb-2 -mt-3">@{{ profile.user.username }}</div>
-        {% if profile.info %}
-        <div class="mt-8 hyphens-auto">{{ profile.info|linebreaksbr }}</div>
-        {% endif %}  
-        {% if profile.user != user %}
-        <a class = "button" href = "{% url 'start-chat' profile.user.username %}">Chat with me</a>
-        {% endif %}  
-    </div>
+<!-- User Information -->
+<div class="profile-info-box">
+    <h2 class="font-bold text-xl">{{ user.username }}</h2>
+    <p>Email: {{ user.email }}</p>
 </div>
 
+<!-- User Cubes Section -->
+<div class="profile-section">
+    <h2 class="text-xl font-bold">Your Created Cubes</h2>
+    {% if user_cubes %}
+        <div class="profile-grid">
+            {% for cube in user_cubes %}
+                <div class="profile-cube-card">
+                    <img src="{{ cube.image_url }}" alt="Cube Image" class="profile-cube-image">
+                    <h3>{{ cube.name }}</h3>
+                    <p>Drafted {{ cube.draft_count }} times</p>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-gray-600 mt-4">You haven't created any cubes yet!</p>
+    {% endif %}
+</div>
 {% endblock %}
