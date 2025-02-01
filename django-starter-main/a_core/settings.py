@@ -166,9 +166,15 @@ INTERNAL_IPS = [
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+
 STATICFILES_DIRS = [
-    BASE_DIR / "a_drafting" / "static",  # Add this if it's missing
+    BASE_DIR / "a_drafting" / "static",
+    BASE_DIR / "a_users" / "static",
+    BASE_DIR / "theme" / "static",  # For tailwind or custom theme
 ]
+
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media' 

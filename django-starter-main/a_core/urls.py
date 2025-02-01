@@ -23,6 +23,9 @@ from a_users.views import ProfileView
 from a_home.views import *
 from django.http import HttpResponseRedirect
 from a_home import views as home_views
+from django.conf import settings
+from django.conf.urls.static import static
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -36,6 +39,7 @@ urlpatterns = [
     path('@<username>/', ProfileView.as_view(), name="profile"),
 ]
 
-# Only used when DEBUG=True, whitenoise can serve files when DEBUG=False
+
 if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+

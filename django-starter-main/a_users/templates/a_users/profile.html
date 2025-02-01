@@ -3,11 +3,47 @@
 {% block content %}
 <h1 class="profile-heading">Your Profile</h1>
 
+<script src="{% static 'a_users/js/change_avatar.js' %}"></script>
+
 <!-- User Information -->
 <div class="profile-info-box">
+    <img src="{{ user.profile.avatar }}" alt="Profile Avatar" class="profile-avatar">
     <h2 class="font-bold text-xl">{{ user.username }}</h2>
     <p>Email: {{ user.email }}</p>
+    <!-- Change Avatar Button -->
+    <button class="change-avatar-button" onclick="toggleAvatarSelection()">
+        Change Avatar
+    </button>
 </div>
+
+<!-- Avatar Selection Section -->
+<div id="avatar-selection" class="hidden-avatar profile-section">
+    <h3>Select Your Avatar</h3>
+    <form method="post" class="profile-form">
+        {% csrf_token %}
+        <div class="avatar-options">
+            {% for avatar in avatars %}
+                <label class="avatar-label">
+                    <input 
+                        type="radio" 
+                        name="selected_avatar" 
+                        value="{{ avatar.url }}" 
+                        id="avatar-{{ forloop.counter }}" 
+                        {% if avatar.url == user.profile.avatar %}checked{% endif %}>
+                    <img 
+                        src="{{ avatar.url }}" 
+                        alt="Avatar {{ forloop.counter }}" 
+                        class="avatar-option-image">
+                </label>
+            {% endfor %}
+        </div>
+        
+        
+        <button type="submit" class="save-avatar-button">Save Changes</button>
+    </form>
+</div>
+
+
 
 <!-- User Cubes Section -->
 <div class="profile-section">

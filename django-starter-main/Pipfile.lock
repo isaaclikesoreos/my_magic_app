@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c16bb2b04fb1bcd5872cc2329c4bf7dbcc38f8dd87da9d6596666e3559a9a5b6"
+            "sha256": "280f44b7023c589cf7ebabb3c5a31f6085e0a3917486f8ed19124f4457b66183"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -288,11 +288,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:236e023f021f5ce7dee5779de7b286565fdea5f4ab86bae5338e3f7b69896cf0",
-                "sha256:de450c09e91879fa5a307f696e57c851955c910a438a35e6b4c895e86bedc82a"
+                "sha256:19bbca786df50b9eca23cee79d495facf55c8f5c54c529d9bf1fe7b5ea086af3",
+                "sha256:c46eb936111fffe6ec4bc9930035524a8be98ec2f74d8a0ff351226a3e52f459"
             ],
             "markers": "python_version >= '3.10'",
-            "version": "==5.1.4"
+            "version": "==5.1.5"
         },
         "django-allauth": {
             "hashes": [
@@ -301,6 +301,13 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==65.3.1"
+        },
+        "django-browser-reload": {
+            "hashes": [
+                "sha256:3667939cde0eee1a6d698dbe3b78cf10b573dabc4e711fb7933f1ba91fb98da4",
+                "sha256:d372c12c1c5962c02279a53cac7e8a020c48f104592c637a06d0768b28d2d6be"
+            ],
+            "version": "==1.17.0"
         },
         "django-cleanup": {
             "hashes": [
@@ -319,6 +326,17 @@
             "index": "pypi",
             "markers": "python_version >= '3.9'",
             "version": "==1.21.0"
+        },
+        "django-tailwind": {
+            "extras": [
+                "reload"
+            ],
+            "hashes": [
+                "sha256:31c2f4a7879d685c2de0feaf0b63f246200b37337bea4d7dbafb59bc3f10c008",
+                "sha256:fa969c5b95d314b173fe2b2ed2cb2c03f2e2c94fdc2c01ff73a993fa159085da"
+            ],
+            "markers": "python_full_version >= '3.10.0' and python_full_version < '4.0.0'",
+            "version": "==3.8.0"
         },
         "djangorestframework": {
             "hashes": [
@@ -566,6 +584,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==4.12.2"
+        },
+        "tzdata": {
+            "hashes": [
+                "sha256:24894909e88cdb28bd1636c6887801df64cb485bd593f2fd83ef29075a81d694",
+                "sha256:7e127113816800496f027041c570f50bcd464a020098a3b6b199517772303639"
+            ],
+            "markers": "sys_platform == 'win32'",
+            "version": "==2025.1"
         },
         "urllib3": {
             "hashes": [

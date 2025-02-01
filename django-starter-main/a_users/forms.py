@@ -1,7 +1,7 @@
 from django.forms import ModelForm
 from django import forms
 from django.contrib.auth.models import User
-from .models import Profile
+from .models import *
 
 class ProfileForm(ModelForm):
     class Meta:
@@ -20,3 +20,11 @@ class EmailForm(ModelForm):
     class Meta:
         model = User
         fields = ['email']
+
+
+class ChangeAvatarForm(forms.Form):
+    selected_avatar = forms.ChoiceField(
+        choices=Profile.AVATAR_CHOICES,
+        widget=forms.RadioSelect,
+        label="Choose an Avatar",
+    )

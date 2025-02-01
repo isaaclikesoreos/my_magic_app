@@ -15,6 +15,7 @@ requests = "*"
 shortuuid = "*"
 pillow = "*"
 django_cleanup = "*"
+django-tailwind = {extras = ["reload"], version = "*"}
 
 [dev-packages]
 
