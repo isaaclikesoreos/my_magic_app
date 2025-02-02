@@ -1,0 +1,45 @@
+{% extends 'layouts/blank.html' %}
+{% load static %}
+{% block content %}
+<div class="cube-detail-container list-active">
+  <!-- Tabs to toggle views -->
+  <div class="cube-detail-tabs">
+    <button id="overview-tab" class="active">Overview</button>
+    <button id="list-tab">List View</button>
+  </div>
+  
+  <!-- Overview view -->
+  <div id="overview-view" class="cube-view">
+    <div class="cube-detail-overview">
+      <img src="{{ primary_image_url }}" alt="{{ cube.name }}" class="cube-detail-image">
+      <h1>{{ cube.name }}</h1>
+      <p><strong>Created by:</strong> {{ cube.creator.username }}</p>
+      <p><strong>Drafted:</strong> {{ cube.draft_count }} times</p>
+      {% if cube.description %}
+        <p><strong>Description:</strong> {{ cube.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+  
+  <!-- List view: displays card names organized by color -->
+  <div id="list-view" class="cube-view" style="display: none;">
+    <div id="list-container">
+      {% for color, cards in ordered_cards_by_color %}
+        <div class="color-group {% if '/' in color %}multi-color{% endif %}">
+          <h3>{{ color }}</h3>
+          <ul>
+            {% for card in cards %}
+              <li class="card-name" data-image-url="{{ card.image_url }}">{{ card.name }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% empty %}
+        <p>No cards available in this cube.</p>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- Include JS at the bottom -->
+<script src="{% static 'a_drafting/js/cube_detail.js' %}"></script>
+{% endblock %}

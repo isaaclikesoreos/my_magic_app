@@ -1954,6 +1954,122 @@ input[type="radio"]:checked + .avatar-option-image {
   /* Specifically for avatar toggling */
 }
 
+.cube-detail-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.cube-detail-tabs {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cube-detail-tabs button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.cube-detail-tabs button.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.cube-detail-overview {
+  text-align: center;
+}
+
+.cube-detail-image {
+  width: 100%;
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.cube-view {
+  transition: all 0.3s ease;
+}
+
+/* Use CSS Grid to display color groups side by side */
+
+/* Override the container when list view is active */
+
+.cube-detail-container.list-active {
+  /* Remove the fixed max-width for list view if desired */
+  max-width: none;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Use CSS Grid for the list container */
+
+#list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Each color group container */
+
+.color-group {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  /* Ensure the group takes full width of its grid cell */
+  box-sizing: border-box;
+}
+
+/* For multicolor groups, adjust padding or font-size if needed */
+
+.color-group.multi-color {
+  padding: 8px;
+}
+
+/* Group header styling */
+
+.color-group h3 {
+  margin: 0 0 5px;
+  font-size: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3px;
+}
+
+/* Reset list styling */
+
+.color-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style each card name */
+
+.color-group li {
+  padding: 2px 0;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Tooltip (same as before) */
+
+#card-tooltip {
+  position: absolute;
+  display: none;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
 .hover\:\!bg-\[\#c3c9d0\]:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(195 201 208 / var(--tw-bg-opacity, 1)) !important;

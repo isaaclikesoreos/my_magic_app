@@ -17,11 +17,15 @@ import random
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 from django.shortcuts import render, get_object_or_404, redirect
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, DetailView
 from django.urls import reverse
 from random import sample
 from collections import Counter
 from random import shuffle
+from django.core.paginator import Paginator, EmptyPage
+from django.views.decorators.http import require_GET
+from django.http import JsonResponse
+from django.utils.text import slugify
 
 logger = logging.getLogger(__name__)
 
@@ -297,6 +301,7 @@ class PopularCubesView(TemplateView):
             # Create a list of cube data with image handling
             grouped_cubes[level_name] = [
                 {
+                    "id": cube.id,
                     "name": cube.name,
                     "creator": cube.creator.username,
                     "draft_count": cube.draft_count,
@@ -311,7 +316,46 @@ class PopularCubesView(TemplateView):
         return context
 
 
-    
+@require_GET
+def popular_cubes_api(request):
+    # Expecting GET parameters: level (slug) and page (defaults to 2 since first 4 are pre-rendered)
+    level_slug = request.GET.get('level')
+    try:
+        page = int(request.GET.get('page', 2))
+    except ValueError:
+        page = 2
+
+    # Map the level slug back to the power level code
+    power_level_code = None
+    for code, label in Cube.POWER_LEVEL_CHOICES:
+        if slugify(label) == level_slug:
+            power_level_code = code
+            break
+    if power_level_code is None:
+        return JsonResponse({'error': 'Invalid level'}, status=400)
+
+    # Filter cubes by the power level code and order by draft_count descending
+    cubes = Cube.objects.filter(power_level=power_level_code).order_by('-draft_count').prefetch_related('images')
+    paginator = Paginator(cubes, 4)  # 4 cubes per page
+
+    try:
+        cubes_page = paginator.page(page)
+    except EmptyPage:
+        return JsonResponse({'cubes': [], 'has_more': False})
+
+    cubes_data = []
+    for cube in cubes_page:
+        primary_image = cube.images.filter(is_primary=True).first()
+        image_url = primary_image.image_url if primary_image else "/static/images/default_card.png"
+        cubes_data.append({
+            'id': cube.id,
+            'name': cube.name,
+            'creator': cube.creator.username,
+            'draft_count': cube.draft_count,
+            'image_url': image_url,
+        })
+
+    return JsonResponse({'cubes': cubes_data, 'has_more': cubes_page.has_next()})
 
 class DraftRoomView(TemplateView):
     template_name = "drafting/draft_room.html"
@@ -323,4 +367,52 @@ class DraftRoomView(TemplateView):
         players = draft.players.all()  # Use the related_name here
         context['draft'] = draft
         context['players'] = players
+        return context
+
+
+
+# a_drafting/views.py
+class CubeDetailView(DetailView):
+    model = Cube
+    template_name = "drafting/cube_detail.html"
+    context_object_name = "cube"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # Cube overview image
+        primary_image = self.object.images.filter(is_primary=True).first()
+        context['primary_image_url'] = primary_image.image_url if primary_image else "/static/images/default_card.png"
+        
+        # Build dictionary grouping cards by their color key
+        cards_by_color = {}
+        for cube_card in self.object.cube_cards.all():
+            card = cube_card.card
+            # Look up the card's primary image from CardImage
+            primary_card_image = card.images.filter(is_primary=True).first() if card.images.filter(is_primary=True).exists() else None
+            image_url = primary_card_image.image_url if primary_card_image else "/static/images/default_card.png"
+            
+            if card.color:
+                if ',' in card.color:
+                    # For multicolor, split by comma, strip spaces, sort, and rejoin with a slash
+                    colors = sorted([col.strip() for col in card.color.split(',')])
+                    color_key = '/'.join(colors)
+                else:
+                    color_key = card.color
+            else:
+                color_key = "Uncolored"
+            
+            card_data = {
+                'name': card.name,
+                'image_url': image_url,
+                'color': card.color,
+            }
+            cards_by_color.setdefault(color_key, []).append(card_data)
+        
+        # Create an ordered list of (color_key, cards) tuples:
+        # Single-color groups first (key does not contain '/') then multicolor groups.
+        ordered = sorted(
+            cards_by_color.items(),
+            key=lambda kv: (1 if '/' in kv[0] else 0, kv[0])
+        )
+        context['ordered_cards_by_color'] = ordered
         return context
