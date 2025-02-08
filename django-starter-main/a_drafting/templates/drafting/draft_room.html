@@ -1,8 +1,6 @@
 {% extends "layouts/blank.html" %}
 {% load static %}
 {% block content %}
-<head><link rel="stylesheet" href="{% static 'css/style.css' %}">
-</head>
 <body>
     <div id="draft-room" data-draft-id="{{ draft.id }}">
         {% csrf_token %}
@@ -22,7 +20,9 @@
 
         <div id="pack-display-section" style="display: none;">
             <h3>Your Pack:</h3>
-            <div id="pack-display"></div>
+            <div id="pack-display" class="draft-pack-container"></div>
+        </div>
+        
         </div>
         <div id="draft-results"></div>
     </div>

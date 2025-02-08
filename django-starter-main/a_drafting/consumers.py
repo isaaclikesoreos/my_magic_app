@@ -283,9 +283,14 @@ class DraftConsumer(WebsocketConsumer):
             card_data = [
                 {
                     "name": card.card.name,
-                    "image_url": card.card.images.filter(is_primary=True).first().image_url
-                    if card.card.images.filter(is_primary=True).exists()
-                    else default_image_url,
+                    "mana_cost": card.card.mana_cost,  # if you still want it
+                    "cmc": card.card.cmc,             # include the numeric CMC value
+                    "color": card.card.color,         # optionally include other fields
+                    "image_url": (
+                        card.card.images.filter(is_primary=True).first().image_url
+                        if card.card.images.filter(is_primary=True).exists()
+                        else default_image_url
+                    ),
                 }
                 for card in drafted_cards
             ]

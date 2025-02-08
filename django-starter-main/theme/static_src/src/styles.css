@@ -3,285 +3,398 @@
 @tailwind utilities;
 
 
-@layer utilities {
-    .red-title {
-      @apply text-red-500 text-center font-bold text-3xl;
-    }
+
+.red-title {
+    @apply text-red-500 text-center font-bold text-3xl;
+}
 
 
-    .cube-row {
-        display: flex;
-        flex-wrap: wrap; /* Allow wrapping of cubes */
-        gap: 10px; /* Space between cubes */
-        margin-bottom: 20px; /* Space below the row */
-    }
-    
-    .cube-card {
-        flex: 0 1 calc(20% - 10px); /* Adjust card width dynamically */
-        max-width: 200px; /* Set max width */
-        text-align: center;
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        padding: 10px;
-    }
+.cube-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of cubes */
+    gap: 10px; /* Space between cubes */
+    margin-bottom: 20px; /* Space below the row */
+}
 
-    .cube-image {
-        max-width: 100%;
-        max-height: 120px; /* Adjust this value for the desired height */
-        object-fit: contain; /* Ensures the image scales while maintaining aspect ratio */
-        margin: 0 auto; /* Centers the image within the cube card */
-        display: block;
-    }
-    
-    
-    .see-more-button {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 0.5rem 1rem;
-        cursor: pointer;
-        margin-top: 1rem;
-    }
-    
-    .see-more-button:hover {
-        background-color: #0056b3;
-    }
+.cube-card {
+    flex: 0 1 calc(20% - 10px); /* Adjust card width dynamically */
+    max-width: 200px; /* Set max width */
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
 
-    .hidden {
-        display: none !important;
-    }
-
-    .profile-heading {
-        @apply text-center text-2xl font-bold mt-6;
-    }
-
-    .profile-section {
-        @apply mt-8;
-    }
-
-    .profile-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .profile-cube-card {
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        padding: 10px;
-        text-align: center;
-        background-color: #f0f0f0;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .profile-cube-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .profile-cube-image {
-        max-width: 100%;
-        max-height: 120px; /* Adjusted for profile cubes */
-        object-fit: contain;
-        margin: 0 auto 10px;
-        display: block;
-    }
-
-    .profile-info-box {
-        @apply text-center mb-6 p-4 rounded-lg bg-gray-50 shadow-md border;
-    }
+.cube-image {
+    max-width: 100%;
+    max-height: 120px; /* Adjust this value for the desired height */
+    object-fit: contain; /* Ensures the image scales while maintaining aspect ratio */
+    margin: 0 auto; /* Centers the image within the cube card */
+    display: block;
+}
 
 
-    .profile-avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-bottom: 10px;
-    }
-    
-    .change-avatar-button {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        cursor: pointer;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    
-    .change-avatar-button:hover {
-        background-color: #0056b3;
-    }
+.see-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.see-more-button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.profile-heading {
+    @apply text-center text-2xl font-bold mt-6;
+}
+
+.profile-section {
+    @apply mt-8;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.profile-cube-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-cube-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-cube-image {
+    max-width: 100%;
+    max-height: 120px; /* Adjusted for profile cubes */
+    object-fit: contain;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.profile-info-box {
+    @apply text-center mb-6 p-4 rounded-lg bg-gray-50 shadow-md border;
+}
 
 
-    .avatar-options {
-        display: flex;
-        gap: 20px; /* Spacing between avatar options */
-        flex-wrap: wrap; /* Allow wrapping if there are many avatars */
-        justify-content: center; /* Center the avatars */
-        margin-top: 10px;
-    }
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 
-    .avatar-label {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        cursor: pointer;
-    }
-    
-    .avatar-option-image {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        border: 2px solid transparent;
-        transition: border-color 0.3s ease;
-    }
-    
-    .avatar-option-image:hover {
-        border-color: #007bff; /* Blue hover effect */
-    }
-    
-    input[type="radio"] {
-        display: none; /* Hide the default radio button */
-    }
-    
-    input[type="radio"]:checked + .avatar-option-image {
-        border-color: #007bff; /* Highlight selected avatar */
-        box-shadow: 0 0 5px #007bff;
-    }
-    
-    
-    .save-avatar-button {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 0.5rem 1rem;
-        cursor: pointer;
-        margin-top: 10px;
-    }
-    
-    .save-avatar-button:hover {
-        background-color: #0056b3;
-    }
+.change-avatar-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
 
-    .hidden-avatar {
-        display: none !important; /* Specifically for avatar toggling */
-    }
-
-    .visible-avatar {
-        display: block !important; /* Specifically for avatar visibility */
-    }
+.change-avatar-button:hover {
+    background-color: #0056b3;
+}
 
 
-    .cube-detail-container {
-        margin: 20px auto;
-        max-width: 800px;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        background-color: #f9f9f9;
-    }
-    .cube-detail-tabs {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .cube-detail-tabs button {
-        padding: 10px 20px;
-        margin-right: 5px;
-        border: none;
-        background-color: #eee;
-        cursor: pointer;
-    }
-    .cube-detail-tabs button.active {
-        background-color: #ddd;
-        font-weight: bold;
-    }
-    .cube-detail-overview {
-        text-align: center;
-    }
-    .cube-detail-image {
-        width: 100%;
-        max-height: 400px;
-        object-fit: cover;
-        margin-bottom: 20px;
-    }
-    .cube-view {
-        transition: all 0.3s ease;
-    }
+.avatar-options {
+    display: flex;
+    gap: 20px; /* Spacing between avatar options */
+    flex-wrap: wrap; /* Allow wrapping if there are many avatars */
+    justify-content: center; /* Center the avatars */
+    margin-top: 10px;
+}
+
+.avatar-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.avatar-option-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.avatar-option-image:hover {
+    border-color: #007bff; /* Blue hover effect */
+}
+
+input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+input[type="radio"]:checked + .avatar-option-image {
+    border-color: #007bff; /* Highlight selected avatar */
+    box-shadow: 0 0 5px #007bff;
+}
 
 
-        /* Use CSS Grid to display color groups side by side */
-    /* Override the container when list view is active */
-    .cube-detail-container.list-active {
-        /* Remove the fixed max-width for list view if desired */
-        max-width: none;
-        width: 100%;
-        padding: 20px;
-    }
+.save-avatar-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
-    /* Use CSS Grid for the list container */
-    #list-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 10px;
-        padding: 10px;
-    }
+.save-avatar-button:hover {
+    background-color: #0056b3;
+}
 
-    /* Each color group container */
-    .color-group {
-        background-color: #fafafa;
-        border: 1px solid #ddd;
-        padding: 10px;
-        /* Ensure the group takes full width of its grid cell */
-        box-sizing: border-box;
-    }
+.hidden-avatar {
+    display: none !important; /* Specifically for avatar toggling */
+}
 
-    /* For multicolor groups, adjust padding or font-size if needed */
-    .color-group.multi-color {
-        padding: 8px;
-    }
+.visible-avatar {
+    display: block !important; /* Specifically for avatar visibility */
+}
 
-    /* Group header styling */
-    .color-group h3 {
-        margin: 0 0 5px;
-        font-size: 1rem;
-        border-bottom: 1px solid #ccc;
-        padding-bottom: 3px;
-    }
 
-    /* Reset list styling */
-    .color-group ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
+.cube-detail-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.cube-detail-tabs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cube-detail-tabs button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+.cube-detail-tabs button.active {
+    background-color: #ddd;
+    font-weight: bold;
+}
+.cube-detail-overview {
+    text-align: center;
+}
+.cube-detail-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.cube-view {
+    transition: all 0.3s ease;
+}
 
-    /* Style each card name */
-    .color-group li {
-        padding: 2px 0;
-        font-size: 0.9rem;
-        cursor: pointer;
-    }
 
-    /* Tooltip (same as before) */
-    #card-tooltip {
-        position: absolute;
-        display: none;
-        border: 1px solid #ccc;
-        background: #fff;
-        padding: 5px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-        z-index: 1000;
-    }
+    /* Use CSS Grid to display color groups side by side */
+/* Override the container when list view is active */
+.cube-detail-container.list-active {
+    /* Remove the fixed max-width for list view if desired */
+    max-width: none;
+    width: 100%;
+    padding: 20px;
+}
 
-    
-    
-    
+/* Use CSS Grid for the list container */
+#list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Each color group container */
+.color-group {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* Ensure the group takes full width of its grid cell */
+    box-sizing: border-box;
+}
+
+/* For multicolor groups, adjust padding or font-size if needed */
+.color-group.multi-color {
+    padding: 8px;
+}
+
+/* Group header styling */
+.color-group h3 {
+    margin: 0 0 5px;
+    font-size: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
+
+/* Reset list styling */
+.color-group ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style each card name */
+.color-group li {
+    padding: 2px 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Tooltip (same as before) */
+#card-tooltip {
+    position: absolute;
+    display: none;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Use CSS Grid for the pack display so cards wrap and have a constrained max width */
+#pack-display,
+.draft-pack-container {
+display: grid;
+/* Each grid cell will be at least 84px wide and at most 120px wide */
+grid-template-columns: repeat(auto-fit, minmax(84px, 120px));
+gap: 5px;       /* Adjust spacing between cards as needed */
+padding: 10px;
+width: 100%;
+}
+
+
+/* Each card container becomes a grid item */
+.card-container {
+    width: 100%;        /* Fill the available width of the grid cell */
+    text-align: center; /* Center the content (card name, etc.) */
+}
+
+/* Style for card images */
+.card-img {
+    width: 100%;          /* Scale image to fill the container width */
+    height: auto;         /* Maintain aspect ratio */
+    object-fit: contain;  /* Ensure image fits nicely inside its box */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+/* Card name styling */
+.card-name {
+font-size: 0.75rem;      /* Smaller text */
+margin: 2px 0;
+}
+
+/* Draft button styling */
+.draft-button {
+font-size: 0.7rem;
+padding: 2px 4px;
+margin-top: 2px;
+}
+
+
+/* Each card container should have a fixed small width */
+.draft-card {
+    flex: 0 0 80px;          /* Fixed width of 80px per card; adjust as needed */
+    max-width: 80px;
+}
+
+/* Scale the card image to fit the container */
+.draft-card-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;     /* Ensure the image maintains its aspect ratio */
+    border: 1px solid #ddd;  /* Optional: add a border */
+    border-radius: 4px;      /* Optional: rounded corners */
+}
+
+
+/* Container for the entire drafted deck (columns side by side) */
+.draft-deck {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }/* Define default card dimensions using CSS variables.
+   You can adjust these values or override them with media queries. */
+   /* Define fixed dimensions for the drafted card.
+   Adjust these values as needed or later convert them to relative units. */
+:root {
+    --card-height: 120px;       /* Full height of each card */
+    --card-overlap: 90px;       /* Amount of the card that is covered (e.g. 90px of 120px, so 30px is visible) */
   }
   
-
+  /* The container for each mana group grows as needed */
+  .mana-group {
+    position: relative;
+    width: 100%;
+    /* Let the container’s height auto-adjust; no fixed height here */
+    margin-bottom: 20px; /* Some spacing between groups */
+  }
+  
+  /* Each drafted card is in normal flow, but we use negative margin to overlap */
+  .mana-group .drafted-card {
+    position: relative;
+    /* Each card is assumed to have a natural height of var(--card-height) */
+    height: var(--card-height);
+    /* Overlap by using a negative top margin on every card except the first */
+    margin-top: -calc(var(--card-height) - (var(--card-height) - var(--card-overlap)));
+    /* In this case, margin-top: -(120px - (120px - 30px)) = -30px */
+    transition: margin-top 0.3s ease, transform 0.3s ease, z-index 0.3s ease;
+    z-index: 1;
+  }
+  
+  /* Ensure the first card in the group has no negative margin */
+  .mana-group .drafted-card:first-child {
+    margin-top: 0;
+  }
+  
+  /* On hover, remove the negative margin so the card is fully visible */
+  .mana-group .drafted-card:hover {
+    margin-top: 0;
+    z-index: 10;
+    transform: scale(1.05);
+  }
+  
+  /* Ensure the card image container and image fill the drafted card */
+  .card-image-container {
+    width: 100%;
+    height: 100%;
+  }
+  .drafted-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

@@ -247,12 +247,14 @@ class UpdateCardDatabaseView(APIView):
                 type_line = card_data.get("type_line", "")
                 colors = ",".join(card_data.get("colors", []))
                 image_urls = card_data.get("image_uris", {})
+                cmc = card_data.get("cmc", 0) 
 
                 # Update or create the card
                 card, _ = Card.objects.update_or_create(
                     name=name,
                     defaults={
                         "mana_cost": mana_cost,
+                        "cmc": cmc,
                         "color": colors,
                         "type_line": type_line,
                     },

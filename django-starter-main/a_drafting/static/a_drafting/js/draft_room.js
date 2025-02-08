@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const packDisplay = document.getElementById("pack-display");
       
         packDisplaySection.style.display = "block"; // Ensure visibility
-        packDisplay.innerHTML = ""; // Clear previous content
+        packDisplay.innerHTML = ""; // Clear previous content penis
     
         cards.forEach((card) => {
             const cardContainer = document.createElement("div");
@@ -127,7 +127,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     }; 
-
     function displayDraftedCards(cards) {
         const draftResultsContainer = document.getElementById("draft-results");
         draftResultsContainer.innerHTML = ""; // Clear any existing content
@@ -136,17 +135,68 @@ document.addEventListener("DOMContentLoaded", () => {
         header.textContent = "Your Drafted Cards";
         draftResultsContainer.appendChild(header);
     
-        const cardList = document.createElement("ul");
+        // Group cards by CMC bucket: 0, 1, 2, 3, 4, 5, and 6+
+        const groups = {
+            "0": [],
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6+": []
+        };
+    
         cards.forEach(card => {
-            const cardItem = document.createElement("li");
-            cardItem.innerHTML = `
-                <img src="${card.image_url || '/static/images/default_card.png'}" alt="${card.name}" />
-                <span>${card.name}</span>
-            `;
-            cardList.appendChild(cardItem);
+            let cmc = card.cmc;
+            if (typeof cmc !== "number" || cmc === null) {
+                cmc = 0;
+            }
+            if (cmc >= 6) {
+                groups["6+"].push(card);
+            } else {
+                groups[String(cmc)].push(card);
+            }
         });
     
-        draftResultsContainer.appendChild(cardList);
+        // Create a container for the grouped columns.
+        const deckContainer = document.createElement("div");
+        deckContainer.className = "draft-deck";
+    
+        // Order the keys as 0, 1, 2, 3, 4, 5, then "6+"
+        const keys = ["0", "1", "2", "3", "4", "5", "6+"];
+    
+        keys.forEach(key => {
+            // If no cards in this group, skip it.
+            if (groups[key].length === 0) return;
+    
+            const manaGroup = document.createElement("div");
+            manaGroup.className = "mana-group";
+            
+            // Optional header for the group
+            const manaHeader = document.createElement("h4");
+            manaHeader.textContent = key;
+            manaGroup.appendChild(manaHeader);
+            
+            // Append every card in this group (in natural order).
+            groups[key].forEach(card => {
+                const cardItem = document.createElement("div");
+                cardItem.className = "drafted-card";
+                cardItem.innerHTML = `
+                    <div class="card-image-container">
+                        <img src="${card.image_url || '/static/images/default_card.png'}" alt="${card.name}" class="drafted-card-img" />
+                    </div>
+                `;
+                manaGroup.appendChild(cardItem);
+            });
+            deckContainer.appendChild(manaGroup);
+        });
+    
+        draftResultsContainer.appendChild(deckContainer);
     }
-    ;
+    
+    
+    
+    
+    
+    
 });

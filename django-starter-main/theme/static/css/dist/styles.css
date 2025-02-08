@@ -1954,6 +1954,11 @@ input[type="radio"]:checked + .avatar-option-image {
   /* Specifically for avatar toggling */
 }
 
+.visible-avatar {
+  display: block !important;
+  /* Specifically for avatar visibility */
+}
+
 .cube-detail-container {
   margin: 20px auto;
   max-width: 800px;
@@ -2070,6 +2075,156 @@ input[type="radio"]:checked + .avatar-option-image {
   z-index: 1000;
 }
 
+/* Use CSS Grid for the pack display so cards wrap and have a constrained max width */
+
+#pack-display,
+.draft-pack-container {
+  display: grid;
+  /* Each grid cell will be at least 84px wide and at most 120px wide */
+  grid-template-columns: repeat(auto-fit, minmax(84px, 120px));
+  gap: 5px;
+  /* Adjust spacing between cards as needed */
+  padding: 10px;
+  width: 100%;
+}
+
+/* Each card container becomes a grid item */
+
+.card-container {
+  width: 100%;
+  /* Fill the available width of the grid cell */
+  text-align: center;
+  /* Center the content (card name, etc.) */
+}
+
+/* Style for card images */
+
+.card-img {
+  width: 100%;
+  /* Scale image to fill the container width */
+  height: auto;
+  /* Maintain aspect ratio */
+  -o-object-fit: contain;
+     object-fit: contain;
+  /* Ensure image fits nicely inside its box */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Card name styling */
+
+.card-name {
+  font-size: 0.75rem;
+  /* Smaller text */
+  margin: 2px 0;
+}
+
+/* Draft button styling */
+
+.draft-button {
+  font-size: 0.7rem;
+  padding: 2px 4px;
+  margin-top: 2px;
+}
+
+/* Each card container should have a fixed small width */
+
+.draft-card {
+  flex: 0 0 80px;
+  /* Fixed width of 80px per card; adjust as needed */
+  max-width: 80px;
+}
+
+/* Scale the card image to fit the container */
+
+.draft-card-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  /* Ensure the image maintains its aspect ratio */
+  border: 1px solid #ddd;
+  /* Optional: add a border */
+  border-radius: 4px;
+  /* Optional: rounded corners */
+}
+
+/* Container for the entire drafted deck (columns side by side) */
+
+.draft-deck {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Define default card dimensions using CSS variables.
+   You can adjust these values or override them with media queries. */
+
+/* Define fixed dimensions for the drafted card.
+   Adjust these values as needed or later convert them to relative units. */
+
+:root {
+  --card-height: 120px;
+  /* Full height of each card */
+  --card-overlap: 90px;
+  /* Amount of the card that is covered (e.g. 90px of 120px, so 30px is visible) */
+}
+
+/* The container for each mana group grows as needed */
+
+.mana-group {
+  position: relative;
+  width: 100%;
+  /* Let the container’s height auto-adjust; no fixed height here */
+  margin-bottom: 20px;
+  /* Some spacing between groups */
+}
+
+/* Each drafted card is in normal flow, but we use negative margin to overlap */
+
+.mana-group .drafted-card {
+  position: relative;
+  /* Each card is assumed to have a natural height of var(--card-height) */
+  height: var(--card-height);
+  /* Overlap by using a negative top margin on every card except the first */
+  margin-top: -calc(var(--card-height) - (var(--card-height) - var(--card-overlap)));
+  /* In this case, margin-top: -(120px - (120px - 30px)) = -30px */
+  transition: margin-top 0.3s ease, transform 0.3s ease, z-index 0.3s ease;
+  z-index: 1;
+}
+
+/* Ensure the first card in the group has no negative margin */
+
+.mana-group .drafted-card:first-child {
+  margin-top: 0;
+}
+
+/* On hover, remove the negative margin so the card is fully visible */
+
+.mana-group .drafted-card:hover {
+  margin-top: 0;
+  z-index: 10;
+  transform: scale(1.05);
+}
+
+/* Ensure the card image container and image fill the drafted card */
+
+.card-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.drafted-card-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
 .hover\:\!bg-\[\#c3c9d0\]:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(195 201 208 / var(--tw-bg-opacity, 1)) !important;
@@ -2122,4 +2277,3 @@ input[type="radio"]:checked + .avatar-option-image {
   justify-content: flex-end;
 }
   
-

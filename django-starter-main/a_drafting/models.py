@@ -26,6 +26,7 @@ class Cube(models.Model):
 class Card(models.Model):
     name = models.CharField(max_length=255)
     mana_cost = models.CharField(max_length=50, null=True, blank=True)
+    cmc = models.FloatField(null=True, blank=True)
     color = models.CharField(max_length=50, null=True, blank=True)
     type_line = models.CharField(max_length=255, null=True, blank=True)
 
